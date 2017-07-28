@@ -1,0 +1,4725 @@
+#
+# Header file for data file F:\scheduler\temporary\F1739_CACE_DFP1_R14-189_D03_v1_Dyn.uPetRecon.f0000.img
+#    with 1 frames.
+#
+#
+#  Following parameters are used for ALL modalities.
+#
+#
+# Version of header parameters (float)
+#
+version 001.827
+#
+# Manufacturer's name (string)
+#
+manufacturer  
+#
+# Scanner model number (integer)
+#
+#   0 - Unknown
+#   2000 - Primate
+#   2001 - Rodent
+#   2002 - microPET2
+#   2500 - Focus_220
+#   2501 - Focus_120
+#   3000 - mCAT
+#   3500 - mCATII
+#   4000 - mSPECT
+#   5000 - Inveon_Dedicated_PET
+#   5001 - Inveon_MM_Platform
+#   6000 - MR_PET_Head_Insert
+#   8000 - Tuebingen_PET_MR
+#
+model 2501
+#
+# Acquisition scanner modality (integer)
+#   -1 - Unknown acquisition modality
+#   0 - PET acquisition
+#   1 - CT acquisition
+#   2 - SPECT acquisition
+#
+modality 0
+#
+# Scanner modality configuration number (integer)
+#
+#   0 - Unknown
+#   2000 - Primate
+#   2001 - Rodent
+#   2002 - microPET2
+#   2500 - Focus_220
+#   2501 - Focus_120
+#   5000 - Inveon_Dedicated_PET
+#   6000 - MR_PET_Head_Insert
+#   8000 - Tuebingen_PET_MR
+#   5500 - Inveon_MM_PET
+#
+modality_configuration 2501
+#
+# Institution identification (string)
+#
+institution CMGI
+#
+# Study type/description (string)
+#
+study  
+#
+# Data filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+file_name F:\Manager\microPET\Investigators\Lein\Datasets\F1739_CACE_DFP1_R14-189_D03\F1739_CACE_DFP1_R14-189_D03_v1_Dyn.img
+#
+# Data file type (integer)
+#   0 - Unknown data file type
+#   1 - List mode data file
+#   2 - Sinogram data file
+#   3 - Normalization data file
+#   4 - Attenuation correction data file
+#   5 - Image data file
+#   6 - Blank data file
+#   8 - Mu map data file
+#   9 - Scatter correction data file
+#   10 - Crystal efficiency data
+#   11 - Crystal interference correction
+#   12 - Transaxial geometric correction
+#   13 - Axial geometric correction
+#   14 - CT projection data
+#   15 - SPECT raw projection data
+#
+file_type 5
+#
+# Acquisition mode (integer)
+#   0 - Unknown acquisition mode
+#   1 - Blank acquisition
+#   2 - Emission acquisition
+#   3 - Dynamic acquisition
+#   4 - Gated acquisition
+#   5 - Continuous bed motion acquisition
+#   6 - Singles transmission acquisition
+#   7 - Windowed coincidence transmission acquisition
+#   8 - Non-windowed coincidence transmission acquisition
+#   9 - CT projection acquisition
+#   10 - CT calibration acquisition
+#   11 - SPECT planar projection acquisition
+#   12 - SPECT multi-projection acquisition
+#   13 - SPECT calibration acquisition
+#
+acquisition_mode 3
+#
+# Number of frames in data file (integer)
+#
+total_frames 33
+#
+# Bed control (integer)
+#   0 - Unknown bed control
+#   1 - Dedicated PET
+#   2 - microCAT II
+#   3 - Multimodality bed control
+#   4 - microPET bed control
+#
+bed_control 0
+#
+# Bed motion (integer)
+#   0 - Static or unknown bed motion
+#   1 - Continuous bed motion
+#   2 - Multiple bed positions, i.e. step and shoot
+#
+bed_motion 0
+#
+# Number of bed positions in data file (integer)
+#
+number_of_bed_positions 0
+#
+# Horizontal bed calibration, in microns (float)
+#
+horizontal_bed_calibration 0
+#
+# Vertical bed calibration, in microns (float)
+#
+vertical_bed_calibration 0
+#
+# Transaxial projection bin size, in cm (float)
+#
+transaxial_bin_size 0.0815
+#
+# Axial plane size, in cm (float)
+#
+axial_plane_size 0.0796
+#
+# Number of detector panels ("rings/CT" are "1") (integer)
+#
+number_detector_panels 1
+#
+# Data type (integer)
+#   0 - Unknown data type
+#   1 - Byte (8-bits) data type
+#   2 - 2-byte integer - Intel style
+#   3 - 4-byte integer - Intel style
+#   4 - 4-byte float - Intel style
+#   5 - 4-byte float - Sun style
+#   6 - 2-byte integer - Sun style
+#   7 - 4-byte integer - Sun style
+#
+data_type 4
+#
+# Number of dimensions in data set (integer)
+#     Order from fastest to slowest is XYZW
+#
+number_of_dimensions 3
+#
+# Size of X dimension in data set (integer)
+#
+x_dimension 128
+#
+# Size of Y dimension in data set (integer)
+#
+y_dimension 128
+#
+# Size of Z dimension in data set (integer)
+#
+z_dimension 95
+#
+# Acquisition user ID (string)
+acquisition_user_id CMGIStaff
+#
+# Histogram user ID (string)
+histogram_user_id 
+#
+# Reconstruction user ID (string)
+reconstruction_user_id 
+#
+# Scatter correction user ID (string)
+scatter_correction_user_id 
+#
+# Acquisition notes (string)
+acquisition_notes R14-189_D03 (246g) was injected with 0.967mCi of [18F]PBR111 in 150uL saline via IV cath.from 10:14:30-10:14:36.  
+#
+# Scan start date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+scan_time Thu Jun 26 10:14:20 2014
+#
+# Scan start date and time - GMT-based (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+gmt_scan_time Thu Jun 26 17:14:20 2014
+#
+# X origin of volume, in voxels (integer)
+#
+volume_origin_x 0
+#
+# Y origin of volume, in voxels (integer)
+#
+volume_origin_y 0
+#
+# Z origin of volume, in voxels (integer)
+#
+volume_origin_z 0
+#
+# Registration data available (integer)
+#   0 - No registration data available
+#   1 - CT registration data available
+#   2 - PET registration data available
+#
+registration_available 0
+#
+# Transformation matrix filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+transformation_matrix  
+#
+# Spatial identification for registration (string)
+#
+spatial_identifier  
+#
+# Normalization applied to data set (integer)
+#   0 - No normalization applied
+#   1 - Point source inversion
+#   2 - Point source component based
+#   3 - Cylinder source inversion
+#   4 - Cylinder source component based
+#
+normalization_applied 4
+#
+# Normalization filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+normalization_filename F:\Manager\microPET\Investigators\System Administrator\Normalizations\Norm_Cylinder_Ge68_8101_12Bcounts_2014-01-02\Norm_Cylinder_Ge68_8101_12Bcounts_2014-01-02_v1.nrm
+#
+# Reconstruction type (integer)
+#   0 - Unknown, or no, algorithm type
+#   1 - Filtered Backprojection
+#   2 - OSEM2d
+#   6 - OSEM3D followed by MAP or FastMAP
+#   7 - MAPTR for transmission image
+#
+recon_algorithm 6
+#
+# Version of reconstruction program used (float)
+#
+recon_version 002.320
+#
+# X filter and/or apodizing windows type (integer)
+#       and cutoff (float)
+#   0 - No filter
+#   1 - Ramp filter (backprojection) or no filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   6 - Shepp filter
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#     Also, the Ramp and Shepp should ONLY be used
+#     for backprojection
+#
+x_filter 1 0.5
+#
+# Y apodizing filter type (integer) and cutoff (float)
+#   0 - No filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#
+y_filter 0 0.5
+#
+# Z apodizing filter type (integer) and cutoff (float)
+#   0 - No filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#
+z_filter 0 0.5
+#
+# X offset, in cm, applied to data set (float)
+#
+x_offset 0
+#
+# Y offset, in cm, applied to data set (float)
+#
+y_offset 0
+#
+# Zoom applied to data set (float)
+#
+zoom 2
+#
+# Reconstructed pixel size, in cm (float)
+#     NOTE: pixel_size = (((X_crystal_pitch / 2.0) * X_dim) /
+#           (image_size * zoom)) * (effective_radius / radius)
+#
+pixel_size 0.0432879
+#
+# Reconstructed pixel size in X, in mm (float)
+pixel_size_x 0.432879
+#
+# Reconstructed pixel size in Y, in mm (float)
+pixel_size_y 0.432879
+#
+# Reconstructed pixel size in Z, in mm (float)
+pixel_size_z 0.796
+#
+# Investigator identification (string)
+#
+investigator Lein
+#
+# Operator identification (string)
+#
+operator cms
+#
+# Study identification (string)
+#
+study_identifier CACE
+#
+# Injected compound (string)
+#
+injected_compound PBR111 [18F]
+#
+# Subject identifier (string)
+#
+subject_identifier R14-189
+#
+# Subject genus (string)
+#
+subject_genus  
+#
+# Subject orientation (integer)
+#   0 - Unknown subject orientation
+#   1 - Feet first, prone
+#   2 - Head first, prone
+#   3 - Feet first, supine
+#   4 - Head first, supine
+#   5 - Feet first, right
+#   6 - Head first, right
+#   7 - Feet first, left
+#   8 - Head first, left
+#
+subject_orientation 0
+#
+# Length units (integer)
+#   0 - Unknown length units
+#   1 - millimeters
+#   2 - centimeters
+#   3 - inches
+#
+subject_length_units 0
+#
+# Subject weight (float)
+#
+subject_length 0
+#
+# Weight units (integer)
+#   0 - Unknown weight units
+#   1 - grams
+#   2 - ounces
+#   3 - kilograms
+#   4 - pounds
+#
+subject_weight_units 1
+#
+# Subject weight (float)
+#
+subject_weight 246
+#
+# Subject phenotype (string)
+#
+subject_phenotype  
+#
+# Study model (string)
+#
+study_model  
+#
+# Subject anesthesia (string)
+#
+anesthesia  
+#
+# Subject analgesia (string)
+#
+analgesia  
+#
+# Other drugs (string)
+#
+other_drugs  
+#
+# Food access (string)
+#
+food_access  
+#
+# Water access (string)
+#
+water_access  
+#
+# Subject date of birth (string)
+#
+subject_date_of_birth 4/21/2014
+#
+# Subject age (string)
+#
+subject_age  
+#
+# Subject sex (string)
+#
+subject_sex 1
+#
+# Subject scan region (string)
+#
+subject_scan_region Brain
+#
+#  Following parameters are used for PET or CT modalities.
+#
+#
+# Original acquisition filename, DOES NOT INCLUDE path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+acquisition_file_name F:\Manager\microPET\Investigators\Lein\Datasets\F1739_CACE_DFP1_R14-189_D03\F1739_CACE_DFP1_R14-189_D03_v1.lst
+#
+#  Following parameters are used for PET or SPECT modalities.
+#
+#
+# Transaxial crystal pitch, in cm (float)
+#
+transaxial_crystal_pitch 0.163
+#
+# Axial crystal pitch, in cm (float)
+#
+axial_crystal_pitch 0.1592
+#
+# Crystal thickness, in cm (float)
+#
+crystal_thickness 1
+#
+# Depth of interaction, in cm (float)
+#
+depth_of_interaction 0.4584
+#
+# Isotope description (string)
+#
+isotope F-18
+#
+# Isotope half-life, in secs (float)
+#
+isotope_half_life 6586.2
+#
+# Isotope branching fraction (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         isotope branching fraction.
+#
+isotope_branching_fraction 0.967
+#
+# Deadtime correction applied to data set (integer)
+#   0 - No deadtime correction applied
+#   1 - Global estimate based on singles
+#   2 - CMS estimate based on singles
+#   3 - Global estimate based on running deadtime average
+#   4 - Blank/TX singles estimate (block based)
+#
+deadtime_correction_applied 3
+#
+# Decay correction applied to data set (integer)
+#     0 (FALSE) - Decay correction has NOT been applied
+#     !0 (TRUE) - Decay correction has been applied
+#
+decay_correction_applied 1
+#
+# Attenuation applied to data set (integer)
+#   0 - No attenuation applied
+#   1 - Point source in windowed TX coincidence
+#   2 - Point source singles based TX
+#   3 - Segmented point source in TX coincidence
+#   4 - Segmented point source singles based TX
+#   5 - Calculated by geometry
+#   6 - Non-positron source singles based TX
+#   7 - Point source in non-windowed TX coincidence
+#
+attenuation_applied 0
+#
+# Scatter correction applied to data set (integer)
+#   0 - No scatter correction applied
+#   1 - Fit of emission tail
+#   2 - Monte Carlo of emission and transmission data
+#   3 - Direct calculation from analytical formulas
+#   4 - Model-based scatter for singles TX
+#   5 - TX off-window windowed coincidence subtraction
+#   6 - Singles TX scaled scatter from attenuation subtraction
+#
+scatter_correction 0
+#
+# Calibration units (integer)
+#   0 - Unknown calibration units
+#   1 - nCi/cc
+#   2 - Bq/cc
+#
+calibration_units 0
+#
+# Calibration factor (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         calibration factor.
+#
+calibration_factor 1
+#
+# Calibration source branching fraction (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         calibration source branching fraction.
+#
+calibration_branching_fraction 1
+#
+# Dose units (integer)
+#   0 - Unknown dose units
+#   1 - mCi
+#   2 - MBq
+#
+dose_units 1
+#
+# Injected dose (float)
+dose 0.966674
+#
+# Injection date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+injection_time Thu Jun 26 10:14:30 2014
+#
+# Injection decay correction factor (float)
+#   NOTE: Frame scale factor and decay correction factor
+#   DO NOT include injection decay correction factor.
+#
+injection_decay_correction 0.998948
+#
+# Pre- and residual activity units (integer)
+#   0 - Unknown dose units
+#   1 - mCi
+#   2 - MBq
+#
+activity_units 1
+#
+# Activity before injection (float)
+activity_before_injection 1.094
+#
+# Activity before injection measurement date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+activity_before_injection_time Thu Jun 26 10:07:00 2014
+#
+# Residual activity (float)
+residual_activity 0.076
+#
+# Residual activity measurement date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+residual_activity_time Thu Jun 26 10:16:00 2014
+#
+#  Following parameters are used for PET modality only.
+#
+#
+# Transaxial crystals per block (integer)
+#
+transaxial_crystals_per_block 12
+#
+# Axial crystals per block (integer)
+#
+axial_crystals_per_block 12
+#
+# Crystal offset for intrinsic rotation (integer)
+#
+intrinsic_crystal_offset 6
+#
+# Number of transaxial blocks (integer)
+#
+transaxial_blocks 24
+#
+# Number of axial blocks (integer)
+#
+axial_blocks 4
+#
+# Ring radius to crystal face, in cm (float)
+#
+radius 7.3602
+#
+# Radial field-of-view, in cm (float)
+#
+radial_fov 6.3
+#
+# Source radius, in cm (float)
+#
+src_radius 6.225
+#
+# Source axial cm per revolution, in cm (float)
+#
+src_cm_per_rev 0.05
+#
+# Source encoder steps per revolution (integer)
+#
+src_steps_per_rev 4096
+#
+# Default number of projections (integer)
+#
+default_projections 128
+#
+# Default number of transaxial angles (integer)
+#
+default_transaxial_angles 144
+#
+# Lower level energy threshold, in KeV (float)
+#
+lld 350
+#
+# Upper level energy threshold, in KeV (float)
+#
+uld 650
+#
+# Coincidence timing window, in nsecs (int or float)
+#
+timing_window 6
+#
+# Span of data set (integer)
+#
+span 3
+#
+# Maximum ring difference of data set (integer)
+#
+ring_difference 47
+#
+# Size of W dimension in data set (integer)
+#
+w_dimension 1
+#
+# Version of histogram program used (float)
+#
+histogram_version 002.309
+#
+# Rebinning type (integer)
+#   0 - Unknown, or no, algorithm type
+#   1 - Full 3D binning (span and ring difference)
+#   2 - Single-Slice Rebinning
+#   3 - Fourier Rebinning
+#
+rebinning_type 1
+#
+# Version of rebinning program used (float)
+#
+rebinning_version 002.320
+#
+# Source type (integer)
+#
+#   0 - Unknown TX source type
+#   1 - TX point source
+#   2 - TX line source
+#
+tx_src_type 0
+#
+# Data order (integer)
+#   0 - Element/Axis/View/Ring_Diff - view mode
+#   1 - Element/View/Axis/Ring_Diff - sinogram mode
+#  NOTE that ElVwAxRd (XYZW) is the data order for images.
+#    ElVwAxRd for images means that Z and Y are flipped.
+#
+data_order 1
+#
+# Type of MAP used (integer)
+#
+#   0 - MAP
+#   1 - FastMAP
+#
+fastmap 1
+#
+# Corrections used in Fast MAP (integer)
+#
+#   0 - No FastMAP corrections
+#   1 - FastMAP axial resampling and arc correction
+#
+fastmap_corrections 0
+#
+# Fast MAP IRB table filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+fastmap_irb_file_name D:\Program Files\Concorde Microsystems\microPET MAP Files\IRBTables\F120_108_v2
+#
+# Map or Fast MAP resolution in mm (float)
+#
+map_resolution_in_mm 1.5
+#
+# Number of osem3d subsets in MAP reconstruction (integer)
+#
+map_subsets 12
+#
+# Number of osem3d iterations in MAP reconstruction (integer)
+#
+map_osem3d_iterations 2
+#
+# Number of MAP iterations after osem3d iterations (integer)
+#
+map_iterations 18
+#
+# Beta value for MAP reconstruction (float)
+#
+map_beta 0.030745
+#
+# MAP blur kernel type (int)
+#
+map_blur_type 2
+#
+# MAP prior type (int)
+#
+map_prior_type 1
+#
+# MAP blur kernel file prefix (string)
+#
+map_blur_file D:\Program Files\Concorde Microsystems\microPET MAP Files\Kernel\F120_v1
+#
+# MAP P matrix file prefix (string)
+#
+map_pmatrix_file D:\Program Files\Concorde Microsystems\microPET MAP Files\Pmatrix\F120_0.6mm_128_r47s3_v4
+#
+# Arc correction applied to data set (integer)
+#   0 - Unknown, or no, arc correction
+#   1 - Radial arc correction (1D)
+#   2 - Resampled radial/angular arc correction (2D)
+#
+arc_correction_applied 1
+#
+# Number of singles rates in subheader (integer)
+#   NOTE: This normally is the number of blocks.
+#
+number_of_singles_rates 96
+#
+# Subject glucose level (string)
+#
+subject_glucose_level  
+#
+# Subject glucose level measurement time (string)
+#
+subject_glucose_level_time  
+#
+# End of Header indicator 
+#
+end_of_header
+#
+# Header for frame 0, event_type 4, gate 0, bed 0.
+#
+#
+#  Following parameters are used for ALL modalities.
+#
+#
+# Frame number (integer)
+#
+frame 0
+#
+# Gate number (integer)
+#
+gate 0
+#
+# Bed number (integer)
+#
+bed 0
+#
+# Bed offset, in cm (float)
+#
+bed_offset 14.9993
+#
+# Ending horizontal bed offset, in cm (float)
+#
+ending_bed_offset 14.9993
+#
+# Vertical bed offset, in cm (float)
+#
+vertical_bed_offset 2.39994
+#
+# Data file offset to start of data (2 32-bit ints)
+#     Values are: low_part
+#             or: high_part low_part
+#
+data_file_pointer 0 0
+#
+# Frame start time, in secs (float)
+#
+frame_start 0
+#
+# Frame duration, in secs (float)
+#
+frame_duration 2
+#
+# Scale factor for data set (float)
+#
+scale_factor 0.5
+#
+# Minimum value in data set (float)
+#
+minimum -3.56894e-025
+#
+# Maximum value in data set (float)
+#
+maximum 0.003587
+#
+#  Following parameters are used for PET or SPECT modalities.
+#
+#
+# Deadtime correction for data set (float)
+#             NOTE: Scale factor INCLUDES this value.
+#
+deadtime_correction 1.23521
+#
+# Global decay correction applied to data set (float)
+#             NOTE: Scale factor INCLUDES this value.
+#
+decay_correction 1.00011
+#
+#  Following parameters are used for PET modality only.
+#
+#
+# Event type (integer)
+#   0 - Unknown event type
+#   1 - Singles
+#   2 - Prompt events (coincidences)
+#   3 - Delay events
+#   4 - Trues (prompts - delays)
+#   5 - Energy spectrum data
+#
+event_type 4
+#
+# Prompts count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed prompts, 
+#         unhistogrammed prompts, and prompts at coincidence detection.
+#
+prompts 122   202   329
+#
+# Delays count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed delays, 
+#         unhistogrammed delays, and delays at coincidence detection.
+#
+delays 13   12   26
+#
+# Trues count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed trues, 
+#         unhistogrammed trues, and trues at coincidence detection.
+#
+trues 109   190   303
+#
+# Prompts countrate per sec before histogramming (int)
+#
+prompts_rate 150
+#
+# Delays countrate per sec before histogramming (int)
+#
+delays_rate 0
+#
+# Singles rates array (integer  float  float)
+#       block_number    singles/sec    raw_singles/sec
+#
+singles 0 630 1712
+singles 1 630 1582
+singles 2 584 1706
+singles 3 648 1586
+singles 4 650 1686
+singles 5 728 1718
+singles 6 698 1760
+singles 7 854 1800
+singles 8 1056 2358
+singles 9 1182 2472
+singles 10 1398 3078
+singles 11 1638 3260
+singles 12 1598 3034
+singles 13 1692 3342
+singles 14 1768 3420
+singles 15 1608 3276
+singles 16 1606 3186
+singles 17 1616 3516
+singles 18 1256 2686
+singles 19 862 2250
+singles 20 686 1662
+singles 21 618 1712
+singles 22 644 1798
+singles 23 640 1602
+singles 24 640 1590
+singles 25 646 1762
+singles 26 602 1718
+singles 27 658 1674
+singles 28 648 1718
+singles 29 672 1768
+singles 30 620 1762
+singles 31 674 1816
+singles 32 774 1908
+singles 33 922 2226
+singles 34 1164 2880
+singles 35 1432 3182
+singles 36 1548 3480
+singles 37 1536 3428
+singles 38 1670 3526
+singles 39 1390 3038
+singles 40 1206 2572
+singles 41 1028 2570
+singles 42 822 2162
+singles 43 688 1956
+singles 44 694 1834
+singles 45 626 1806
+singles 46 662 1862
+singles 47 640 1682
+singles 48 642 1732
+singles 49 600 1770
+singles 50 622 1792
+singles 51 648 1628
+singles 52 648 1852
+singles 53 710 1772
+singles 54 618 1606
+singles 55 614 1676
+singles 56 672 1710
+singles 57 716 1744
+singles 58 724 1834
+singles 59 824 2116
+singles 60 816 2288
+singles 61 878 2332
+singles 62 840 2178
+singles 63 776 2276
+singles 64 732 1928
+singles 65 672 2190
+singles 66 682 1802
+singles 67 704 1936
+singles 68 666 1820
+singles 69 668 1776
+singles 70 656 1864
+singles 71 626 1742
+singles 72 620 1434
+singles 73 644 1728
+singles 74 602 1762
+singles 75 656 1542
+singles 76 556 1812
+singles 77 676 1738
+singles 78 618 1590
+singles 79 592 1878
+singles 80 624 1780
+singles 81 638 1794
+singles 82 636 2036
+singles 83 634 2028
+singles 84 640 2048
+singles 85 646 1928
+singles 86 646 1868
+singles 87 736 1954
+singles 88 684 1784
+singles 89 682 1752
+singles 90 636 1746
+singles 91 674 1808
+singles 92 672 1894
+singles 93 660 1774
+singles 94 636 1722
+singles 95 672 1588
+#
+# End of Header indicator 
+#
+end_of_header
+frame 1
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 6225920
+frame_start 2
+frame_duration 2
+scale_factor 0.5
+minimum -1.17171e-025
+maximum 0.00427235
+deadtime_correction 1
+decay_correction 1.00032
+event_type 4
+prompts 101   211   311
+delays 15   13   30
+trues 86   198   281
+prompts_rate 150
+delays_rate 0
+singles 0 622.727 1693.82
+singles 1 628.182 1614.73
+singles 2 600.364 1729.64
+singles 3 657.091 1596.91
+singles 4 631.818 1696.91
+singles 5 753.455 1723.45
+singles 6 692.545 1781.82
+singles 7 835.818 1765.45
+singles 8 1023.27 2350.73
+singles 9 1096.55 2408.36
+singles 10 1305.27 2918
+singles 11 1559.82 3072.73
+singles 12 1476.18 2848.55
+singles 13 1573.82 3212.91
+singles 14 1671.64 3267.27
+singles 15 1518.91 3125.09
+singles 16 1458.73 3007.82
+singles 17 1459.64 3326.91
+singles 18 1174.18 2616.91
+singles 19 838.364 2246.36
+singles 20 676.909 1696.55
+singles 21 656.182 1742.91
+singles 22 629.455 1796.18
+singles 23 652.727 1587.45
+singles 24 632.727 1544.55
+singles 25 642.364 1756.55
+singles 26 607.455 1676.18
+singles 27 674.364 1684.91
+singles 28 678.909 1721.64
+singles 29 650.182 1731.64
+singles 30 610.909 1765.64
+singles 31 664.909 1745.09
+singles 32 739.455 1873.45
+singles 33 872.909 2169.64
+singles 34 1082.18 2765.45
+singles 35 1313.82 3018.36
+singles 36 1408 3287.27
+singles 37 1459.64 3293.45
+singles 38 1539.09 3346
+singles 39 1299.09 2865.27
+singles 40 1116.91 2377.45
+singles 41 1002.55 2482.73
+singles 42 778.364 2098.36
+singles 43 666.182 1883.27
+singles 44 648.545 1783.09
+singles 45 609.636 1762.36
+singles 46 629.273 1791.09
+singles 47 618.182 1658.36
+singles 48 632.909 1712
+singles 49 620 1779.09
+singles 50 602 1733.82
+singles 51 649.818 1598.91
+singles 52 635.273 1786.55
+singles 53 700.909 1782.91
+singles 54 610.727 1578.73
+singles 55 608.545 1639.64
+singles 56 642.909 1706.36
+singles 57 723.273 1774.91
+singles 58 718.545 1757.64
+singles 59 811.273 2105.09
+singles 60 810.545 2300.73
+singles 61 850.727 2290.18
+singles 62 770.909 2116.18
+singles 63 737.818 2181.45
+singles 64 701.091 1855.27
+singles 65 697.455 2268.18
+singles 66 642 1798.36
+singles 67 647.636 1876
+singles 68 660.545 1818.18
+singles 69 680.727 1803.27
+singles 70 648.727 1796.73
+singles 71 602.364 1731.09
+singles 72 625.455 1459.45
+singles 73 640.364 1709.82
+singles 74 623.818 1785.64
+singles 75 670.545 1558.36
+singles 76 566.909 1801.09
+singles 77 690.545 1712.55
+singles 78 605.273 1575.45
+singles 79 581.091 1848.91
+singles 80 602.182 1736.36
+singles 81 667.091 1839.45
+singles 82 594.182 1996
+singles 83 619.455 2040.73
+singles 84 632.727 2044.36
+singles 85 655.091 1949.82
+singles 86 671.455 1866.18
+singles 87 728.727 1979.45
+singles 88 669.455 1725.82
+singles 89 665.636 1690.18
+singles 90 679.636 1791.45
+singles 91 677.636 1815.27
+singles 92 675.636 1857.64
+singles 93 700 1863.09
+singles 94 623.273 1723.82
+singles 95 675.636 1591.64
+end_of_header
+frame 2
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 12451840
+frame_start 4
+frame_duration 2
+scale_factor 0.5
+minimum -2.42658e-025
+maximum 0.00273564
+deadtime_correction 1.27573
+decay_correction 1.00053
+event_type 4
+prompts 107   184   291
+delays 11   10   23
+trues 96   174   268
+prompts_rate 125
+delays_rate 0
+singles 0 612.975 1726.71
+singles 1 629.835 1577.7
+singles 2 607.306 1704.51
+singles 3 648.826 1546.99
+singles 4 628.347 1701.54
+singles 5 768.496 1769.41
+singles 6 699.322 1760.17
+singles 7 812.347 1764.13
+singles 8 962.116 2257.34
+singles 9 1090.59 2346.21
+singles 10 1255.02 2843.45
+singles 11 1476.35 2953.88
+singles 12 1461.47 2842.59
+singles 13 1541.26 3184.81
+singles 14 1661.06 3275.21
+singles 15 1479.9 3038.64
+singles 16 1496.25 2986.17
+singles 17 1458.15 3236.99
+singles 18 1134.02 2528.81
+singles 19 828.942 2209.67
+singles 20 663.355 1670.59
+singles 21 626.926 1792.99
+singles 22 615.405 1786.93
+singles 23 630.248 1624.31
+singles 24 617.521 1496.78
+singles 25 622.033 1739.69
+singles 26 598.859 1656.02
+singles 27 661.306 1658.63
+singles 28 685.355 1780.15
+singles 29 630.017 1666.51
+singles 30 624.628 1722.33
+singles 31 649.537 1673.19
+singles 32 754.496 1848.5
+singles 33 862.992 2111.79
+singles 34 1078.38 2718.68
+singles 35 1275.8 2959.85
+singles 36 1380.73 3224.3
+singles 37 1436.33 3248.5
+singles 38 1501.74 3293.27
+singles 39 1252.64 2749.57
+singles 40 1128.81 2381.59
+singles 41 1018.41 2523.88
+singles 42 796.215 2139.85
+singles 43 651.471 1860.3
+singles 44 655.322 1758.46
+singles 45 660.876 1809.31
+singles 46 660.843 1781.01
+singles 47 628.926 1668.94
+singles 48 613.901 1701.09
+singles 49 607.273 1801.74
+singles 50 623.818 1750.35
+singles 51 677.256 1652.63
+singles 52 641.388 1815.14
+singles 53 694.628 1778.45
+singles 54 624.612 1583.52
+singles 55 649.868 1678.15
+singles 56 660.264 1713.31
+singles 57 725.752 1770.45
+singles 58 683.504 1728.88
+singles 59 777.388 2062.28
+singles 60 790.05 2245.52
+singles 61 826.43 2257.29
+singles 62 806.446 2136.02
+singles 63 752.529 2154.68
+singles 64 707.372 1881.39
+singles 65 670.678 2211.65
+singles 66 651.091 1794.4
+singles 67 653.421 1876
+singles 68 660.05 1783.47
+singles 69 678.248 1774.84
+singles 70 684.43 1857.88
+singles 71 654.76 1784.64
+singles 72 613.223 1449.04
+singles 73 614.579 1668.17
+singles 74 614.893 1725.97
+singles 75 642.777 1587.12
+singles 76 567.901 1838.28
+singles 77 671.868 1661.14
+singles 78 595.025 1525.04
+singles 79 605.554 1900.81
+singles 80 600.198 1732.4
+singles 81 602.463 1732.68
+singles 82 635.835 2021.45
+singles 83 650.859 2060.07
+singles 84 626.612 2016.76
+singles 85 674.099 1937.26
+singles 86 671.95 1867.83
+singles 87 695.339 1912.68
+singles 88 668.132 1744.17
+singles 89 653.24 1693.65
+singles 90 687.24 1819.22
+singles 91 677.967 1794.12
+singles 92 668.694 1901.6
+singles 93 654.545 1803.92
+singles 94 645.752 1773.07
+singles 95 643.24 1599.24
+end_of_header
+frame 3
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 18677760
+frame_start 6
+frame_duration 2
+scale_factor 0.5
+minimum -1.05735e-016
+maximum 0.00210669
+deadtime_correction 1
+decay_correction 1.00074
+event_type 4
+prompts 112   208   321
+delays 19   17   38
+trues 93   191   283
+prompts_rate 150
+delays_rate 0
+singles 0 595.725 1651.52
+singles 1 604.53 1559.79
+singles 2 595.21 1720.41
+singles 3 626.257 1555.18
+singles 4 651.668 1687.41
+singles 5 737.136 1724.49
+singles 6 730.847 1770.92
+singles 7 830.213 1758.56
+singles 8 956.556 2230.67
+singles 9 1057.33 2316.93
+singles 10 1277.73 2822.13
+singles 11 1465.12 2979.44
+singles 12 1445.59 2882.05
+singles 13 1507.39 3105.89
+singles 14 1625.55 3221.38
+singles 15 1503.63 3127.15
+singles 16 1417.84 2916.92
+singles 17 1399.83 3170.64
+singles 18 1114 2493.53
+singles 19 831.722 2233.61
+singles 20 645.76 1666.42
+singles 21 647.902 1795.73
+singles 22 617.764 1775.18
+singles 23 660.932 1622.21
+singles 24 637.956 1534.25
+singles 25 614.73 1689.06
+singles 26 616.26 1681.46
+singles 27 651.028 1616.24
+singles 28 693.214 1743.65
+singles 29 697.274 1696.96
+singles 30 616.784 1740.21
+singles 31 659.049 1766.65
+singles 32 748.591 1840.77
+singles 33 845.727 2053.8
+singles 34 1019.85 2698.06
+singles 35 1259.62 2914.53
+singles 36 1365.52 3151.3
+singles 37 1365.12 3091.68
+singles 38 1481.98 3270.3
+singles 39 1253.88 2802.69
+singles 40 1118.98 2425.6
+singles 41 974.401 2456.72
+singles 42 777.838 2130.9
+singles 43 653.77 1825.48
+singles 44 652.302 1812.59
+singles 45 654.625 1806.3
+singles 46 665.531 1851
+singles 47 649.902 1660.81
+singles 48 633.991 1731.01
+singles 49 618.843 1832.88
+singles 50 598.529 1730.03
+singles 51 661.569 1608.42
+singles 52 640.126 1815.92
+singles 53 684.966 1785.31
+singles 54 634.965 1583.96
+singles 55 619.079 1621.65
+singles 56 643.66 1670.3
+singles 57 705.977 1744.59
+singles 58 694.864 1744.44
+singles 59 747.035 2078.39
+singles 60 782.732 2211.41
+singles 61 815.13 2267.03
+singles 62 804.222 2136
+singles 63 712.048 2159.52
+singles 64 697.034 1860.13
+singles 65 671.88 2255.6
+singles 66 675.554 1764.95
+singles 67 653.947 1848.73
+singles 68 663.641 1807.59
+singles 69 656.204 1755.89
+singles 70 678.585 1854.35
+singles 71 603.16 1733.15
+singles 72 639.384 1531.73
+singles 73 623.143 1678.92
+singles 74 595.899 1738.72
+singles 75 665.707 1567.92
+singles 76 567.991 1830.75
+singles 77 690.17 1681.92
+singles 78 608.639 1567.73
+singles 79 605.959 1847.35
+singles 80 607.291 1713.85
+singles 81 598.406 1744.79
+singles 82 639.621 2020.13
+singles 83 622.805 1987.28
+singles 84 640.601 1986.98
+singles 85 648.554 1932.48
+singles 86 646.541 1838.89
+singles 87 692.304 1946.61
+singles 88 646.194 1714.92
+singles 89 672.113 1681.24
+singles 90 677.022 1830.84
+singles 91 650.724 1799.46
+singles 92 693.518 1880.15
+singles 93 639.504 1734.9
+singles 94 653.25 1746.64
+singles 95 638.476 1550.84
+end_of_header
+frame 4
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 24903680
+frame_start 8
+frame_duration 2
+scale_factor 0.5
+minimum -6.43007e-022
+maximum 0.00461947
+deadtime_correction 1
+decay_correction 1.00095
+event_type 4
+prompts 106   192   296
+delays 15   13   30
+trues 91   179   266
+prompts_rate 150
+delays_rate 0
+singles 0 617.793 1759.23
+singles 1 600.412 1601.8
+singles 2 603.201 1758.22
+singles 3 611.478 1539.56
+singles 4 639.243 1666.13
+singles 5 701.558 1684.04
+singles 6 686.441 1730.08
+singles 7 808.201 1739.87
+singles 8 874.232 2062.79
+singles 9 928.848 2210.63
+singles 10 1110.7 2685.65
+singles 11 1298.65 2729.04
+singles 12 1296.87 2672.91
+singles 13 1447.94 3013.26
+singles 14 1578.69 3112.85
+singles 15 1414.88 3004.29
+singles 16 1445.26 2908.81
+singles 17 1412.71 3171.88
+singles 18 1172.18 2583.05
+singles 19 891.975 2317.6
+singles 20 687.796 1711.49
+singles 21 677.082 1810.52
+singles 22 648.888 1834.11
+singles 23 658.267 1616.56
+singles 24 601.632 1512.2
+singles 25 624.976 1782.64
+singles 26 603.296 1685.59
+singles 27 693.73 1694.2
+singles 28 697.565 1733.06
+singles 29 663.389 1730.63
+singles 30 639.708 1761.84
+singles 31 674.459 1775.15
+singles 32 731.69 1849.16
+singles 33 804.157 2046.71
+singles 34 987.259 2618.01
+singles 35 1139.97 2759.5
+singles 36 1265.96 3013.75
+singles 37 1324.1 3001.06
+singles 38 1398.36 3115.48
+singles 39 1232.17 2672.97
+singles 40 1119.91 2347.78
+singles 41 970.4 2474.25
+singles 42 768.894 2110.08
+singles 43 679.434 1876.86
+singles 44 613.846 1726.6
+singles 45 646.784 1824.21
+singles 46 644.139 1848.27
+singles 47 648.173 1729.16
+singles 48 619.454 1741
+singles 49 614.44 1908.44
+singles 50 612.594 1731.82
+singles 51 672.87 1626.22
+singles 52 632.739 1801.45
+singles 53 725.906 1831.39
+singles 54 626.815 1585.81
+singles 55 601.734 1600.15
+singles 56 658.515 1657.3
+singles 57 725.998 1782.24
+singles 58 657.715 1698.59
+singles 59 706.094 1967.13
+singles 60 732.976 2188.31
+singles 61 755.921 2162.46
+singles 62 776.747 2110.55
+singles 63 722.913 2172.68
+singles 64 676.094 1840.01
+singles 65 641.08 2203.24
+singles 66 652.323 1764.09
+singles 67 659.45 1924.43
+singles 68 633.058 1744.33
+singles 69 637.837 1715.99
+singles 70 638.053 1857.67
+singles 71 622.105 1772.1
+singles 72 634.489 1497.43
+singles 73 625.74 1705.36
+singles 74 617.809 1798.07
+singles 75 700.519 1567.99
+singles 76 560.727 1860.98
+singles 77 722.743 1752.9
+singles 78 642.604 1571.61
+singles 79 604.178 1880.67
+singles 80 607.936 1695.81
+singles 81 563.491 1718.62
+singles 82 589.056 1930.92
+singles 83 634.801 2007.93
+singles 84 618.236 1978.82
+singles 85 633.505 1884.77
+singles 86 658.776 1865.35
+singles 87 713.846 1946.06
+singles 88 658.745 1694.08
+singles 89 682.919 1729.2
+singles 90 694.275 1831.89
+singles 91 691.884 1801.77
+singles 92 703.047 1918.19
+singles 93 650.864 1794.08
+singles 94 650.295 1809.69
+singles 95 674.407 1573.71
+end_of_header
+frame 5
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 31129600
+frame_start 10
+frame_duration 2
+scale_factor 0.5
+minimum 0
+maximum 0.00539088
+deadtime_correction 1
+decay_correction 1.00116
+event_type 4
+prompts 177   248   424
+delays 50   43   94
+trues 127   205   330
+prompts_rate 200
+delays_rate 25
+singles 0 1247.07 2869.02
+singles 1 1227.31 2631.07
+singles 2 1227.56 2863.47
+singles 3 1257.41 2596.32
+singles 4 1225.39 2791.47
+singles 5 1223.78 2676.73
+singles 6 1235.13 2664.55
+singles 7 1271.65 2479.99
+singles 8 1312.2 2887.53
+singles 9 1280.8 2822.78
+singles 10 1370.06 3256.88
+singles 11 1550.79 3280.82
+singles 12 1561.53 3157.54
+singles 13 1691.63 3555.75
+singles 14 1807.15 3681.17
+singles 15 1797.72 3704.03
+singles 16 1713.21 3428.07
+singles 17 1792.06 3884.72
+singles 18 1617.47 3325.73
+singles 19 1333.82 3179.78
+singles 20 1244.35 2581.04
+singles 21 1241.55 2837.32
+singles 22 1237.17 2855.83
+singles 23 1234.39 2537.87
+singles 24 1421.97 2708.38
+singles 25 1369.54 3000.24
+singles 26 1403.94 2956.87
+singles 27 1437.61 2917.65
+singles 28 1354.32 2926.64
+singles 29 1220.31 2731.88
+singles 30 1161.79 2774.71
+singles 31 1079.5 2555.92
+singles 32 993.79 2411.74
+singles 33 1120.38 2611.52
+singles 34 1126.11 3068.91
+singles 35 1294.54 3118.14
+singles 36 1418.72 3544.89
+singles 37 1500.37 3540.1
+singles 38 1661.67 3712.32
+singles 39 1582.92 3366.63
+singles 40 1365.45 2833.43
+singles 41 1382.76 3154.02
+singles 42 1335.35 3028.19
+singles 43 1238.13 2797.9
+singles 44 1310.35 2847.87
+singles 45 1346.07 2947.66
+singles 46 1400.38 3051.66
+singles 47 1344.38 2851.74
+singles 48 1269.04 2840.09
+singles 49 1217.68 3029.86
+singles 50 1232.05 2850.17
+singles 51 1213.9 2578.75
+singles 52 1090.25 2707.4
+singles 53 1002.36 2530.13
+singles 54 833.347 2125.98
+singles 55 836.521 2116.38
+singles 56 808.956 2141.57
+singles 57 878.727 2167.48
+singles 58 781.61 2079.87
+singles 59 878.736 2418.83
+singles 60 950.271 2668.03
+singles 61 1032.36 2787.5
+singles 62 965.159 2559.14
+singles 63 962.083 2764.79
+singles 64 879.645 2274.55
+singles 65 900.098 2742.11
+singles 66 928.393 2260.37
+singles 67 978.132 2516.77
+singles 68 1121.19 2578.58
+singles 69 1210.71 2652.36
+singles 70 1190.73 2836.15
+singles 71 1211.1 2762.92
+singles 72 757.681 1821.58
+singles 73 773.249 2100.49
+singles 74 728.892 2179.82
+singles 75 743.684 1833.45
+singles 76 690.975 2227.36
+singles 77 765.704 2093.9
+singles 78 707.509 1928.33
+singles 79 671.289 2310.97
+singles 80 644.358 2046.89
+singles 81 638.499 2027.15
+singles 82 691.732 2386.45
+singles 83 697.709 2329.81
+singles 84 750.749 2412.62
+singles 85 739.41 2225.89
+singles 86 719.889 2135.03
+singles 87 766.713 2206
+singles 88 710.795 1839.46
+singles 89 711.174 1882.65
+singles 90 746.752 2057.45
+singles 91 733.808 1987.43
+singles 92 813.004 2201.65
+singles 93 764.624 2083.1
+singles 94 799.118 2169.97
+singles 95 797.673 1904.88
+end_of_header
+frame 6
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 37355520
+frame_start 12
+frame_duration 2
+scale_factor 0.5
+minimum 0
+maximum 0.0246545
+deadtime_correction 1
+decay_correction 1.00137
+event_type 4
+prompts 5174   2916   7933
+delays 3011   2637   5540
+trues 2163   279   2393
+prompts_rate 4025
+delays_rate 2825
+singles 0 6164.28 12246.3
+singles 1 5987.94 11250.1
+singles 2 6117.05 12400.3
+singles 3 6148.85 11532.4
+singles 4 6000.49 12121
+singles 5 6085.8 12107
+singles 6 6021.38 11576.8
+singles 7 6142.88 10618.2
+singles 8 6097.47 11708
+singles 9 6212.8 11787.5
+singles 10 6140.91 12563.4
+singles 11 6084.62 11621.9
+singles 12 6592.87 11763.4
+singles 13 6444.69 12330.5
+singles 14 6418.83 12121.9
+singles 15 6390.7 12294.9
+singles 16 5484.84 10266.2
+singles 17 5426.55 11275
+singles 18 5545.22 10475.1
+singles 19 5646.71 11285.4
+singles 20 5796.76 10221.9
+singles 21 5821.96 11168.8
+singles 22 5776.11 11548.7
+singles 23 5814.04 10367.1
+singles 24 7874.72 13100.8
+singles 25 7919.05 14590.9
+singles 26 7987.63 14514.3
+singles 27 8045.24 14396.2
+singles 28 8023.12 14986.1
+singles 29 7589.12 14753.8
+singles 30 7532.89 14570.4
+singles 31 7494.5 14296
+singles 32 7259.44 13468.3
+singles 33 7432.76 14157.4
+singles 34 7429.65 15331.7
+singles 35 7248.6 14668.9
+singles 36 7865.34 15991.4
+singles 37 7772.76 15465.5
+singles 38 7880.15 15330.2
+singles 39 7720.27 14360.6
+singles 40 6382.31 11366.7
+singles 41 6460.25 12561.3
+singles 42 6817.76 12738.9
+singles 43 6816.19 12659.8
+singles 44 7279.12 13138.9
+singles 45 7253.28 13224.3
+singles 46 7516.4 13693.8
+singles 47 7236.76 12868.3
+singles 48 9284.46 16481.8
+singles 49 9210.7 17908.2
+singles 50 9381.1 17324.6
+singles 51 9272.17 16141.7
+singles 52 8984.57 17997
+singles 53 8789.31 17544.6
+singles 54 8810.3 15875.1
+singles 55 9046.96 16488.8
+singles 56 8760.81 16336.5
+singles 57 8981.7 16268
+singles 58 8954.69 15576.4
+singles 59 8808.98 16443.5
+singles 60 9440.93 18449.8
+singles 61 9446.58 18135.2
+singles 62 8984.11 16854.5
+singles 63 8945.64 17895
+singles 64 7227.24 13343.1
+singles 65 7109.1 15392.9
+singles 66 7655.31 13443.7
+singles 67 7905.28 14770.6
+singles 68 8387.38 14830.8
+singles 69 8446.43 14732
+singles 70 8519.16 15590.6
+singles 71 8313.74 15149.4
+singles 72 7507.06 12514.7
+singles 73 7459.39 14032.8
+singles 74 7562.63 15112.7
+singles 75 7638.52 13870.3
+singles 76 8535.54 16271.6
+singles 77 7695.06 15775.8
+singles 78 8075.23 15198.9
+singles 79 8044.66 17484.6
+singles 80 8236.76 16258.8
+singles 81 8425.32 16407.9
+singles 82 8451.98 17667.9
+singles 83 8468.88 16944.5
+singles 84 9295.52 18501.1
+singles 85 9283.58 17569.6
+singles 86 8801.81 16757.7
+singles 87 8666.06 16855.1
+singles 88 6646.44 12070.9
+singles 89 6559.2 11729.3
+singles 90 6607.89 12156.1
+singles 91 6781.26 12460.7
+singles 92 6746.64 12911.1
+singles 93 6767.69 12633
+singles 94 6598.1 12548.2
+singles 95 6616.15 11589.5
+end_of_header
+frame 7
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 43581440
+frame_start 14
+frame_duration 2
+scale_factor 0.5
+minimum -7.01896e-027
+maximum 0.0284539
+deadtime_correction 1
+decay_correction 1.00158
+event_type 4
+prompts 41606   18522   59652
+delays 20292   17809   37801
+trues 21314   713   21851
+prompts_rate 30425
+delays_rate 19275
+singles 0 17533.1 34160.6
+singles 1 17482.5 32059.1
+singles 2 17867 35205.5
+singles 3 17782.6 32621.1
+singles 4 17427.3 34551
+singles 5 17304.2 34158.8
+singles 6 17671 33137.9
+singles 7 17647.5 30079.8
+singles 8 17988.9 33993.4
+singles 9 18592.1 34391.6
+singles 10 18214.6 36271.2
+singles 11 18195 34160.2
+singles 12 18492.1 32513
+singles 13 18109.5 33879.1
+singles 14 17749 33171.1
+singles 15 17801 33706.8
+singles 16 16185.9 29742.4
+singles 17 15786 32635.9
+singles 18 16256.8 29985
+singles 19 16738.8 32680.5
+singles 20 17267 29511.1
+singles 21 17431.1 32420.8
+singles 22 17096 33286.2
+singles 23 17454 30480.6
+singles 24 22794.1 37392.8
+singles 25 22883.5 41875.5
+singles 26 23509.8 42039.5
+singles 27 23047.7 41246.9
+singles 28 23274.8 43104.2
+singles 29 22400.8 43254
+singles 30 23288.4 44282.8
+singles 31 23203.1 43077.8
+singles 32 23430.9 42108
+singles 33 24275.7 44599.8
+singles 34 24044.5 47957.4
+singles 35 23231.7 45224.4
+singles 36 24005.9 47293.8
+singles 37 23644.8 45520.5
+singles 38 23792.7 45080.9
+singles 39 22798.2 41694.6
+singles 40 21103.8 36346.1
+singles 41 20990.9 39727.4
+singles 42 21654.3 39758.1
+singles 43 21561.5 38830.9
+singles 44 22216.3 39434.4
+singles 45 22075.8 39458.6
+singles 46 22439.7 40586.7
+singles 47 21959.7 38737.1
+singles 48 28349.5 49236.5
+singles 49 27877.3 53542.6
+singles 50 28723.7 52300.4
+singles 51 28957.5 49580.2
+singles 52 28304.1 55316.1
+singles 53 28004.5 54795
+singles 54 29282.8 51443.2
+singles 55 30649.7 53933.5
+singles 56 30298.3 54968.8
+singles 57 31407.4 55209.8
+singles 58 31481.3 53041.5
+singles 59 31197.2 55916.7
+singles 60 31478.3 58870
+singles 61 31251.5 57670.5
+singles 62 29958.6 54228.6
+singles 63 29324.1 56621.4
+singles 64 26777 47387.6
+singles 65 25711.7 53004.8
+singles 66 26288.7 45280.3
+singles 67 26825.9 48655.5
+singles 68 27424.3 47515.5
+singles 69 27496.9 46953.8
+singles 70 27303.6 49259.1
+singles 71 26777.6 47762.7
+singles 72 28317 45194.1
+singles 73 28885.4 50924.8
+singles 74 28936.6 54719.3
+singles 75 29679.9 51173.7
+singles 76 33168.7 59328.3
+singles 77 30048.6 58214.2
+singles 78 31692.3 56329
+singles 79 31969.5 64713.1
+singles 80 32927 61463.5
+singles 81 33902.3 62408
+singles 82 33812 65958.9
+singles 83 34188.1 63780.4
+singles 84 35046.9 65505.6
+singles 85 34324 61904.5
+singles 86 33580.2 60194.3
+singles 87 32322.4 59392.3
+singles 88 29458.8 50088.3
+singles 89 28516.3 47382.7
+singles 90 28182.5 48396
+singles 91 28185.6 48665.5
+singles 92 28060.6 50335.6
+singles 93 27706.2 48637.5
+singles 94 27210.7 48248
+singles 95 27286.9 44999
+end_of_header
+frame 8
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 49807360
+frame_start 16
+frame_duration 2
+scale_factor 0.5
+minimum -1.37856e-025
+maximum 0.0793898
+deadtime_correction 1
+decay_correction 1.00179
+event_type 4
+prompts 101851   29127   130541
+delays 32353   28354   60507
+trues 69498   773   70034
+prompts_rate 66600
+delays_rate 30850
+singles 0 24657.6 47612.8
+singles 1 24989.3 44927.2
+singles 2 24989.7 49164.1
+singles 3 24803.9 45389.2
+singles 4 24435.2 48237.4
+singles 5 24213.1 47405.3
+singles 6 24681 46059.8
+singles 7 24438.9 41287.3
+singles 8 24859 46752.1
+singles 9 25592 47492
+singles 10 25330.4 50435.6
+singles 11 25483.2 47156.4
+singles 12 25515.6 44479.4
+singles 13 24930 46287.2
+singles 14 24620.8 45557.4
+singles 15 24572.8 46169.7
+singles 16 23127.8 42407.5
+singles 17 22811.5 46394.2
+singles 18 23190.6 42665.9
+singles 19 24032.6 46580
+singles 20 24646.1 41846.5
+singles 21 24866.5 46294.6
+singles 22 24554.2 47476.9
+singles 23 24804.9 43147.3
+singles 24 31439.5 51323
+singles 25 31644 57634.1
+singles 26 32510 58003.6
+singles 27 31684.3 56278.8
+singles 28 32026.8 59385.8
+singles 29 30909.2 59244.9
+singles 30 31909.9 60554.8
+singles 31 31729.4 58730.7
+singles 32 32290.1 58055.3
+singles 33 33525.1 61167.3
+singles 34 33296.8 66014.3
+singles 35 32686.5 63256.8
+singles 36 32820.5 64179.4
+singles 37 32387.7 62047.3
+singles 38 32588.4 61478.3
+singles 39 31614.4 57225
+singles 40 30264 52022.4
+singles 41 30215.5 56704.3
+singles 42 30659.5 56027.1
+singles 43 30872.9 55068.3
+singles 44 31630.6 55430.4
+singles 45 31190.5 55658.1
+singles 46 31690.9 57278.8
+singles 47 31016.3 54299.7
+singles 48 39117.2 67634.2
+singles 49 38587 73160.2
+singles 50 39253.1 71232.8
+singles 51 39523.4 67496.4
+singles 52 38838.6 75825.1
+singles 53 38662.2 75417.7
+singles 54 39949.3 69885.7
+singles 55 41797.2 73401.2
+singles 56 41723.5 75153.5
+singles 57 43273.4 75488.2
+singles 58 43309.2 72805.6
+singles 59 43136.1 76636.1
+singles 60 42408.9 78822.7
+singles 61 42664.7 78068.2
+singles 62 40974.4 73460.8
+singles 63 39967.7 76745.6
+singles 64 38347 67444.3
+singles 65 37081.1 75847.7
+singles 66 37882.6 64410.9
+singles 67 38100.5 68817.8
+singles 68 38718.6 66636
+singles 69 38594.3 65872.2
+singles 70 38431.2 69014.5
+singles 71 37448.9 66838.4
+singles 72 40661.5 64290.4
+singles 73 41049.6 71945.9
+singles 74 41397.9 76916.3
+singles 75 41920 71992.1
+singles 76 46844.4 83113.5
+singles 77 42519 81488.6
+singles 78 44302.9 78182.6
+singles 79 44482.7 89319.4
+singles 80 46098.8 85533
+singles 81 46951.1 85713.5
+singles 82 47315.6 91349
+singles 83 47255.3 87821.9
+singles 84 47460.6 88398.7
+singles 85 46569.5 83609.5
+singles 86 45658.2 81143.1
+singles 87 44218.4 80932
+singles 88 42565.3 72137.1
+singles 89 41674.2 68842.1
+singles 90 41273 70219.6
+singles 91 41149.6 70293.2
+singles 92 41281.9 73250.5
+singles 93 40409.7 69863.4
+singles 94 39802.8 69837.1
+singles 95 39973.4 65258.1
+end_of_header
+frame 9
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 56033280
+frame_start 18
+frame_duration 2
+scale_factor 0.5
+minimum -2.06319e-025
+maximum 0.0399878
+deadtime_correction 1.02146
+decay_correction 1.002
+event_type 4
+prompts 134166   33533   167568
+delays 36803   32240   68990
+trues 97363   1293   98578
+prompts_rate 85475
+delays_rate 35175
+singles 0 27830.7 53266.6
+singles 1 27517.2 49704.3
+singles 2 27724.5 54264
+singles 3 27529.4 50277.2
+singles 4 27065 53337.9
+singles 5 26873.9 52473.2
+singles 6 27087.4 50478.2
+singles 7 26974.4 45467.9
+singles 8 27349 51606.6
+singles 9 28228.4 52106.5
+singles 10 28066.4 55537.8
+singles 11 28096.7 52119.7
+singles 12 27901.4 48645.4
+singles 13 27488.2 50966.1
+singles 14 27098.3 49901.6
+singles 15 27123 50830
+singles 16 25966.2 47380.7
+singles 17 25397.4 51381.3
+singles 18 25971.9 47642.4
+singles 19 26979.3 51716.4
+singles 20 27429.6 46727.9
+singles 21 27833.3 51690.4
+singles 22 27608.6 52987
+singles 23 27560.4 47940.7
+singles 24 35009 56756.6
+singles 25 34851.3 63504.9
+singles 26 35535.5 63344
+singles 27 34887.7 62021.7
+singles 28 34800.6 64802.4
+singles 29 33920.8 65067.7
+singles 30 35019.1 66454.1
+singles 31 34777.2 64270.1
+singles 32 35415.5 63135.9
+singles 33 36447.7 66507.9
+singles 34 36441.5 71810.4
+singles 35 35707.9 68943.3
+singles 36 35801.9 69727.2
+singles 37 35548 67624.3
+singles 38 35853.5 67187.1
+singles 39 34764.9 62709.5
+singles 40 33596.7 57467.5
+singles 41 33181.4 62422.2
+singles 42 34081.8 62164.3
+singles 43 34181.2 60938.9
+singles 44 35068.2 61235.5
+singles 45 34364.6 61530.7
+singles 46 35270.1 63309
+singles 47 34325.1 60114.5
+singles 48 42607 73608.6
+singles 49 42287.9 79749.1
+singles 50 42828.5 77566.6
+singles 51 43036.7 73370.6
+singles 52 42239.9 82445.9
+singles 53 42494.7 82168.9
+singles 54 43720.8 75998.7
+singles 55 45357.9 79587.4
+singles 56 44971.2 80934
+singles 57 46953.9 81671.6
+singles 58 47108.1 78738.7
+singles 59 46759.6 83025.1
+singles 60 45875.4 85322.1
+singles 61 45707.7 84155.3
+singles 62 44426.8 79296.4
+singles 63 43342.5 82971.4
+singles 64 42409.7 74116.8
+singles 65 40767.4 82655.3
+singles 66 41602.1 70697.4
+singles 67 41900 75736.2
+singles 68 42372.6 73097.8
+singles 69 42272.2 72161.1
+singles 70 42286.5 75595.9
+singles 71 41135.4 72998
+singles 72 44556.5 70235.5
+singles 73 44853.6 78244.2
+singles 74 45107.1 83712.4
+singles 75 46181.8 78601.1
+singles 76 51149.5 90384.9
+singles 77 46614.5 88917.1
+singles 78 48378.4 85200.2
+singles 79 48176.6 96307.2
+singles 80 49576.3 92072.1
+singles 81 50581 92623
+singles 82 51083.2 98802.6
+singles 83 50866.8 94443.8
+singles 84 51045.5 95030.8
+singles 85 50242.7 89986.3
+singles 86 49027.1 87023.9
+singles 87 47656.2 86808.4
+singles 88 46171.4 77850.6
+singles 89 45548.6 75003.8
+singles 90 45124.8 76440
+singles 91 45017.2 76664.8
+singles 92 45025.6 79646.4
+singles 93 44284.5 76587.6
+singles 94 43885.7 76545.2
+singles 95 44006.7 71607.1
+end_of_header
+frame 10
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 62259200
+frame_start 20
+frame_duration 2
+scale_factor 0.5
+minimum -1.30746e-025
+maximum 0.0537434
+deadtime_correction 1.04001
+decay_correction 1.00221
+event_type 4
+prompts 143091   35934   179061
+delays 39106   34248   73371
+trues 103985   1686   105690
+prompts_rate 91350
+delays_rate 37425
+singles 0 28706.4 55029.7
+singles 1 28797.9 51840.4
+singles 2 28985.9 56413.1
+singles 3 28439 51896.1
+singles 4 28135 55176.2
+singles 5 28084.9 54603
+singles 6 28149.8 52399.8
+singles 7 27932.2 47258.9
+singles 8 28515.4 53513.3
+singles 9 29464.4 54235.1
+singles 10 29100.6 57719.8
+singles 11 28990.6 53721.8
+singles 12 29191 50825.9
+singles 13 28668 52996.9
+singles 14 28490.8 52534.7
+singles 15 28047.5 52317.3
+singles 16 26964.2 49300.1
+singles 17 26394.3 53638.3
+singles 18 27041.1 49578.4
+singles 19 28063.6 53908.8
+singles 20 28953.6 49075.3
+singles 21 28963 53695.5
+singles 22 28715.3 55264.3
+singles 23 29112.8 50378.2
+singles 24 36202.6 58879.7
+singles 25 36241 65993.2
+singles 26 37194.1 66113.1
+singles 27 36006.2 64343.8
+singles 28 36363.7 67245.7
+singles 29 35307.3 67435.3
+singles 30 36314.5 68579.5
+singles 31 35788.8 66300.9
+singles 32 36646.9 65657.8
+singles 33 37937.1 69057.1
+singles 34 37667.4 74350
+singles 35 37031.6 71354.9
+singles 36 36923.8 72286.1
+singles 37 36877.1 70253.1
+singles 38 37055.8 69589.7
+singles 39 36113.2 65200.9
+singles 40 34881.5 59533.4
+singles 41 34723.8 65125.7
+singles 42 35280.2 64533.1
+singles 43 35740.1 63525.4
+singles 44 36566.2 64032.3
+singles 45 36089.5 64333.7
+singles 46 36884.6 66239
+singles 47 35676.8 62501.3
+singles 48 44453.4 76539
+singles 49 43949.8 82871.7
+singles 50 44666.2 80749.7
+singles 51 44743.3 76113.7
+singles 52 44198.2 85669.6
+singles 53 44239.5 85179
+singles 54 45340.1 79027.2
+singles 55 46763.4 82211.6
+singles 56 46788.3 84072.2
+singles 57 48375.8 84344.7
+singles 58 48902.6 81556.2
+singles 59 48407.2 85953.2
+singles 60 47303.2 87889.3
+singles 61 47366.2 86917.8
+singles 62 46173.3 82216
+singles 63 44956.6 86057.4
+singles 64 43959.1 76748.8
+singles 65 42333.4 85970.5
+singles 66 43271.1 73323.4
+singles 67 43594.6 78746.9
+singles 68 44355.7 76248.9
+singles 69 44395.7 75063.7
+singles 70 43907.9 78437.8
+singles 71 42534.1 75614.4
+singles 72 46172.4 72968.7
+singles 73 46912.1 81676.7
+singles 74 46918.8 87286.6
+singles 75 47951.1 81701.9
+singles 76 53337.2 93858.6
+singles 77 48403.1 92141.6
+singles 78 49872.6 87672.8
+singles 79 50114.2 100357
+singles 80 51554.2 95410.2
+singles 81 52487.4 95771.2
+singles 82 52471.2 101420
+singles 83 52606.1 97349.4
+singles 84 52766 97686.4
+singles 85 51823.9 92855.1
+singles 86 50973.4 90358.5
+singles 87 49088.8 89538.9
+singles 88 48084.7 80968.2
+singles 89 47444.4 78180.3
+singles 90 47009.5 79790.9
+singles 91 47092.5 80135
+singles 92 46806 82836.9
+singles 93 45936.8 79751.6
+singles 94 45927.8 80205.9
+singles 95 45918.8 74646.1
+end_of_header
+frame 11
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 68485120
+frame_start 22
+frame_duration 2
+scale_factor 0.5
+minimum -2.21608e-025
+maximum 0.060806
+deadtime_correction 1.04641
+decay_correction 1.00242
+event_type 4
+prompts 145256   36899   182091
+delays 40485   35457   75916
+trues 104771   1442   106175
+prompts_rate 92900
+delays_rate 38725
+singles 0 29260.6 56317.2
+singles 1 29339.8 52921.9
+singles 2 29386 57604.8
+singles 3 28789 52866.9
+singles 4 28525 56383.3
+singles 5 28429.5 55345.7
+singles 6 28753.6 53500
+singles 7 28535.7 48072.6
+singles 8 29161.4 54621.2
+singles 9 29702.2 54979.6
+singles 10 29741.9 58743.6
+singles 11 29679.1 54816.5
+singles 12 29601 51686
+singles 13 28938.9 53901.5
+singles 14 28404.6 52748.6
+singles 15 28662.5 53479.8
+singles 16 27629.5 50350.9
+singles 17 27221.3 55056.2
+singles 18 27643.7 50512.6
+singles 19 28478.5 54784.4
+singles 20 29357.6 49732.3
+singles 21 29707.5 55003.2
+singles 22 29301.4 56414.9
+singles 23 29453.9 50959.8
+singles 24 37060.2 60056.3
+singles 25 36972.8 67070.3
+singles 26 37652.2 67143
+singles 27 36973.3 65564
+singles 28 37080.3 68509.6
+singles 29 35757 68519.6
+singles 30 37126.8 70045.4
+singles 31 36589.9 67621.9
+singles 32 37162.4 66463.4
+singles 33 38697.9 70332.5
+singles 34 38313.4 76066.4
+singles 35 37533.8 72699.5
+singles 36 37724 73424.2
+singles 37 37637.9 71533.9
+singles 38 37896 70904.5
+singles 39 36846.7 66489.2
+singles 40 35614.7 60684.9
+singles 41 35371.3 66431.4
+singles 42 35987.3 65766.6
+singles 43 36238.2 64775
+singles 44 37093.3 65088.4
+singles 45 36471.8 65175.8
+singles 46 37715 67574.5
+singles 47 36419.7 63834.7
+singles 48 45281.2 77959.9
+singles 49 44517.3 84284.7
+singles 50 45722.4 82288.2
+singles 51 45278.5 77326.7
+singles 52 44919.8 87008.1
+singles 53 45050.9 86750.8
+singles 54 45887.3 80035.2
+singles 55 47722.1 83904.7
+singles 56 47531.7 85281.1
+singles 57 49114.2 85918.6
+singles 58 49987.5 83212.4
+singles 59 49497 87804.8
+singles 60 48560.3 89913.6
+singles 61 48526 88992.5
+singles 62 47263 84157.8
+singles 63 46052.4 88007
+singles 64 45049 78720.8
+singles 65 43410.3 88106.4
+singles 66 44291.9 75127.6
+singles 67 44521.3 80255.2
+singles 68 45352.3 77815.4
+singles 69 45356 76767.6
+singles 70 44757.1 80185.3
+singles 71 43877.6 77501.3
+singles 72 47239.3 74653.5
+singles 73 47904.7 83428.8
+singles 74 47752.6 88844.2
+singles 75 48635.6 82912.9
+singles 76 54547 96023.5
+singles 77 49296.6 93927.4
+singles 78 51375.7 89897.5
+singles 79 50874 101914
+singles 80 52672.2 97431.8
+singles 81 53631.6 97653.8
+singles 82 53586.5 103536
+singles 83 53718.7 99664.5
+singles 84 53600.5 99649.7
+singles 85 53107.6 95088.6
+singles 86 52121.2 92141.7
+singles 87 50288.1 91385.4
+singles 88 49109.5 82762.6
+singles 89 48624 79734.6
+singles 90 48159 81311.9
+singles 91 48372 82083.2
+singles 92 47975.1 84968.8
+singles 93 47303.3 81932
+singles 94 46771.6 81800.5
+singles 95 46969 76338.7
+end_of_header
+frame 12
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 74711040
+frame_start 24
+frame_duration 2
+scale_factor 0.5
+minimum -5.92256e-026
+maximum 0.068172
+deadtime_correction 1.05017
+decay_correction 1.00263
+event_type 4
+prompts 148898   37771   186708
+delays 41264   36134   77416
+trues 107634   1637   109292
+prompts_rate 95250
+delays_rate 39475
+singles 0 29720.1 56890.7
+singles 1 29540 53127.4
+singles 2 29542.4 58009.5
+singles 3 29093.5 53346.1
+singles 4 28609.5 56551.2
+singles 5 28602.7 56069.6
+singles 6 28635.8 53470.9
+singles 7 28746.9 48273.9
+singles 8 29161.9 54696.5
+singles 9 30256.6 55787.2
+singles 10 29665.6 58927.6
+singles 11 29943.6 55263.3
+singles 12 30096.5 52273.3
+singles 13 29394.4 54656.5
+singles 14 29304.1 53889.9
+singles 15 29227.5 54470.9
+singles 16 28286.3 51404.6
+singles 17 27323.8 55630.6
+singles 18 27978.5 51208.4
+singles 19 28996.2 55905.9
+singles 20 29830.7 50401.1
+singles 21 30075.2 55658.5
+singles 22 29596.5 56835.9
+singles 23 30001.3 51854.5
+singles 24 37325.5 60481.5
+singles 25 37221.2 67491.8
+singles 26 37702.9 67371.2
+singles 27 36833.9 65571.3
+singles 28 36923.7 68560.9
+singles 29 35845.2 68741.8
+singles 30 37171.5 70205.9
+singles 31 36410 67496.5
+singles 32 37365.7 66931.2
+singles 33 38865.3 70535.7
+singles 34 38584.9 76289.7
+singles 35 38270.3 73420
+singles 36 38498.5 74714.9
+singles 37 38227.1 72657.6
+singles 38 38510.5 71976.8
+singles 39 37504.2 67568.1
+singles 40 36434.1 62018.6
+singles 41 36053.8 67622.9
+singles 42 36837 67218.8
+singles 43 37096.2 66010.5
+singles 44 37766.7 66102.6
+singles 45 37241.1 66545.1
+singles 46 38250.5 68497.7
+singles 47 36981.8 64572.2
+singles 48 45581.9 78380
+singles 49 44807 84693.2
+singles 50 46032.9 82808
+singles 51 45543.5 77664.2
+singles 52 44778.2 87148
+singles 53 44722.8 86399.2
+singles 54 46157 80339.6
+singles 55 47954.7 84018.6
+singles 56 47777.4 85776.5
+singles 57 49388.6 86141.7
+singles 58 49877 83277.5
+singles 59 50019.7 88460.4
+singles 60 48907.3 90615.8
+singles 61 49438.7 90241.1
+singles 62 47929.4 85308.9
+singles 63 46995.7 89502.5
+singles 64 46144.5 80307.3
+singles 65 44171.8 89858.8
+singles 66 45342.9 76864.3
+singles 67 45529.2 81985
+singles 68 46101.1 79119.6
+singles 69 45985.1 77946.1
+singles 70 45650.6 81513.2
+singles 71 44328.9 78414.7
+singles 72 47874.5 75566.7
+singles 73 47907.7 83706.3
+singles 74 48032.1 89360.4
+singles 75 48854.1 83301.2
+singles 76 54591.5 96187.6
+singles 77 49021.5 93509.8
+singles 78 50874.2 89561.6
+singles 79 50826.7 101992
+singles 80 52773.8 97435.6
+singles 81 53621.1 97848.5
+singles 82 53927.9 104218
+singles 83 54321.7 100535
+singles 84 54300 100497
+singles 85 53684.3 96199
+singles 86 53127.4 93649.2
+singles 87 51684.4 93778.7
+singles 88 50573.6 84965.7
+singles 89 49929.5 81795.9
+singles 90 49327.2 83697.4
+singles 91 49422.9 84151.2
+singles 92 49161.4 86853.5
+singles 93 48267.6 83277.5
+singles 94 47568.3 82989.1
+singles 95 47711.7 77216.3
+end_of_header
+frame 13
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 80936960
+frame_start 26
+frame_duration 2
+scale_factor 0.5
+minimum -1.42121e-025
+maximum 0.0684647
+deadtime_correction 1.0478
+decay_correction 1.00285
+event_type 4
+prompts 151000   38295   189235
+delays 42155   36911   79042
+trues 108845   1384   110193
+prompts_rate 96525
+delays_rate 40325
+singles 0 30050.9 57404.6
+singles 1 29885.5 53826.1
+singles 2 29700.2 58426.3
+singles 3 29426.7 53682.4
+singles 4 28851.8 57057.4
+singles 5 28783.9 56206.3
+singles 6 28810.5 53824.6
+singles 7 28793.4 48515.8
+singles 8 29254.7 55021.5
+singles 9 30454.2 56035.2
+singles 10 30136.9 59675.2
+singles 11 30173.1 55845.8
+singles 12 30285.1 52570.3
+singles 13 29777.7 55267
+singles 14 29618.6 54408.2
+singles 15 29269.8 54890.1
+singles 16 28415.1 51807.7
+singles 17 27602.2 56111.9
+singles 18 28123.5 51595.3
+singles 19 29506.9 56860.5
+singles 20 30113.7 50934.6
+singles 21 30359.6 56219.9
+singles 22 30110.6 57661.4
+singles 23 30449.2 52506.8
+singles 24 37618.7 61111
+singles 25 37451 68064.7
+singles 26 38173 67981
+singles 27 37375.8 66210.1
+singles 28 37500.3 69207.4
+singles 29 36155 69280.2
+singles 30 37306.5 70618.7
+singles 31 36655.5 67841.5
+singles 32 37356.9 66951.9
+singles 33 39080.5 70816
+singles 34 39051.4 77219.1
+singles 35 38348.2 74009.1
+singles 36 38630.8 75288.6
+singles 37 38367.9 72999.8
+singles 38 38877.3 72592.4
+singles 39 37913.1 68248
+singles 40 36843.1 62554.4
+singles 41 36812.2 68513
+singles 42 37454.3 68170.8
+singles 43 37426.9 66677.3
+singles 44 38357 67038.4
+singles 45 37460.1 66936.8
+singles 46 38319.1 68761.6
+singles 47 37440.2 65121.1
+singles 48 46223.8 79665.5
+singles 49 45207.9 85528.5
+singles 50 46048.4 83198.9
+singles 51 45949.4 78504
+singles 52 45181.7 87555.3
+singles 53 45225.7 87092.6
+singles 54 45768.8 80156.3
+singles 55 48175.9 84458.1
+singles 56 48170.7 86612.4
+singles 57 49879 86742
+singles 58 50308.8 84054.3
+singles 59 50043.6 89061.9
+singles 60 49629.8 91697.8
+singles 61 49856.3 91174.6
+singles 62 48555.4 86595.4
+singles 63 47350.5 90434.8
+singles 64 46605.9 81402.5
+singles 65 45048.3 91230.8
+singles 66 45925.7 77934.9
+singles 67 46128.1 83009.5
+singles 68 46925.6 80529.1
+singles 69 46595 79104.2
+singles 70 46141 82397.6
+singles 71 44717.2 79214.1
+singles 72 48441.3 76458.8
+singles 73 48555.2 84813.3
+singles 74 48512 90130.9
+singles 75 49117.6 83798.3
+singles 76 54893.8 96629.8
+singles 77 49529.2 94253.6
+singles 78 51215.8 90203.8
+singles 79 50913.3 102167
+singles 80 53012.2 97617.8
+singles 81 53736.5 98302.6
+singles 82 54255.3 104645
+singles 83 54427.4 100761
+singles 84 55005.5 101889
+singles 85 54193.1 96923.5
+singles 86 53355.2 94493.6
+singles 87 52360.4 94769
+singles 88 51201.2 86255.1
+singles 89 50435.4 82712.4
+singles 90 50260.7 85039.8
+singles 91 50371.2 85284.7
+singles 92 49963.8 88112.1
+singles 93 49071.6 84677.9
+singles 94 48258.9 84266.3
+singles 95 48130.2 78272.4
+end_of_header
+frame 14
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 87162880
+frame_start 28
+frame_duration 2
+scale_factor 0.5
+minimum -1.02588e-025
+maximum 0.0867451
+deadtime_correction 1.05704
+decay_correction 1.00306
+event_type 4
+prompts 153171   38813   191971
+delays 42606   37304   79907
+trues 110565   1509   112064
+prompts_rate 97925
+delays_rate 40750
+singles 0 30108.3 57675
+singles 1 30075 54004.2
+singles 2 30363.7 59218.8
+singles 3 29513.3 54071.1
+singles 4 29246.5 57652.5
+singles 5 29031.3 56556.9
+singles 6 29413.7 54695
+singles 7 29148.5 49159.6
+singles 8 29555.9 55658.3
+singles 9 30548.6 56525
+singles 10 30177.9 59899.6
+singles 11 30563 56698.7
+singles 12 30422.3 53010
+singles 13 30045.2 55784.3
+singles 14 29903.5 55078.9
+singles 15 29619.1 55393.6
+singles 16 28552.3 52222.5
+singles 17 28031.1 56841.1
+singles 18 28705.8 52337.8
+singles 19 29635.2 56914.6
+singles 20 30401.2 51488.6
+singles 21 30670.9 56745.4
+singles 22 30319.1 58281.9
+singles 23 30422.7 52780.6
+singles 24 37905.3 61777.4
+singles 25 37970.1 68811.3
+singles 26 38223 68200.1
+singles 27 37563.3 66735.5
+singles 28 37541.8 69731.6
+singles 29 36343.2 69667.3
+singles 30 37760.6 71421.7
+singles 31 37243.2 68714.7
+singles 32 37814.3 68075.6
+singles 33 39489.1 71801.5
+singles 34 39261 77919.9
+singles 35 38788 74706.3
+singles 36 39030.1 75860.8
+singles 37 39068 74047.3
+singles 38 39221.6 73557.5
+singles 39 38184.8 68700.7
+singles 40 37105.7 63354
+singles 41 36995.7 69237.5
+singles 42 37670.4 68497.3
+singles 43 37927.9 67219.8
+singles 44 38823.4 67878
+singles 45 38089.1 67930.6
+singles 46 38765.4 69602
+singles 47 37660 65843.7
+singles 48 46725.8 80667.8
+singles 49 45831.6 86588
+singles 50 46451.7 83881.7
+singles 51 46379 79076.7
+singles 52 45331.1 88335.9
+singles 53 45575.1 88159.3
+singles 54 46793.5 81466.9
+singles 55 48496 84903.5
+singles 56 48571.9 87286.6
+singles 57 49867.2 87143.8
+singles 58 50611.7 84726.8
+singles 59 50731.2 89816.5
+singles 60 50017.3 92496.2
+singles 61 50190.6 91890.4
+singles 62 48906.9 87141.4
+singles 63 47821 91541.3
+singles 64 47207.8 82387.5
+singles 65 45437.1 91966.4
+singles 66 46431.4 78815.9
+singles 67 46720.7 84120.9
+singles 68 47255.1 81193.6
+singles 69 46917.7 79700.4
+singles 70 46627.4 83076.1
+singles 71 45027 79794
+singles 72 49185.6 77352.6
+singles 73 48965 85521.2
+singles 74 49266.5 91311.9
+singles 75 49748.9 84881.7
+singles 76 55390.3 97615.4
+singles 77 50208.1 95241.2
+singles 78 51572.3 90856.7
+singles 79 51626.7 103293
+singles 80 53379.3 98641.6
+singles 81 54172.4 99214.8
+singles 82 54783.2 105546
+singles 83 55026.1 101900
+singles 84 55466 102666
+singles 85 54626.6 97814.9
+singles 86 54174.1 95635.8
+singles 87 52672.8 95859
+singles 88 51672.8 87015.9
+singles 89 50875.9 83539.3
+singles 90 50821.9 86121.8
+singles 91 50724.7 86164.1
+singles 92 50473.1 89135.6
+singles 93 49417.4 85221.6
+singles 94 48865.4 85153.3
+singles 95 48600.9 78902.9
+end_of_header
+frame 15
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 93388800
+frame_start 30
+frame_duration 5
+scale_factor 0.2
+minimum 0
+maximum 0.162278
+deadtime_correction 1.05791
+decay_correction 1.00343
+event_type 4
+prompts 392103   100031   492161
+delays 108934   95384   204330
+trues 283169   4647   287831
+prompts_rate 99225
+delays_rate 41175
+singles 0 30623.4 58639.8
+singles 1 30485.2 54812.5
+singles 2 30396.3 59603
+singles 3 29957.4 54802
+singles 4 29323.3 57994.3
+singles 5 29253.5 57203
+singles 6 29684.4 55194.4
+singles 7 29432.6 49552.3
+singles 8 29913.7 56276.9
+singles 9 30991.1 56999.4
+singles 10 30819.9 60879.2
+singles 11 30884 57164.6
+singles 12 30884.7 53912.7
+singles 13 30207.1 56053.2
+singles 14 30049.4 55570
+singles 15 29988.4 55994.4
+singles 16 29085.1 52965.5
+singles 17 28355 57637.7
+singles 18 29007.1 53085.3
+singles 19 29885.2 57584.4
+singles 20 30808.5 52060.3
+singles 21 31055.8 57537.9
+singles 22 30583 58865.5
+singles 23 31056.3 53460.8
+singles 24 38233.3 62244.5
+singles 25 38260.4 69654.3
+singles 26 38831.7 69410
+singles 27 37966.3 67381.4
+singles 28 37903.9 70412
+singles 29 36825.5 70596.4
+singles 30 38015.4 72013.1
+singles 31 37417.8 69416
+singles 32 38373.6 68616
+singles 33 39883.4 72467
+singles 34 39825.4 78848.5
+singles 35 39162.6 75310.2
+singles 36 39430.4 76713.9
+singles 37 39387.2 74813.4
+singles 38 39612.4 74246.8
+singles 39 38706.3 69826.2
+singles 40 37692.5 64272.1
+singles 41 37519.1 70119.9
+singles 42 38048.9 69323
+singles 43 38305.7 68256.1
+singles 44 39157.8 68499.2
+singles 45 38536.5 68686.6
+singles 46 39214.8 70473.2
+singles 47 38195.4 66667.1
+singles 48 47095.6 81151.8
+singles 49 46208.1 87488.8
+singles 50 47062.8 85005.5
+singles 51 46858.4 79787.6
+singles 52 46166.6 89689.8
+singles 53 45979 88927.7
+singles 54 47212.8 82442.6
+singles 55 48872.9 85635.5
+singles 56 49103.5 87974.1
+singles 57 50600.3 88392.5
+singles 58 51205.8 85574.9
+singles 59 51425 90999.1
+singles 60 50418.4 93581.4
+singles 61 50907.3 93165
+singles 62 49519.5 88340.8
+singles 63 48502.3 92578.5
+singles 64 47617.2 83114.1
+singles 65 46043.7 93424.9
+singles 66 47159.7 79940.6
+singles 67 47290.8 85085.4
+singles 68 48010.6 82316.7
+singles 69 47813 80796.2
+singles 70 47064.9 83997.5
+singles 71 45552.6 80665.2
+singles 72 49390.2 78012
+singles 73 49620.2 86642.4
+singles 74 49552.6 91926.6
+singles 75 50148.8 85595.4
+singles 76 56002.7 98689.1
+singles 77 50534.9 96201.6
+singles 78 52287.4 91996
+singles 79 52317.2 104744
+singles 80 53863.8 99602.4
+singles 81 54991.2 100326
+singles 82 55345.5 106722
+singles 83 55676.4 102960
+singles 84 56026.4 103618
+singles 85 55344.9 98993.7
+singles 86 54624.4 96824.5
+singles 87 53329.7 97073
+singles 88 52263.6 87952.9
+singles 89 51683.7 84939.2
+singles 90 51385.5 86956.2
+singles 91 51240.9 87094.8
+singles 92 51145.1 90147.5
+singles 93 50071.4 86272.4
+singles 94 49409.4 86063.6
+singles 95 49261.6 80104.7
+end_of_header
+frame 16
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 99614720
+frame_start 35
+frame_duration 5
+scale_factor 0.2
+minimum -1.25185e-029
+maximum 0.137174
+deadtime_correction 1.05564
+decay_correction 1.00395
+event_type 4
+prompts 402062   102052   504103
+delays 111926   98004   209927
+trues 290136   4048   294176
+prompts_rate 101625
+delays_rate 42300
+singles 0 30994 59284.6
+singles 1 30771 55465.1
+singles 2 30814.5 60347.8
+singles 3 30319.9 55330.8
+singles 4 29797.1 58709.8
+singles 5 29759 58004
+singles 6 29850.2 55595.9
+singles 7 29811.3 50196.6
+singles 8 30267.4 56855.3
+singles 9 31318.9 57718.4
+singles 10 31105.4 61563
+singles 11 31320.2 57905.6
+singles 12 31330.9 54445.9
+singles 13 30771.8 57077.4
+singles 14 30468.1 56276.5
+singles 15 30361.1 56759.8
+singles 16 29434.8 53623.3
+singles 17 28949.8 58648.4
+singles 18 29351.8 53565.6
+singles 19 30441 58416.3
+singles 20 31070.3 52660.8
+singles 21 31421.4 58230.7
+singles 22 30927 59392.5
+singles 23 31347.5 54231.6
+singles 24 38775.9 63010.2
+singles 25 38726.9 70342.1
+singles 26 39397.4 70351.2
+singles 27 38413.3 68207.7
+singles 28 38534.8 71298.2
+singles 29 37354.8 71403.7
+singles 30 38594.4 72898.2
+singles 31 37859.9 70051.4
+singles 32 38762.1 69363.7
+singles 33 40383.2 73246.4
+singles 34 40311.7 79615.7
+singles 35 39724.7 76416.5
+singles 36 40096.6 77739
+singles 37 39671.8 75573.6
+singles 38 40192 74991.8
+singles 39 39283.3 70629.5
+singles 40 38025.1 64941.2
+singles 41 37940 70923.1
+singles 42 38562.6 70337
+singles 43 38905.6 69176.8
+singles 44 39626.8 69368.4
+singles 45 38851.4 69276.4
+singles 46 39776.7 71287.4
+singles 47 38562.9 67246.4
+singles 48 47619.1 82139.7
+singles 49 46721.1 88424.2
+singles 50 47578.6 86032.5
+singles 51 47379.9 80824.1
+singles 52 46442.6 90271.2
+singles 53 46563.8 90045.7
+singles 54 47809.7 83442.4
+singles 55 49665.9 86988.3
+singles 56 49711.7 89144.4
+singles 57 51303.1 89465.1
+singles 58 51847.9 86682.9
+singles 59 51815.6 91774.6
+singles 60 51096.1 94573.1
+singles 61 51250.3 94083.3
+singles 62 50073.1 89280
+singles 63 48977.8 93624.6
+singles 64 48160.7 84017.5
+singles 65 46689.4 94422.5
+singles 66 47695.4 80863.1
+singles 67 47509.6 85781
+singles 68 48602.7 83398.3
+singles 69 48117.4 81689.1
+singles 70 47521 84936.8
+singles 71 46247.4 81948.7
+singles 72 50160.4 79130.5
+singles 73 50280 87637
+singles 74 50245.9 93213.3
+singles 75 50998 86889.1
+singles 76 56764.7 99913.4
+singles 77 51159 97423.1
+singles 78 52959.5 93165.2
+singles 79 52755.3 105516
+singles 80 54565.5 100733
+singles 81 55719.7 101407
+singles 82 55932.5 107916
+singles 83 56410.6 104368
+singles 84 56454.9 104461
+singles 85 56101.7 100313
+singles 86 55327.1 97817.9
+singles 87 53713.5 97972.8
+singles 88 53012.4 89269.7
+singles 89 52310.9 85717.7
+singles 90 52221.8 88350.6
+singles 91 51970 88257.5
+singles 92 51721.7 91264.9
+singles 93 50556.6 87338.9
+singles 94 49990.4 87120.1
+singles 95 50049.3 81317.1
+end_of_header
+frame 17
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 105840640
+frame_start 40
+frame_duration 5
+scale_factor 0.2
+minimum -1.60068e-026
+maximum 0.0821642
+deadtime_correction 1.05924
+decay_correction 1.00448
+event_type 4
+prompts 412369   104422   516821
+delays 113436   99322   212772
+trues 298933   5100   304049
+prompts_rate 104175
+delays_rate 42875
+singles 0 31294.4 59931.7
+singles 1 30912.7 55608.7
+singles 2 31105.2 60977.2
+singles 3 30510 55844.3
+singles 4 30073.7 59281.9
+singles 5 29889.2 58489.4
+singles 6 30257.3 56277.5
+singles 7 30113.5 50594.5
+singles 8 30593.4 57336
+singles 9 31466.9 58110.7
+singles 10 31399.4 61964.7
+singles 11 31342.3 58081
+singles 12 31488.9 54854.8
+singles 13 30904.3 57255.3
+singles 14 30774.9 56851.4
+singles 15 30599.3 57180
+singles 16 29649.8 54008.6
+singles 17 29064.2 58792.6
+singles 18 29609.7 54075.6
+singles 19 30713.1 58944.5
+singles 20 31531.2 53240
+singles 21 31690.8 58731.2
+singles 22 31261.8 60100.5
+singles 23 31561.8 54572.8
+singles 24 39203.7 63599.6
+singles 25 39166.4 71057
+singles 26 39756.1 70865.8
+singles 27 38613.6 68647.2
+singles 28 38857.5 71636.1
+singles 29 37772.1 72174
+singles 30 38685.2 73175.3
+singles 31 38342.3 70755.8
+singles 32 39097 69883.2
+singles 33 40785.5 73824.9
+singles 34 40518.1 80048.3
+singles 35 39852.5 76750.6
+singles 36 40354.5 78166.1
+singles 37 40172 76232.8
+singles 38 40580.5 75870.5
+singles 39 39557.8 71245
+singles 40 38704 65611.6
+singles 41 38307.7 71534.7
+singles 42 38979.3 70799.9
+singles 43 39274.1 69751.4
+singles 44 40028 69957.3
+singles 45 39388.1 70102.2
+singles 46 40106.8 72076.4
+singles 47 39152.4 68118.7
+singles 48 48024.6 82690.8
+singles 49 47038.5 88918.6
+singles 50 47936.9 86596.6
+singles 51 47700.8 81277.8
+singles 52 47144.7 91415.8
+singles 53 47121.7 90689.5
+singles 54 48249.6 84103.9
+singles 55 50007.1 87482.6
+singles 56 50143.5 89782.5
+singles 57 51687.8 89992.5
+singles 58 52132.6 87127
+singles 59 52264.4 92597.5
+singles 60 51645.2 95366.7
+singles 61 51708.9 94667.8
+singles 62 50457.4 89949.2
+singles 63 49523.8 94463.3
+singles 64 48501.6 84700.7
+singles 65 46962.7 95053.2
+singles 66 48075.2 81427.8
+singles 67 48299.6 86897
+singles 68 48987.8 83920.7
+singles 69 48683 82339.6
+singles 70 48134.7 85836.8
+singles 71 46552.6 82484.9
+singles 72 50460.8 79833.5
+singles 73 50755.4 88411.4
+singles 74 50466.4 93685.9
+singles 75 51287.6 87288.8
+singles 76 57467.9 101007
+singles 77 51652.3 98183.2
+singles 78 53206.9 93566.4
+singles 79 53046.7 106162
+singles 80 54906.4 101296
+singles 81 56042.3 102070
+singles 82 56225.9 108379
+singles 83 56568.1 104572
+singles 84 56972.9 105274
+singles 85 56414.7 100937
+singles 86 55755.7 98739.2
+singles 87 54222.1 98619
+singles 88 53344.3 89810.4
+singles 89 52931.2 86699.9
+singles 90 52401.6 88487.3
+singles 91 52186.5 88625.3
+singles 92 52127 91941
+singles 93 50892.2 87860.7
+singles 94 50294.2 87577.7
+singles 95 50300.4 81693.7
+end_of_header
+frame 18
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 112066560
+frame_start 45
+frame_duration 5
+scale_factor 0.2
+minimum -1.47959e-030
+maximum 0.15204
+deadtime_correction 1.0593
+decay_correction 1.00501
+event_type 4
+prompts 418999   104568   523613
+delays 114462   100218   214701
+trues 304537   4350   308912
+prompts_rate 105550
+delays_rate 43275
+singles 0 31445.9 60200.5
+singles 1 31173.6 56092.6
+singles 2 31237.9 61153.7
+singles 3 30728.1 56244
+singles 4 30105.9 59285.5
+singles 5 30150.4 58785
+singles 6 30265.3 56486.1
+singles 7 30225.9 50775.9
+singles 8 30705.9 57601.4
+singles 9 31834.9 58526.6
+singles 10 31408.4 62057.9
+singles 11 31581.6 58440
+singles 12 31654.2 55158.3
+singles 13 31220.2 57821.4
+singles 14 30869 56972.7
+singles 15 30950.7 57590.8
+singles 16 30021.1 54554.2
+singles 17 29184 59296.6
+singles 18 29767.3 54322.9
+singles 19 30832.8 59061.7
+singles 20 31588.9 53377.7
+singles 21 31760.4 58955
+singles 22 31385.5 60353.1
+singles 23 31756.2 55089
+singles 24 39322.4 63829.2
+singles 25 39462.6 71389.1
+singles 26 39746.8 70917.9
+singles 27 38805.1 69091
+singles 28 39047.6 72199.8
+singles 29 37712.8 72258.2
+singles 30 39031 73688.3
+singles 31 38473.2 71049.8
+singles 32 39218.3 70190.9
+singles 33 40884.1 74213.3
+singles 34 40642.2 80414.2
+singles 35 40006.6 77061.2
+singles 36 40566.7 78658.7
+singles 37 40428.2 76662.8
+singles 38 40773.1 76155.8
+singles 39 39656.8 71449.4
+singles 40 38774 66007.4
+singles 41 38621.1 72096
+singles 42 39158.4 71317.7
+singles 43 39433.6 69948.1
+singles 44 40283.4 70333
+singles 45 39511.9 70411.6
+singles 46 40401.8 72385.3
+singles 47 39229.7 68431.5
+singles 48 48413.3 83285.8
+singles 49 47420.7 89590.7
+singles 50 48187.6 86881.4
+singles 51 47903.9 81820.7
+singles 52 47232.5 91838.3
+singles 53 47150.8 91030.4
+singles 54 48429.6 84527.1
+singles 55 50310.3 88134.7
+singles 56 50295.5 90159.3
+singles 57 51896.5 90338.2
+singles 58 52470.5 87851.8
+singles 59 52553.3 92975.3
+singles 60 51618.7 95602.6
+singles 61 51920.3 95172.6
+singles 62 50863 90755
+singles 63 49603.2 94645.5
+singles 64 48777.8 85280
+singles 65 47350.1 95881.3
+singles 66 48210.6 81707.2
+singles 67 48250 86835.3
+singles 68 49020.3 84093.1
+singles 69 48816.3 82515.4
+singles 70 48386.7 86389.1
+singles 71 46882 82901
+singles 72 50791.6 80097.4
+singles 73 50821.4 88682
+singles 74 50813.3 94190.2
+singles 75 51511.1 87845
+singles 76 57358 100993
+singles 77 51658.9 98350.9
+singles 78 53529.5 94087.9
+singles 79 53426.4 106675
+singles 80 55097.9 101720
+singles 81 56171.6 102459
+singles 82 56514.1 108871
+singles 83 57019.5 105212
+singles 84 57000.5 105367
+singles 85 56441.3 100749
+singles 86 55786.8 98761.5
+singles 87 54540.1 99057.7
+singles 88 53437.1 90015.8
+singles 89 52860.4 86706.9
+singles 90 52820.1 89201
+singles 91 52722.6 89524
+singles 92 52424.1 92431.6
+singles 93 51263.5 88383.1
+singles 94 50632.9 88228.4
+singles 95 50604.6 82225.9
+end_of_header
+frame 19
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 118292480
+frame_start 50
+frame_duration 5
+scale_factor 0.2
+minimum 0
+maximum 0.0984833
+deadtime_correction 1.05882
+decay_correction 1.00554
+event_type 4
+prompts 424434   105864   530273
+delays 115299   100953   216243
+trues 309135   4911   314030
+prompts_rate 106900
+delays_rate 43575
+singles 0 31598.7 60313.9
+singles 1 31305.9 56424.3
+singles 2 31337.6 61359
+singles 3 30843.4 56354.8
+singles 4 30380.2 59793.3
+singles 5 30156.6 58952.5
+singles 6 30555.6 56914.8
+singles 7 30290.2 50889.8
+singles 8 30764.1 57730.8
+singles 9 31767.5 58697.9
+singles 10 31710.3 62600.7
+singles 11 31588.5 58489.2
+singles 12 31812.1 55282.2
+singles 13 31334.6 57951.6
+singles 14 31021.1 57216.6
+singles 15 30968.1 57884.3
+singles 16 30051.6 54564.4
+singles 17 29270.9 59348.3
+singles 18 30044.1 54712.4
+singles 19 30945.1 59398.5
+singles 20 31718.8 53710.7
+singles 21 31985.4 59207.5
+singles 22 31670.2 60766.7
+singles 23 31871.4 55120.3
+singles 24 39517 64155.7
+singles 25 39453.9 71485
+singles 26 40012.6 71310.7
+singles 27 38995.6 69285
+singles 28 39060.3 72190
+singles 29 38075.9 72674.5
+singles 30 39045.8 73899.5
+singles 31 38432 71099.6
+singles 32 39186.1 70314.3
+singles 33 40992.5 74340.5
+singles 34 40842.4 80852.8
+singles 35 40147.9 77364.7
+singles 36 40838 78957.6
+singles 37 40479.5 76836.3
+singles 38 40974.4 76462.9
+singles 39 39806 71599.6
+singles 40 38850.5 66277.2
+singles 41 38619.3 72171.4
+singles 42 39166.9 71469.9
+singles 43 39460.5 70049.5
+singles 44 40231.7 70428.2
+singles 45 39690.5 70766.6
+singles 46 40343.1 72621
+singles 47 39155.8 68466.6
+singles 48 48539 83471.8
+singles 49 47587 89946.6
+singles 50 48389.5 87175.4
+singles 51 48073.2 81893.9
+singles 52 47264.3 91885.3
+singles 53 47300.4 91240.4
+singles 54 48520.4 84585.7
+singles 55 50415 88345.2
+singles 56 50477.5 90609.2
+singles 57 52177.6 90896.1
+singles 58 52693.5 88015.1
+singles 59 52656.7 93156.7
+singles 60 51780.7 95878.6
+singles 61 52233.1 95616.6
+singles 62 51028.6 90785.2
+singles 63 49988.6 95257.1
+singles 64 49031.5 85429.2
+singles 65 47408.9 95923.9
+singles 66 48484.3 82110.3
+singles 67 48312.7 87073.7
+singles 68 49227.7 84409.7
+singles 69 49041.4 82984.4
+singles 70 48510.3 86507.3
+singles 71 46992.4 83248.5
+singles 72 50954.3 80408.4
+singles 73 51204.7 89152.4
+singles 74 50928.2 94435
+singles 75 51702.7 88059.4
+singles 76 57695.3 101279
+singles 77 51854.6 98859.7
+singles 78 53677.3 94249.5
+singles 79 53409.5 106827
+singles 80 55291.5 101915
+singles 81 56382.8 102746
+singles 82 56675.2 109367
+singles 83 57050.8 105466
+singles 84 57326.9 106076
+singles 85 56662.4 101353
+singles 86 56164.9 99261.6
+singles 87 54798.5 99533
+singles 88 53677.6 90397.5
+singles 89 53016.9 86977.2
+singles 90 52746.9 89097.7
+singles 91 52820.1 89647.1
+singles 92 52432.5 92391.2
+singles 93 51638.6 88927.8
+singles 94 50840.5 88497.3
+singles 95 50664 82321
+end_of_header
+frame 20
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 124518400
+frame_start 55
+frame_duration 5
+scale_factor 0.2
+minimum -1.35922e-030
+maximum 0.100077
+deadtime_correction 1.06296
+decay_correction 1.00607
+event_type 4
+prompts 429968   105537   535501
+delays 114763   100482   215245
+trues 315205   5055   320256
+prompts_rate 107950
+delays_rate 43375
+singles 0 31647.6 60362.8
+singles 1 31351 56318.6
+singles 2 31531.4 61571.5
+singles 3 30900.9 56376.7
+singles 4 30239.2 59675.9
+singles 5 30195.3 58879.7
+singles 6 30409.8 56646
+singles 7 30330.4 50971.1
+singles 8 30871.7 57618.1
+singles 9 31668.8 58330.7
+singles 10 31659.6 62433.1
+singles 11 31728.8 58538.8
+singles 12 31743.5 55326.2
+singles 13 31387.5 58015.8
+singles 14 31084.7 57137.6
+singles 15 31114.9 58054.8
+singles 16 29951.2 54690.9
+singles 17 29375 59554.2
+singles 18 29928.6 54648.9
+singles 19 30906.4 59372.3
+singles 20 31831.5 53765.8
+singles 21 32002.5 59234.1
+singles 22 31605 60694.1
+singles 23 31928.9 55223.9
+singles 24 39471.4 64042.9
+singles 25 39498.2 71468.7
+singles 26 39887.4 71200.4
+singles 27 39029.8 69242.5
+singles 28 39130.8 72310.4
+singles 29 38146 72896.7
+singles 30 39043.3 73763.8
+singles 31 38571.2 71226.9
+singles 32 39297.9 70465.9
+singles 33 40932.8 74164.6
+singles 34 40717 80512.8
+singles 35 40339.5 77617.9
+singles 36 40674.5 78809.1
+singles 37 40537.7 76890.6
+singles 38 40946.7 76423.2
+singles 39 39851.8 71826.9
+singles 40 38851.9 66215.3
+singles 41 38657.7 72207.4
+singles 42 39239.5 71417.3
+singles 43 39448.5 70181.9
+singles 44 40528.9 70694.9
+singles 45 39731.2 70798.7
+singles 46 40376.3 72538.5
+singles 47 39122.9 68418.7
+singles 48 48527.7 83407.4
+singles 49 47665.7 89956.4
+singles 50 48231.1 87054.4
+singles 51 48028.2 81912.1
+singles 52 47407.9 91871.7
+singles 53 47405.4 91402.3
+singles 54 48424.6 84470.2
+singles 55 50337.5 88033.3
+singles 56 50363 90247.3
+singles 57 52136.1 90857.5
+singles 58 52611.3 87945.2
+singles 59 52550.6 93158.3
+singles 60 51785.4 95960.7
+singles 61 52151.3 95610.6
+singles 62 50985.7 90631
+singles 63 49854.9 94966.8
+singles 64 49172 85704.2
+singles 65 47507.3 96071.7
+singles 66 48502.5 82179.6
+singles 67 48320.5 86978.2
+singles 68 49349.5 84425
+singles 69 48938.5 82943.3
+singles 70 48343.5 86464.9
+singles 71 47055.9 83282.6
+singles 72 50758.2 80270.3
+singles 73 51040.2 88907.4
+singles 74 50948 94473.7
+singles 75 51704 87743.8
+singles 76 57400.6 100979
+singles 77 51715.9 98570.8
+singles 78 53702.2 94345
+singles 79 53454.2 106679
+singles 80 55218.9 101849
+singles 81 56207.8 102630
+singles 82 56559.8 108956
+singles 83 56882 105266
+singles 84 57340.3 105925
+singles 85 56444.7 101119
+singles 86 55974.8 99003.9
+singles 87 54494.6 99155.1
+singles 88 53722.2 90202.2
+singles 89 53125.3 87209.1
+singles 90 52858 89228.4
+singles 91 52676.2 89222.6
+singles 92 52529.7 92592.7
+singles 93 51319.9 88468
+singles 94 50793.9 88569.1
+singles 95 50633.2 82361.6
+end_of_header
+frame 21
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 130744320
+frame_start 60
+frame_duration 60
+scale_factor 0.0166667
+minimum 0
+maximum 0.430482
+deadtime_correction 1.06173
+decay_correction 1.00952
+event_type 4
+prompts 5360588   1253383   6614498
+delays 1358497   1189391   2548083
+trues 4002091   63992   4066415
+prompts_rate 110300
+delays_rate 42475
+singles 0 31580 60323.6
+singles 1 31350.5 56279.9
+singles 2 31347.3 61302.5
+singles 3 30866.9 56360.7
+singles 4 30265.4 59645.2
+singles 5 30203.5 58890.5
+singles 6 30364.6 56487.3
+singles 7 30277.9 50850.6
+singles 8 30735.1 57635.1
+singles 9 31716 58407.3
+singles 10 31474 62179.9
+singles 11 31600.8 58439.7
+singles 12 31762.2 55182.3
+singles 13 31276.1 57814.9
+singles 14 31081.2 57203.7
+singles 15 30956.1 57720.9
+singles 16 30023.4 54636.1
+singles 17 29343.9 59421.3
+singles 18 29975.4 54666.5
+singles 19 31015.1 59465.9
+singles 20 31809.6 53734.3
+singles 21 32078.8 59311.3
+singles 22 31640.9 60704
+singles 23 31947.7 55211.7
+singles 24 39428.2 63980
+singles 25 39253.7 71178.5
+singles 26 39759.6 70903.3
+singles 27 38796.2 68923.5
+singles 28 38945.8 72038.7
+singles 29 37909.7 72376.8
+singles 30 38846.7 73423.1
+singles 31 38264.2 70728.1
+singles 32 39188 70066.3
+singles 33 40689.1 73815.8
+singles 34 40538.7 80056.9
+singles 35 40002.9 76950.2
+singles 36 40446.4 78424.1
+singles 37 40326.9 76428.7
+singles 38 40799 76076.6
+singles 39 39739 71487.3
+singles 40 38820.9 66019.8
+singles 41 38568.1 71974.6
+singles 42 39151.1 71197.2
+singles 43 39399.6 70001.3
+singles 44 40277.3 70376.9
+singles 45 39628.3 70513.1
+singles 46 40336.1 72317
+singles 47 39186.6 68283.7
+singles 48 48112.3 82813.8
+singles 49 47118 89045.3
+singles 50 47988.9 86553.1
+singles 51 47664.9 81253
+singles 52 47074.4 91205.3
+singles 53 47078 90752.8
+singles 54 48148.4 83930.9
+singles 55 49872.9 87353.9
+singles 56 50021.6 89587.3
+singles 57 51574.1 89809.4
+singles 58 52144.8 87067.9
+singles 59 52178.6 92335.3
+singles 60 51440.3 95229.2
+singles 61 51825.4 94781.2
+singles 62 50624.5 90116.9
+singles 63 49605.7 94480
+singles 64 48827.5 85052.4
+singles 65 47282.7 95488.3
+singles 66 48216 81639.2
+singles 67 48311.9 86853.1
+singles 68 49017.6 84035.6
+singles 69 48778.5 82542.1
+singles 70 48162.1 85898.3
+singles 71 46643.4 82602.5
+singles 72 50214 79244.2
+singles 73 50361 87728.6
+singles 74 50131.8 93083.4
+singles 75 50913.4 86762.3
+singles 76 56680.7 99711.1
+singles 77 51138.7 97275.1
+singles 78 52736 92676.3
+singles 79 52445.5 105000
+singles 80 54314.2 100247
+singles 81 55341 100818
+singles 82 55595.7 107184
+singles 83 56096.2 103697
+singles 84 56384.3 104322
+singles 85 55788.7 99831.7
+singles 86 55289.8 97775.7
+singles 87 53816.7 97908.7
+singles 88 53009.7 89183.8
+singles 89 52402.9 85958.5
+singles 90 52187.2 88144.7
+singles 91 52075.1 88407.4
+singles 92 51889.3 91467.2
+singles 93 50840.9 87642.8
+singles 94 50167.3 87383.4
+singles 95 50053.1 81322.3
+end_of_header
+frame 22
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 136970240
+frame_start 120
+frame_duration 60
+scale_factor 0.0166667
+minimum 0
+maximum 0.404145
+deadtime_correction 1.05957
+decay_correction 1.01591
+event_type 4
+prompts 5597855   1222201   6820483
+delays 1318304   1154164   2472615
+trues 4279551   68037   4347868
+prompts_rate 113750
+delays_rate 41225
+singles 0 31323.7 59845.6
+singles 1 31151.5 55898.3
+singles 2 31096.3 60756
+singles 3 30609.7 55880.9
+singles 4 30040.2 59168.5
+singles 5 29940.5 58335.6
+singles 6 30110.2 55943.1
+singles 7 29963 50333.4
+singles 8 30427.6 57010.1
+singles 9 31361.1 57737.5
+singles 10 31134.1 61520.7
+singles 11 31326.9 57868.3
+singles 12 31494 54684.7
+singles 13 30999.9 57272.5
+singles 14 30792.6 56701.9
+singles 15 30802.2 57358.6
+singles 16 29916.2 54360.9
+singles 17 29164.9 59014.4
+singles 18 29775.8 54197
+singles 19 30833.5 59088.5
+singles 20 31639.1 53433.5
+singles 21 31898.7 58970
+singles 22 31458.1 60257.5
+singles 23 31751.2 54820.2
+singles 24 39040.4 63281.5
+singles 25 38819.6 70426.1
+singles 26 39297.1 70050.2
+singles 27 38375.7 68174.6
+singles 28 38519.8 71191
+singles 29 37461.6 71503.5
+singles 30 38314.4 72398.6
+singles 31 37802.9 69800
+singles 32 38616.6 69041.4
+singles 33 40064.4 72681.2
+singles 34 39934.2 78863
+singles 35 39481.6 75878.6
+singles 36 39972.4 77426.6
+singles 37 39912.5 75586.2
+singles 38 40260.1 75192.7
+singles 39 39433.2 70844.1
+singles 40 38497.1 65457.8
+singles 41 38258.4 71334.3
+singles 42 38748.8 70443.7
+singles 43 39069.2 69334.4
+singles 44 39906.3 69712.8
+singles 45 39253.3 69889.7
+singles 46 39955.9 71594.4
+singles 47 38832.8 67628.1
+singles 48 47381.1 81527.9
+singles 49 46415.9 87686.5
+singles 50 47128.9 85055.1
+singles 51 46910.7 79911.8
+singles 52 46307.6 89766.1
+singles 53 46350.9 89245.1
+singles 54 47352.5 82504.7
+singles 55 48999.9 85776.2
+singles 56 49167.4 87992.3
+singles 57 50608 88085.1
+singles 58 51210.8 85548.7
+singles 59 51459.7 90987.6
+singles 60 50716 93800.2
+singles 61 51040 93367.3
+singles 62 49916.7 88879.1
+singles 63 48974.9 93215.9
+singles 64 48245.4 84003.6
+singles 65 46695.6 94300.5
+singles 66 47680.8 80645.7
+singles 67 47697.6 85719.6
+singles 68 48436.4 82966.8
+singles 69 48099.8 81340.7
+singles 70 47464.8 84681.5
+singles 71 45968.1 81383.5
+singles 72 49015.4 77428.1
+singles 73 49120.2 85680.4
+singles 74 48899.8 90867.9
+singles 75 49646.2 84562.3
+singles 76 55427.1 97461
+singles 77 49814 94895.1
+singles 78 51426.3 90416.9
+singles 79 50952.7 102109
+singles 80 52758.8 97501
+singles 81 53763.5 98070.6
+singles 82 54169.1 104487
+singles 83 54586 101097
+singles 84 54927.1 101722
+singles 85 54510.5 97522
+singles 86 53970.2 95525.6
+singles 87 52639.4 95745
+singles 88 51917.2 87319.2
+singles 89 51297.4 84171
+singles 90 51076 86262.7
+singles 91 50944.6 86541
+singles 92 50711.5 89425.8
+singles 93 49690.8 85713.3
+singles 94 49032 85481.5
+singles 95 48952.1 79577.1
+end_of_header
+frame 23
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 143196160
+frame_start 180
+frame_duration 60
+scale_factor 0.0166667
+minimum -4.71481e-026
+maximum 0.466375
+deadtime_correction 1.05899
+decay_correction 1.02235
+event_type 4
+prompts 5730785   1191615   6922996
+delays 1281754   1122142   2404094
+trues 4449031   69473   4518902
+prompts_rate 115450
+delays_rate 40075
+singles 0 31171.8 59374
+singles 1 30869.9 55361.7
+singles 2 30789.9 60159.9
+singles 3 30353 55358.5
+singles 4 29736.5 58553.1
+singles 5 29643.6 57738.7
+singles 6 29785.4 55379.3
+singles 7 29639.9 49753.3
+singles 8 30157 56460.5
+singles 9 31013 57084.4
+singles 10 30811.3 60844.7
+singles 11 30978.2 57233.5
+singles 12 31246.6 54195.6
+singles 13 30773.3 56785.4
+singles 14 30562.9 56244.7
+singles 15 30549.8 56893.3
+singles 16 29671.7 53907.2
+singles 17 28972.6 58565.6
+singles 18 29539.3 53776.6
+singles 19 30653.1 58660.2
+singles 20 31439.6 53021.2
+singles 21 31679.5 58515.1
+singles 22 31192.2 59737.1
+singles 23 31489.9 54339.2
+singles 24 38624.7 62583.5
+singles 25 38408.4 69606.1
+singles 26 38847.9 69236.5
+singles 27 37946 67351.3
+singles 28 38046.2 70322.6
+singles 29 37011.7 70624.8
+singles 30 37829.9 71507.2
+singles 31 37258.7 68845.4
+singles 32 38176.2 68191.5
+singles 33 39576.8 71712.9
+singles 34 39394.9 77797.5
+singles 35 39037.9 75018.9
+singles 36 39479.2 76523.6
+singles 37 39457.9 74697.8
+singles 38 39946.7 74445.7
+singles 39 39066.2 70156.8
+singles 40 38197.3 64841.7
+singles 41 37898.5 70623.8
+singles 42 38386.5 69761.2
+singles 43 38651.4 68580.8
+singles 44 39515.8 69022.4
+singles 45 38905.8 69175.7
+singles 46 39509.5 70841.4
+singles 47 38428.3 66850.3
+singles 48 46772.4 80460.7
+singles 49 45746.9 86420.7
+singles 50 46486.1 83866.4
+singles 51 46292.5 78861.3
+singles 52 45682.8 88457.1
+singles 53 45704.1 87980.5
+singles 54 46632.3 81221.6
+singles 55 48250.9 84411.1
+singles 56 48384.7 86601.4
+singles 57 49728.5 86646.5
+singles 58 50518.2 84266.9
+singles 59 50707.8 89651.2
+singles 60 49990.2 92418.5
+singles 61 50449.9 92154.3
+singles 62 49322.8 87688.7
+singles 63 48392.3 92025.8
+singles 64 47785.3 83104.5
+singles 65 46190.3 93115.2
+singles 66 47079.1 79613
+singles 67 47124.8 84671.4
+singles 68 47825.6 81875.8
+singles 69 47508.9 80367.8
+singles 70 46867.3 83598.6
+singles 71 45438.1 80385
+singles 72 48041.3 75926.3
+singles 73 48144.9 84023.6
+singles 74 47908 89044.9
+singles 75 48563.2 82882.1
+singles 76 54284.1 95439.3
+singles 77 48787.8 92963.6
+singles 78 50212 88430.6
+singles 79 49790.3 99847
+singles 80 51649.6 95405.5
+singles 81 52538.9 95931
+singles 82 52973.9 102225
+singles 83 53453.4 98966.8
+singles 84 53784.3 99647.6
+singles 85 53411.1 95610.8
+singles 86 52975.4 93763.3
+singles 87 51606.5 93917.8
+singles 88 50956.3 85702.5
+singles 89 50390.6 82664.2
+singles 90 50172.5 84753.8
+singles 91 50077.7 85057.3
+singles 92 49852.2 87888.9
+singles 93 48799 84153.7
+singles 94 48102.2 83901.6
+singles 95 48036.5 78126.7
+end_of_header
+frame 24
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 149422080
+frame_start 240
+frame_duration 60
+scale_factor 0.0166667
+minimum 0
+maximum 0.243314
+deadtime_correction 1.05832
+decay_correction 1.02882
+event_type 4
+prompts 5815379   1167642   6983538
+delays 1250098   1094409   2344672
+trues 4565281   73233   4638866
+prompts_rate 116450
+delays_rate 39100
+singles 0 30872.1 58813.9
+singles 1 30590.6 54864.3
+singles 2 30544.1 59638.7
+singles 3 30063.4 54812.6
+singles 4 29512.6 58033.7
+singles 5 29453 57307
+singles 6 29496.5 54826.5
+singles 7 29383.7 49285.4
+singles 8 29903.8 55914.2
+singles 9 30706.6 56574
+singles 10 30516.9 60240.3
+singles 11 30671.8 56632.1
+singles 12 30951 53714.7
+singles 13 30496.9 56269.6
+singles 14 30333.3 55808.6
+singles 15 30324.3 56454.6
+singles 16 29444.8 53466.6
+singles 17 28726.1 58041.3
+singles 18 29298.7 53347.2
+singles 19 30409.4 58267.6
+singles 20 31223.5 52612.3
+singles 21 31456.9 58043
+singles 22 30982.6 59237.2
+singles 23 31271 53909.7
+singles 24 38219.4 61934.7
+singles 25 37986.7 68844.8
+singles 26 38468.9 68499.9
+singles 27 37517.1 66589
+singles 28 37753.4 69707.5
+singles 29 36669.1 69901.1
+singles 30 37471.5 70765.5
+singles 31 36894 68098.8
+singles 32 37689.2 67383.1
+singles 33 39086 70851.8
+singles 34 38927.3 76857.6
+singles 35 38631.8 74158.1
+singles 36 39106 75711.6
+singles 37 39076.3 73952.2
+singles 38 39543.9 73667.3
+singles 39 38651.7 69391.2
+singles 40 37866.2 64270.7
+singles 41 37478.5 69860.3
+singles 42 38014.1 69045.7
+singles 43 38320.8 67969.2
+singles 44 39177.2 68385
+singles 45 38572.5 68492
+singles 46 39180.9 70119.7
+singles 47 37980.8 66094.6
+singles 48 46214.9 79477.4
+singles 49 45216.2 85363.6
+singles 50 45918.4 82783.2
+singles 51 45656.7 77808.3
+singles 52 45105.4 87359.5
+singles 53 45138.1 86876.8
+singles 54 46053.3 80160
+singles 55 47608.8 83297.3
+singles 56 47692.4 85339.2
+singles 57 49099.8 85439.6
+singles 58 49815.6 83132.9
+singles 59 50064.3 88486.6
+singles 60 49440.3 91382.5
+singles 61 49821.6 91023.3
+singles 62 48826.1 86763.9
+singles 63 47867.9 90996.7
+singles 64 47254.9 82133.8
+singles 65 45730.4 92116.3
+singles 66 46548.6 78655.1
+singles 67 46653.1 83747.6
+singles 68 47288 80965.2
+singles 69 46977 79376
+singles 70 46329.2 82598.9
+singles 71 44842.7 79360.3
+singles 72 47305.2 74699
+singles 73 47319 82591.6
+singles 74 47054.8 87455.1
+singles 75 47794.6 81461.8
+singles 76 53326.9 93834.2
+singles 77 47936.1 91374.2
+singles 78 49317.5 86794.3
+singles 79 48872.7 97997.9
+singles 80 50575.7 93503.1
+singles 81 51500.3 94086.3
+singles 82 51960.6 100310
+singles 83 52488 97210.6
+singles 84 52848.2 97982
+singles 85 52490.5 94055.6
+singles 86 52141.6 92272.4
+singles 87 50746.7 92393.5
+singles 88 50149.8 84330.6
+singles 89 49609.6 81401.4
+singles 90 49378.8 83417.5
+singles 91 49244.3 83598.3
+singles 92 49046.8 86463.3
+singles 93 47989.8 82865.2
+singles 94 47329 82524.3
+singles 95 47232.9 76880.6
+end_of_header
+frame 25
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 155648000
+frame_start 300
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 1.02259
+deadtime_correction 1.05635
+decay_correction 1.04845
+event_type 4
+prompts 29564542   5527166   35094658
+delays 5874091   5142632   11017604
+trues 23690451   384534   24077054
+prompts_rate 116975
+delays_rate 36725
+singles 0 30142.5 57385.4
+singles 1 29851.9 53487.5
+singles 2 29780.6 58081.5
+singles 3 29343.7 53453.7
+singles 4 28777.5 56550.8
+singles 5 28743.8 55863.2
+singles 6 28759.5 53391.2
+singles 7 28605.9 47993
+singles 8 29135.4 54485.7
+singles 9 29923.3 55022.1
+singles 10 29713.9 58637.8
+singles 11 29962.7 55262.9
+singles 12 30221.1 52398.8
+singles 13 29795.2 54952.1
+singles 14 29690.6 54507.4
+singles 15 29677.1 55186.1
+singles 16 28872.9 52323.3
+singles 17 28167.1 56789.9
+singles 18 28655.2 52120.8
+singles 19 29790.6 56937.4
+singles 20 30529.2 51435.3
+singles 21 30750.7 56682.1
+singles 22 30298 57903.8
+singles 23 30533.5 52602.7
+singles 24 37213.4 60244.4
+singles 25 36913.7 66840.7
+singles 26 37311.9 66452.7
+singles 27 36515.7 64784.6
+singles 28 36677.3 67645.6
+singles 29 35677.6 67935.2
+singles 30 36382.6 68634.5
+singles 31 35829.9 66085.6
+singles 32 36626.1 65389.1
+singles 33 37917.9 68733.9
+singles 34 37822.4 74635.3
+singles 35 37593.4 72108
+singles 36 38092.9 73684.9
+singles 37 38154.3 72075.8
+singles 38 38572.1 71784.5
+singles 39 37747.3 67734.2
+singles 40 37001.3 62723.8
+singles 41 36683.3 68251.2
+singles 42 37093.5 67321.3
+singles 43 37411.4 66289.9
+singles 44 38220.9 66634.6
+singles 45 37588.9 66717.4
+singles 46 38187.6 68316.3
+singles 47 37017.8 64366
+singles 48 44805 77023.1
+singles 49 43804.6 82639
+singles 50 44467.5 80117.1
+singles 51 44262.4 75364.6
+singles 52 43721.4 84646
+singles 53 43761.2 84144.4
+singles 54 44562.3 77544.3
+singles 55 46086.9 80540.8
+singles 56 46202.8 82569.9
+singles 57 47518.2 82660.6
+singles 58 48213.2 80420.5
+singles 59 48558.1 85727.7
+singles 60 48002.3 88585.1
+singles 61 48420.2 88349.4
+singles 62 47419.5 84218
+singles 63 46556 88446.8
+singles 64 46035.6 79942.9
+singles 65 44518.3 89627.3
+singles 66 45354.9 76580
+singles 67 45413.3 81387.1
+singles 68 46017.4 78697.7
+singles 69 45695.7 77148.6
+singles 70 45029.3 80208.3
+singles 71 43534 76964.9
+singles 72 45381.5 71727.7
+singles 73 45402.4 79268.2
+singles 74 45131.5 83933.7
+singles 75 45761.2 78116.1
+singles 76 51164.3 90021.1
+singles 77 45949.7 87661.6
+singles 78 47182.1 83130.4
+singles 79 46673.4 93711.8
+singles 80 48426.7 89525.9
+singles 81 49294.6 90039.9
+singles 82 49755.6 96102.2
+singles 83 50195.6 93107.4
+singles 84 50683.1 93978.9
+singles 85 50400.1 90335.6
+singles 86 50089.5 88709.4
+singles 87 48838.1 88914
+singles 88 48307.3 81212.8
+singles 89 47805 78425.3
+singles 90 47584.9 80398.7
+singles 91 47410.6 80500.7
+singles 92 47219.8 83227.6
+singles 93 46182.3 79751.7
+singles 94 45531.6 79411.9
+singles 95 45419 73941.3
+end_of_header
+frame 26
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 161873920
+frame_start 600
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 1.21906
+deadtime_correction 1.05274
+decay_correction 1.08209
+event_type 4
+prompts 29717420   5118948   34839405
+delays 5406644   4733622   10141104
+trues 24310776   385326   24698301
+prompts_rate 116125
+delays_rate 33800
+singles 0 29080.2 55293.7
+singles 1 28734.5 51476.7
+singles 2 28670.7 55893.2
+singles 3 28289.4 51491.3
+singles 4 27753.8 54514.3
+singles 5 27732.7 53860
+singles 6 27739.4 51432.7
+singles 7 27609.4 46268.7
+singles 8 28111.7 52519.5
+singles 9 28854.7 53025.1
+singles 10 28661.5 56523.2
+singles 11 28945.6 53337.5
+singles 12 29242.2 50635.1
+singles 13 28874.9 53137.8
+singles 14 28752.3 52716
+singles 15 28755.2 53409.7
+singles 16 27990.4 50655.6
+singles 17 27286.9 54935
+singles 18 27723.4 50379.7
+singles 19 28830.1 55039.2
+singles 20 29555.6 49731.1
+singles 21 29733.7 54755.8
+singles 22 29262 55871.1
+singles 23 29474.2 50747.6
+singles 24 35826.3 57935.4
+singles 25 35491.4 64213.7
+singles 26 35815.8 63760.6
+singles 27 35097.9 62248.2
+singles 28 35312.1 65071.4
+singles 29 34338.3 65360.4
+singles 30 34965.8 65968.4
+singles 31 34474.6 63533.7
+singles 32 35248.7 62860.4
+singles 33 36453.5 66039.1
+singles 34 36396 71767.9
+singles 35 36211.5 69405.9
+singles 36 36759.3 71015.2
+singles 37 36868.3 69523.1
+singles 38 37265 69257
+singles 39 36485.1 65383.9
+singles 40 35777.9 60594.4
+singles 41 35438.4 65871.8
+singles 42 35837.6 64980.7
+singles 43 36114.8 63951.5
+singles 44 36883.1 64217.2
+singles 45 36263.9 64304.5
+singles 46 36782.2 65745.7
+singles 47 35594.9 61877.7
+singles 48 42943.4 73740.8
+singles 49 41959.4 79082.1
+singles 50 42585.8 76671.7
+singles 51 42414.8 72142.4
+singles 52 41937.3 81095.9
+singles 53 41926.7 80633.4
+singles 54 42709.4 74250.9
+singles 55 44134.3 77080.4
+singles 56 44285.2 79041.7
+singles 57 45473.2 79053.6
+singles 58 46208.7 76988.1
+singles 59 46595.8 82188.7
+singles 60 46106.4 85019.9
+singles 61 46590.3 84894.7
+singles 62 45621.9 80914.7
+singles 63 44807.3 84998.4
+singles 64 44342.3 76895.7
+singles 65 42836.6 86163.3
+singles 66 43701.2 73677.2
+singles 67 43703.9 78240.6
+singles 68 44228.5 75564
+singles 69 43885.7 74045.8
+singles 70 43226.5 76925.9
+singles 71 41767.1 73783
+singles 72 43093 68117.4
+singles 73 43068.8 75223.4
+singles 74 42811.1 79616.1
+singles 75 43381.9 74117.9
+singles 76 48544.8 85408.5
+singles 77 43561.8 83203.6
+singles 78 44663.2 78748.1
+singles 79 44180.9 88770.8
+singles 80 45814.6 84751.9
+singles 81 46604.5 85220.1
+singles 82 47066.9 90974.2
+singles 83 47544.2 88223.2
+singles 84 48040.8 89152.2
+singles 85 47845.9 85777.1
+singles 86 47601.4 84312.6
+singles 87 46407.5 84551.9
+singles 88 45946.6 77294.3
+singles 89 45483.9 74613.7
+singles 90 45329.8 76581.1
+singles 91 45140.9 76694.8
+singles 92 44912.8 79197.9
+singles 93 43962.4 75924
+singles 94 43317.4 75552.5
+singles 95 43168.7 70302.4
+end_of_header
+frame 27
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 168099840
+frame_start 900
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 1.04836
+deadtime_correction 1.05178
+decay_correction 1.11679
+event_type 4
+prompts 29511787   4766017   34280794
+delays 5005613   4382597   9388983
+trues 24506174   383420   24891811
+prompts_rate 114275
+delays_rate 31300
+singles 0 28129.9 53450
+singles 1 27798 49730.9
+singles 2 27721.3 53998.2
+singles 3 27314.7 49732.8
+singles 4 26834 52724.7
+singles 5 26828.8 52079.5
+singles 6 26823 49720.5
+singles 7 26698.7 44703.6
+singles 8 27185.5 50753.3
+singles 9 27885.9 51230.6
+singles 10 27736.5 54667.1
+singles 11 28029.4 51629.9
+singles 12 28313.3 49019.1
+singles 13 27966.1 51477.5
+singles 14 27884.9 51103.3
+singles 15 27879.3 51733.6
+singles 16 27139.6 49097
+singles 17 26435 53187.5
+singles 18 26861.2 48776.8
+singles 19 27924 53302.4
+singles 20 28607.3 48133.9
+singles 21 28797.9 53017.2
+singles 22 28331.9 54050.9
+singles 23 28474.3 49012.9
+singles 24 34598.7 55923.3
+singles 25 34236.3 61931.3
+singles 26 34561.1 61488.3
+singles 27 33818.7 60006.7
+singles 28 34096.4 62811.2
+singles 29 33152.9 63076
+singles 30 33750.6 63605.5
+singles 31 33228.7 61238.5
+singles 32 33967.9 60587.9
+singles 33 35129.7 63654.6
+singles 34 35113.1 69229.1
+singles 35 35004.3 67058.2
+singles 36 35525.6 68635.9
+singles 37 35655.1 67217.8
+singles 38 36065.9 66982.1
+singles 39 35312.6 63259.5
+singles 40 34624.8 58604.5
+singles 41 34301 63721.4
+singles 42 34646.1 62818
+singles 43 34940.7 61821.8
+singles 44 35636.2 62058.1
+singles 45 35075.4 62157.2
+singles 46 35551.5 63502.4
+singles 47 34351.6 59726.2
+singles 48 41366.4 70990.3
+singles 49 40405 76132.7
+singles 50 40965.4 73741.9
+singles 51 40818.9 69454.2
+singles 52 40327 78061.4
+singles 53 40345.5 77603
+singles 54 41093.6 71398.9
+singles 55 42433.1 74063.4
+singles 56 42632.1 76026.7
+singles 57 43708.1 75982.9
+singles 58 44466.6 74071
+singles 59 44876.6 79122.3
+singles 60 44424.7 81884.1
+singles 61 44900.7 81798.2
+singles 62 44009.5 77987.2
+singles 63 43260.1 81995.6
+singles 64 42793.1 74162.8
+singles 65 41359.3 83144.3
+singles 66 42165.1 71053.8
+singles 67 42139.8 75419.3
+singles 68 42657.2 72838.2
+singles 69 42349.1 71412.4
+singles 70 41668.1 74110.4
+singles 71 40249.5 71091.9
+singles 72 41224.2 65199.7
+singles 73 41206 72014.6
+singles 74 40929.6 76149.6
+singles 75 41411 70857.5
+singles 76 46406.3 81711.7
+singles 77 41597 79535.5
+singles 78 42635.2 75220.5
+singles 79 42134.4 84746
+singles 80 43694.9 80891.5
+singles 81 44420 81292.8
+singles 82 44856.6 86811.7
+singles 83 45342 84240.3
+singles 84 45893.4 85193.5
+singles 85 45753.1 82060.5
+singles 86 45535.7 80666.1
+singles 87 44373.6 80921.5
+singles 88 43995.4 73995.6
+singles 89 43610.5 71521
+singles 90 43374.1 73326.6
+singles 91 43174.2 73448.1
+singles 92 43004.6 75870
+singles 93 42086.2 72734.7
+singles 94 41477.9 72367.1
+singles 95 41326.5 67323.3
+end_of_header
+frame 28
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 174325760
+frame_start 1200
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 0.989362
+deadtime_correction 1.04943
+decay_correction 1.15262
+event_type 4
+prompts 29155134   4457224   33619420
+delays 4658722   4078875   8739388
+trues 24496412   378349   24880032
+prompts_rate 112075
+delays_rate 29125
+singles 0 27273.3 51708.4
+singles 1 26906 48090.8
+singles 2 26818.3 52183.2
+singles 3 26424.6 48087.1
+singles 4 25965.8 50970.1
+singles 5 25938.4 50332.9
+singles 6 25933.2 48035
+singles 7 25801.8 43192.7
+singles 8 26282.5 49036.3
+singles 9 26953.5 49520.7
+singles 10 26841.8 52820.4
+singles 11 27142.9 49939.7
+singles 12 27439.9 47460.6
+singles 13 27094.6 49808.3
+singles 14 27008.2 49467.5
+singles 15 27024.1 50108.6
+singles 16 26302.4 47543.3
+singles 17 25627.6 51502.2
+singles 18 26041.8 47255.3
+singles 19 27055.4 51596.3
+singles 20 27707.6 46602
+singles 21 27869.2 51286.7
+singles 22 27447.5 52322.1
+singles 23 27624.8 47509.9
+singles 24 33493.9 54092.3
+singles 25 33087.2 59822.8
+singles 26 33388.4 59365.4
+singles 27 32685 57969.3
+singles 28 32952 60649.4
+singles 29 32002.4 60865
+singles 30 32591.6 61383.3
+singles 31 32091.8 59106
+singles 32 32823.3 58489.1
+singles 33 33913 61424.3
+singles 34 33916.4 66818.1
+singles 35 33843.7 64760.8
+singles 36 34350.1 66303.9
+singles 37 34546.7 65006
+singles 38 34907.6 64783.3
+singles 39 34162.4 61147.1
+singles 40 33509.3 56682.8
+singles 41 33228.1 61635.6
+singles 42 33568.3 60810.9
+singles 43 33783.2 59791
+singles 44 34474.4 59994.8
+singles 45 33930.1 60109.6
+singles 46 34389.1 61400.7
+singles 47 33232.9 57742.8
+singles 48 39966.4 68521.9
+singles 49 39006.1 73435.5
+singles 50 39526.6 71087.4
+singles 51 39365.4 66919.9
+singles 52 38887.5 75198.9
+singles 53 38851.3 74714.5
+singles 54 39577.3 68750.6
+singles 55 40890.4 71357
+singles 56 41084.7 73235
+singles 57 42114.7 73181
+singles 58 42864 71369.3
+singles 59 43278.5 76253.3
+singles 60 42838 78941.7
+singles 61 43371.5 78919.4
+singles 62 42510 75306.7
+singles 63 41761 79123.1
+singles 64 41335.4 71586.4
+singles 65 39961.3 80284.6
+singles 66 40749.9 68669.1
+singles 67 40739.6 72863
+singles 68 41234.7 70362.7
+singles 69 40905.3 68949.6
+singles 70 40251.4 71563.9
+singles 71 38879 68602
+singles 72 39609.1 62645
+singles 73 39567 69108.3
+singles 74 39257.9 73057.2
+singles 75 39692.8 67953.5
+singles 76 44533.2 78373.2
+singles 77 39832.5 76201.4
+singles 78 40835.2 72046.8
+singles 79 40315.3 81099.7
+singles 80 41798.8 77426.8
+singles 81 42489.6 77810.7
+singles 82 42932.2 83132.1
+singles 83 43417.2 80694.2
+singles 84 43961.2 81687.9
+singles 85 43890.5 78733.3
+singles 86 43703.1 77444.4
+singles 87 42585.7 77708.5
+singles 88 42266.7 71104
+singles 89 41888.6 68727.9
+singles 90 41684.7 70480.9
+singles 91 41499.1 70597.3
+singles 92 41331.1 72936.7
+singles 93 40457.3 69941.4
+singles 94 39847.5 69537.7
+singles 95 39692.6 64678.6
+end_of_header
+frame 29
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 180551680
+frame_start 1500
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 1.0085
+deadtime_correction 1.04797
+decay_correction 1.18959
+event_type 4
+prompts 28691273   4181178   32874838
+delays 4351193   3809540   8161281
+trues 24340080   371638   24713557
+prompts_rate 109575
+delays_rate 27200
+singles 0 26453.5 50155.9
+singles 1 26073.2 46600.4
+singles 2 25972.6 50559.6
+singles 3 25610 46606
+singles 4 25164.1 49405.2
+singles 5 25126.9 48786.5
+singles 6 25144.4 46530.4
+singles 7 25016.2 41878.2
+singles 8 25480.7 47542.7
+singles 9 26135.4 47985.4
+singles 10 26019.4 51220.7
+singles 11 26318.4 48421.9
+singles 12 26600.9 46024.6
+singles 13 26306.9 48338.5
+singles 14 26231 48029
+singles 15 26208.5 48593.7
+singles 16 25504.3 46092.7
+singles 17 24872.9 49982.8
+singles 18 25267.3 45854.1
+singles 19 26258.7 50056.5
+singles 20 26900.7 45221.1
+singles 21 27047.9 49778.3
+singles 22 26626.6 50775.5
+singles 23 26766.4 46049.2
+singles 24 32464.2 52427.7
+singles 25 32048.3 57908
+singles 26 32306.5 57453.6
+singles 27 31619.1 56101.4
+singles 28 31880.4 58722.1
+singles 29 31009 59006.3
+singles 30 31544.8 59402
+singles 31 31067.3 57213.5
+singles 32 31776 56628.4
+singles 33 32819.9 59464
+singles 34 32825 64669.7
+singles 35 32769.9 62696.3
+singles 36 33278.9 64240.8
+singles 37 33454.8 62967.4
+singles 38 33805.1 62758.7
+singles 39 33109.4 59265.3
+singles 40 32481.2 54960.3
+singles 41 32209 59761.7
+singles 42 32536.3 58933.5
+singles 43 32745.3 57978.6
+singles 44 33414.6 58165.8
+singles 45 32887.8 58258.1
+singles 46 33320.4 59486.3
+singles 47 32191 55924.4
+singles 48 38677.9 66294.8
+singles 49 37737.7 71009.7
+singles 50 38245.4 68726.3
+singles 51 38071.9 64707
+singles 52 37573.6 72717
+singles 53 37524.9 72237.8
+singles 54 38243.2 66418
+singles 55 39529.1 68956.1
+singles 56 39709.6 70736.6
+singles 57 40624 70629.8
+singles 58 41397.3 68903.7
+singles 59 41823.1 73659.8
+singles 60 41423.5 76287.9
+singles 61 41911 76259.8
+singles 62 41129.1 72797.9
+singles 63 40364.3 76481.4
+singles 64 39976.9 69239.8
+singles 65 38651.9 77651.4
+singles 66 39424.1 66431.8
+singles 67 39389.8 70477.9
+singles 68 39896.3 68088.1
+singles 69 39575.9 66694.6
+singles 70 38956 69218.8
+singles 71 37625.1 66383.6
+singles 72 38174.3 60366.2
+singles 73 38113.2 66590.5
+singles 74 37851.1 70404.8
+singles 75 38204.6 65463.5
+singles 76 42861 75468.3
+singles 77 38325 73398.3
+singles 78 39250.9 69303.3
+singles 79 38762.1 78033.8
+singles 80 40182.7 74446.6
+singles 81 40804.9 74769.1
+singles 82 41218.5 79864.9
+singles 83 41669.8 77530.1
+singles 84 42216.6 78488.2
+singles 85 42131.2 75669.8
+singles 86 42022.1 74496.3
+singles 87 40942.3 74764.3
+singles 88 40664.5 68463
+singles 89 40315.1 66171
+singles 90 40138.6 67910.4
+singles 91 39964.8 68032.8
+singles 92 39810.2 70268.8
+singles 93 39003.3 67406.9
+singles 94 38435.9 67070.1
+singles 95 38276.2 62368.3
+end_of_header
+frame 30
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 186777600
+frame_start 1800
+frame_duration 600
+scale_factor 0.00166667
+minimum 0
+maximum 2.10329
+deadtime_correction 1.04473
+decay_correction 1.24713
+event_type 4
+prompts 55640727   7591186   63235917
+delays 7857650   6879649   14738138
+trues 47783077   711537   48497779
+prompts_rate 105400
+delays_rate 24550
+singles 0 25238.9 47862.6
+singles 1 24866.8 44449.9
+singles 2 24763.6 48224.2
+singles 3 24386.8 44420.7
+singles 4 23979.3 47123.7
+singles 5 23956.5 46502.4
+singles 6 23930.5 44309.1
+singles 7 23823.1 39877.1
+singles 8 24284.9 45314.5
+singles 9 24879.6 45720.2
+singles 10 24808.5 48827.5
+singles 11 25116.9 46214.7
+singles 12 25420.3 43966.6
+singles 13 25122.5 46169.3
+singles 14 25037.5 45845.7
+singles 15 25026.4 46403.6
+singles 16 24380.7 44064.8
+singles 17 23736.9 47712.8
+singles 18 24104.4 43753.2
+singles 19 25036.5 47777.3
+singles 20 25681.2 43175.6
+singles 21 25810.6 47498.5
+singles 22 25394.1 48445
+singles 23 25549.8 43950.7
+singles 24 30950.2 49979.6
+singles 25 30518 55165.3
+singles 26 30767.2 54731.2
+singles 27 30071.7 53401.2
+singles 28 30374.7 55931.1
+singles 29 29483.6 56127.7
+singles 30 29992 56499.2
+singles 31 29541.4 54427.2
+singles 32 30224.1 53857.6
+singles 33 31223.4 56573.7
+singles 34 31258.6 61596.2
+singles 35 31228.2 59756
+singles 36 31707.6 61229.9
+singles 37 31920.5 60046.5
+singles 38 32247.9 59859.3
+singles 39 31578.9 56540.3
+singles 40 30970.5 52413.3
+singles 41 30712.6 56981.2
+singles 42 30986.1 56151.9
+singles 43 31194.3 55224.8
+singles 44 31828.9 55429.7
+singles 45 31323 55497.4
+singles 46 31757.7 56703.3
+singles 47 30626.1 53263.3
+singles 48 36751.1 63001.5
+singles 49 35833.9 67463.8
+singles 50 36341.3 65339.8
+singles 51 36142.4 61472.6
+singles 52 35666.1 69101.3
+singles 53 35628.7 68610.1
+singles 54 36317.4 63056.9
+singles 55 37513.9 65430.4
+singles 56 37711.6 67165.8
+singles 57 38582.8 67064.3
+singles 58 39349.3 65470.1
+singles 59 39733.3 69987
+singles 60 39378.7 72538.1
+singles 61 39865.2 72573.4
+singles 62 39115 69247.2
+singles 63 38428.2 72807.2
+singles 64 38062.6 65921.4
+singles 65 36756.5 73891
+singles 66 37484.3 63164
+singles 67 37464.8 67021.5
+singles 68 37923.5 64715.8
+singles 69 37627.6 63415.5
+singles 70 37038.5 65842
+singles 71 35753.2 63101.3
+singles 72 36077.8 57082.6
+singles 73 36011.2 62968.2
+singles 74 35750.9 66579.6
+singles 75 36051.6 61876.3
+singles 76 40450.9 71323.8
+singles 77 36108.8 69296.7
+singles 78 37022.7 65396.4
+singles 79 36536.8 73633.6
+singles 80 37857 70237.4
+singles 81 38436.7 70548.1
+singles 82 38852.2 75376.7
+singles 83 39305.2 73199.3
+singles 84 39854.8 74186.6
+singles 85 39838.7 71598.3
+singles 86 39733.1 70488.8
+singles 87 38699.9 70748.4
+singles 88 38456.6 64783.7
+singles 89 38147.6 62638.8
+singles 90 37900 64205.3
+singles 91 37731.5 64303.6
+singles 92 37626.8 66476.9
+singles 93 36862.1 63753.1
+singles 94 36316.4 63426.9
+singles 95 36171.5 58985.3
+end_of_header
+frame 31
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 193003520
+frame_start 2400
+frame_duration 600
+scale_factor 0.00166667
+minimum 0
+maximum 2.22855
+deadtime_correction 1.04131
+decay_correction 1.32842
+event_type 4
+prompts 53117627   6706852   59828079
+delays 6899191   6040466   12940340
+trues 46218436   666386   46887739
+prompts_rate 99700
+delays_rate 21550
+singles 0 23738.7 45021.5
+singles 1 23394.8 41805.9
+singles 2 23266.8 45305.1
+singles 3 22907.4 41757.6
+singles 4 22518.4 44297.1
+singles 5 22504.5 43728.9
+singles 6 22495.7 41652.8
+singles 7 22399.1 37505.3
+singles 8 22820.1 42582
+singles 9 23388.3 42968.2
+singles 10 23325 45909.6
+singles 11 23627.8 43472.5
+singles 12 23915.8 41379.2
+singles 13 23642.1 43476.7
+singles 14 23584.3 43172.4
+singles 15 23566.2 43706.6
+singles 16 22959.4 41495
+singles 17 22343.3 44931.6
+singles 18 22682.4 41181.6
+singles 19 23584.4 44995.4
+singles 20 24163 40632.8
+singles 21 24277.8 44702.2
+singles 22 23910.9 45588.1
+singles 23 24024.8 41331.6
+singles 24 29095.6 46969.9
+singles 25 28641 51808.5
+singles 26 28880.8 51374.9
+singles 27 28207.9 50142.6
+singles 28 28516.5 52552.8
+singles 29 27657.6 52704.7
+singles 30 28134 53020.7
+singles 31 27702.6 51068.5
+singles 32 28357.3 50551.7
+singles 33 29272.6 53069
+singles 34 29323 57804
+singles 35 29321.4 56120.5
+singles 36 29781.1 57538.5
+singles 37 30019.1 56450.5
+singles 38 30315.4 56276.1
+singles 39 29696.3 53180.1
+singles 40 29120.5 49295.4
+singles 41 28887.6 53609
+singles 42 29143 52824.6
+singles 43 29301.6 51920.5
+singles 44 29923.5 52133.5
+singles 45 29463 52207
+singles 46 29829.6 53266.3
+singles 47 28766.1 50052.9
+singles 48 34500 59116.8
+singles 49 33606.7 63268.3
+singles 50 34047.5 61202.2
+singles 51 33877.1 57617.3
+singles 52 33398.8 64774.3
+singles 53 33329.2 64275.4
+singles 54 33985.1 59005.2
+singles 55 35094.5 61212.4
+singles 56 35279.4 62812.3
+singles 57 36071.2 62712.5
+singles 58 36812.7 61252.7
+singles 59 37209.1 65544.7
+singles 60 36848.8 67915
+singles 61 37356 68002.8
+singles 62 36643.7 64895.7
+singles 63 36042.8 68285.1
+singles 64 35708.8 61843.8
+singles 65 34454.1 69311.1
+singles 66 35156.8 59259.6
+singles 67 35142 62883.4
+singles 68 35607.8 60750.6
+singles 69 35305.4 59494
+singles 70 34740.3 61752.1
+singles 71 33530.5 59174.4
+singles 72 33673.5 53294.1
+singles 73 33592.9 58779.9
+singles 74 33332.6 62129.4
+singles 75 33559.6 57670
+singles 76 37690.7 66513.6
+singles 77 33617.3 64587.6
+singles 78 34435.8 60870.5
+singles 79 33983.4 68549.8
+singles 80 35175.8 65339.9
+singles 81 35705.7 65604.1
+singles 82 36085.4 70130
+singles 83 36533.8 68143.4
+singles 84 37068.6 69066.8
+singles 85 37078.5 66677.2
+singles 86 37017.1 65700
+singles 87 36034.2 65986.4
+singles 88 35859.5 60446.5
+singles 89 35589.2 58453.9
+singles 90 35351.2 59931.5
+singles 91 35200.6 60040.8
+singles 92 35108.4 62079
+singles 93 34410.4 59557.7
+singles 94 33904.8 59230.3
+singles 95 33763.3 55091.8
+end_of_header
+frame 32
+gate 0
+bed 0
+bed_offset 14.9993
+ending_bed_offset 14.9993
+vertical_bed_offset 2.39994
+data_file_pointer 0 199229440
+frame_start 3000
+frame_duration 599.805
+scale_factor 0.00166721
+minimum 0
+maximum 2.51142
+deadtime_correction 1.03845
+decay_correction 1.41499
+event_type 4
+prompts 50389511   5940819   56336506
+delays 6066716   5311875   11379744
+trues 44322795   628944   44956762
+prompts_rate 93925
+delays_rate 18950
+singles 0 22313.7 42321
+singles 1 21978.5 39294.2
+singles 2 21856.4 42589.1
+singles 3 21509.3 39243.4
+singles 4 21132.1 41625.8
+singles 5 21134.1 41094
+singles 6 21122.2 39118.6
+singles 7 21028.4 35203.5
+singles 8 21426.5 39989.5
+singles 9 21953 40369.9
+singles 10 21923 43173.1
+singles 11 22228.3 40909.7
+singles 12 22511.8 38948.7
+singles 13 22258.6 40923.5
+singles 14 22222 40677.1
+singles 15 22187.5 41170.6
+singles 16 21630.8 39094.4
+singles 17 21056.7 42336.3
+singles 18 21377.3 38800.8
+singles 19 22213.1 42395.1
+singles 20 22751.9 38262.8
+singles 21 22844.5 42051.5
+singles 22 22487.4 42912
+singles 23 22591.9 38886.8
+singles 24 27357 44149.9
+singles 25 26886.7 48657.2
+singles 26 27084 48217.8
+singles 27 26457.8 47067.5
+singles 28 26716.5 49284.9
+singles 29 25937.1 49463.8
+singles 30 26381.6 49726.6
+singles 31 25976.3 47904.7
+singles 32 26577 47411.2
+singles 33 27448 49799.9
+singles 34 27531.4 54304.5
+singles 35 27553 52746.9
+singles 36 27992.7 54113.9
+singles 37 28246.8 53131.5
+singles 38 28538.2 52987.8
+singles 39 27949.6 50078.2
+singles 40 27421.8 46426.6
+singles 41 27197.8 50487.7
+singles 42 27427.5 49716.3
+singles 43 27568 48865.8
+singles 44 28113.8 49004.2
+singles 45 27695.3 49106.3
+singles 46 28046.2 50103.6
+singles 47 27017.4 47026.5
+singles 48 32351.3 55436.8
+singles 49 31502 59330.4
+singles 50 31901.3 57358.8
+singles 51 31713.6 53963.5
+singles 52 31224.3 60629.6
+singles 53 31153.5 60168.9
+singles 54 31778 55211.8
+singles 55 32834 57287.6
+singles 56 33035.2 58825.9
+singles 57 33775.5 58741.1
+singles 58 34502.5 57404.7
+singles 59 34891.9 61480.2
+singles 60 34598.9 63778.8
+singles 61 35090.3 63879.1
+singles 62 34472.6 61012.9
+singles 63 33875.5 64200.6
+singles 64 33579.4 58163.3
+singles 65 32426.2 65231.3
+singles 66 33039.8 55699.3
+singles 67 33028.5 59072.6
+singles 68 33445.5 57059.5
+singles 69 33168.6 55906.2
+singles 70 32623.3 57982.3
+singles 71 31485.5 55562.6
+singles 72 31476.8 49843.3
+singles 73 31386.4 54946.8
+singles 74 31126.2 58056.6
+singles 75 31291.9 53854
+singles 76 35153.5 62113.9
+singles 77 31337 60306.8
+singles 78 32115.2 56803.9
+singles 79 31682.1 63971.6
+singles 80 32812.8 60989.2
+singles 81 33306.1 61249
+singles 82 33672 65508.4
+singles 83 34099.8 63653.9
+singles 84 34604.6 64545.8
+singles 85 34652.9 62368.2
+singles 86 34592.2 61456.5
+singles 87 33668.3 61720.3
+singles 88 33532.3 56553
+singles 89 33291.4 54688.7
+singles 90 33043.2 56058
+singles 91 32909.4 56174.8
+singles 92 32822.7 58060.8
+singles 93 32177.3 55715.2
+singles 94 31692.7 55404.8
+singles 95 31562.2 51518.1
+end_of_header

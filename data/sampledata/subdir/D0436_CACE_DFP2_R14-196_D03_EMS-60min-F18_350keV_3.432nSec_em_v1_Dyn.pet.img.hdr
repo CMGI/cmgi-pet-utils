@@ -1,0 +1,3761 @@
+#
+# Header file for data file F:\Preclinical\microQ\temporary\D0436_CACE_DFP2_R14-196_D03_EMS-60min-F18_350keV_3.432nSec_em_v1_Dyn.pet.uPetRecon.f0000.img
+#    with 1 frames.
+#
+#
+#  Following parameters are used for ALL modalities.
+#
+#
+# Version of header parameters (float)
+#
+version 001.950
+#
+# Manufacturer's name (string)
+#
+manufacturer  
+#
+# Scanner model number (integer)
+#
+#   0 - Unknown
+#   2000 - Primate
+#   2001 - Rodent
+#   2002 - microPET2
+#   2500 - Focus_220
+#   2501 - Focus_120
+#   3000 - mCAT
+#   3500 - mCATII
+#   4000 - mSPECT
+#   5000 - Inveon_Dedicated_PET
+#   5001 - Inveon_MM_Platform
+#   6000 - MR_PET_Head_Insert
+#   8000 - Tuebingen_PET_MR
+#
+model 5000
+#
+# Acquisition scanner modality (integer)
+#   -1 - Unknown acquisition modality
+#   0 - PET acquisition
+#   1 - CT acquisition
+#   2 - SPECT acquisition
+#
+modality 0
+#
+# Scanner modality configuration number (integer)
+#
+#   0 - Unknown
+#   2000 - Primate
+#   2001 - Rodent
+#   2002 - microPET2
+#   2500 - Focus_220
+#   2501 - Focus_120
+#   5000 - Inveon_Dedicated_PET
+#   6000 - MR_PET_Head_Insert
+#   8000 - Tuebingen_PET_MR
+#   5500 - Inveon_MM_PET
+#
+modality_configuration 5000
+#
+# Institution identification (string)
+#
+institution CMGI, UC Davis
+#
+# Study type/description (string)
+#
+study CACE
+#
+# Data filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+file_name F:\Preclinical\Users\Admin\User Folders\Lein\Datasets\D0436_CACE_DFP2_R14-196_D03\D0436_CACE_DFP2_R14-196_D03_EMS-60min-F18_350keV_3.432nSec_em_v1_Dyn.pet.img
+#
+# Data file type (integer)
+#   0 - Unknown data file type
+#   1 - List mode data file
+#   2 - Sinogram data file
+#   3 - Normalization data file
+#   4 - Attenuation correction data file
+#   5 - Image data file
+#   6 - Blank data file
+#   8 - Mu map data file
+#   9 - Scatter correction data file
+#   10 - Crystal efficiency data
+#   11 - Crystal interference correction
+#   12 - Transaxial geometric correction
+#   13 - Axial geometric correction
+#   14 - CT projection data
+#   15 - SPECT raw projection data
+#   16 - SPECT energy data from projections
+#   17 - SPECT normalization data
+#
+file_type 5
+#
+# Acquisition mode (integer)
+#   0 - Unknown acquisition mode
+#   1 - Blank acquisition
+#   2 - Emission acquisition
+#   3 - Dynamic acquisition
+#   4 - Gated acquisition
+#   5 - Continuous bed motion acquisition
+#   6 - Singles transmission acquisition
+#   7 - Windowed coincidence transmission acquisition
+#   8 - Non-windowed coincidence transmission acquisition
+#   9 - CT projection acquisition
+#   10 - CT calibration acquisition
+#   11 - SPECT planar projection acquisition
+#   12 - SPECT multi-projection acquisition
+#   13 - SPECT calibration acquisition
+#   14 - SPECT normalization acquisition
+#   15 - SPECT detector setup acquisition
+#   16 - SPECT scout view acquisition
+#
+acquisition_mode 3
+#
+# Number of frames in data file (integer)
+#
+total_frames 33
+#
+# Number of time frames in data file (integer)
+#
+time_frames 33
+#
+# Bed control (integer)
+#   0 - Unknown bed control
+#   1 - Dedicated PET
+#   2 - microCAT II
+#   3 - Multimodality bed control
+#   4 - microPET bed control
+#
+bed_control 1
+#
+# Bed motion (integer)
+#   0 - Static or unknown bed motion
+#   1 - Continuous bed motion
+#   2 - Multiple bed positions, i.e. step and shoot
+#
+bed_motion 0
+#
+# Number of bed positions in data file (integer)
+#
+number_of_bed_positions 1
+#
+# Horizontal bed calibration, in microns (float)
+#
+horizontal_bed_calibration 0
+#
+# Vertical bed calibration, in microns (float)
+#
+vertical_bed_calibration 0
+#
+# Transaxial projection bin size, in cm (float)
+#
+transaxial_bin_size 0.0815
+#
+# Axial plane size, in cm (float)
+#
+axial_plane_size 0.0796
+#
+# Number of detector panels ("rings/CT" are "1") (integer)
+#
+number_detector_panels 1
+#
+# Data type (integer)
+#   0 - Unknown data type
+#   1 - Byte (8-bits) data type
+#   2 - 2-byte integer - Intel style
+#   3 - 4-byte integer - Intel style
+#   4 - 4-byte float - Intel style
+#   5 - 4-byte float - Sun style
+#   6 - 2-byte integer - Sun style
+#   7 - 4-byte integer - Sun style
+#
+data_type 4
+#
+# Number of dimensions in data set (integer)
+#     Order from fastest to slowest is XYZW
+#
+number_of_dimensions 3
+#
+# Size of X dimension in data set (integer)
+#
+x_dimension 128
+#
+# Size of Y dimension in data set (integer)
+#
+y_dimension 128
+#
+# Size of Z dimension in data set (integer)
+#
+z_dimension 159
+#
+# Acquisition user ID (string)
+acquisition_user_id 
+#
+# Histogram user ID (string)
+histogram_user_id 
+#
+# Reconstruction user ID (string)
+reconstruction_user_id 
+#
+# Scatter correction user ID (string)
+scatter_correction_user_id 
+#
+# Acquisition notes (string)
+acquisition_notes animal R14-196 (256g, DFP2) was injected with 1.186mCi of PBR111 [18F] in 150ul of saline. The animal was injected from 10:12:30 to 10:12:38
+#
+# Scan start date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+scan_time Fri Jun 27 10:12:22 2014
+#
+# Scan start date and time - GMT-based (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+gmt_scan_time Fri Jun 27 17:12:22 2014
+#
+# X origin of volume, in voxels (integer)
+#
+volume_origin_x 0
+#
+# Y origin of volume, in voxels (integer)
+#
+volume_origin_y 0
+#
+# Z origin of volume, in voxels (integer)
+#
+volume_origin_z 0
+#
+# Registration data available (integer)
+#   0 - No registration data available
+#   1 - CT registration data available
+#   2 - PET registration data available
+#
+registration_available 0
+#
+# Transformation matrix filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+transformation_matrix  
+#
+# Spatial identification for registration (string)
+#
+spatial_identifier  
+#
+# Normalization applied to data set (integer)
+#   0 - No normalization applied
+#   1 - Point source inversion
+#   2 - Point source component based
+#   3 - Cylinder source inversion
+#   4 - Cylinder source component based
+#   5 - Dark/bright field log normalization (CT)
+#   6 - SPECT flood inversion based
+#
+normalization_applied 4
+#
+# Normalization filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+normalization_filename F:\Preclinical\Inveon\System Calibration\PET\Datasets\Normalizations\Norm_Ge68_2013.12.19_12Bcounts\Norm_Ge68_2013.12.19_12Bcounts_cyl_norm_12B_counts_nm_v1.nrm
+#
+# Reconstruction type (integer)
+#   0 - Unknown, or no, algorithm type
+#   1 - Filtered Backprojection
+#   2 - OSEM2d
+#   3 - OSEM3d
+#   6 - OSEM3D followed by MAP or FastMAP
+#   7 - MAPTR for transmission image
+#   8 - MAP 3D reconstruction
+#   9 - Feldkamp cone beam
+#
+recon_algorithm 6
+#
+# Version of reconstruction program used (float)
+#
+recon_version 002.520
+#
+# X filter and/or apodizing windows type (integer)
+#       and cutoff (float)
+#   0 - No filter
+#   1 - Ramp filter (backprojection) or no filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   6 - Shepp filter
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#     Also, the Ramp and Shepp should ONLY be used
+#     for backprojection
+#
+x_filter 1 0.5
+#
+# Y apodizing filter type (integer) and cutoff (float)
+#   0 - No filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#
+y_filter 0 0.5
+#
+# Z apodizing filter type (integer) and cutoff (float)
+#   0 - No filter
+#   2 - First-order Butterworth window
+#   3 - Hanning window
+#   4 - Hamming window
+#   5 - Parzen window
+#   7 - Second-order Butterworth window
+#   NOTE that a cutoff of 0.5 is the Nyquist point
+#     i.e 1.0 / (2.0 * sampling).
+#
+z_filter 0 0.5
+#
+# X offset, in cm, applied to data set (float)
+#
+x_offset 0
+#
+# Y offset, in cm, applied to data set (float)
+#
+y_offset 0
+#
+# Zoom applied to data set (float)
+#
+zoom 2
+#
+# Reconstructed pixel size, in cm (float)
+#     NOTE: pixel_size = (((X_crystal_pitch / 2.0) * X_dim) /
+#           (image_size * zoom)) * (effective_radius / radius)
+#
+pixel_size 0.0388192
+#
+# Reconstructed pixel size in X, in mm (float)
+pixel_size_x 0.388192
+#
+# Reconstructed pixel size in Y, in mm (float)
+pixel_size_y 0.388192
+#
+# Reconstructed pixel size in Z, in mm (float)
+pixel_size_z 0.796
+#
+# Investigator identification (string)
+#
+investigator Lein
+#
+# Operator identification (string)
+#
+operator CMS/CO
+#
+# Study identification (string)
+#
+study_identifier 1.1.05000.01081.20140627101005
+#
+# Injected compound (string)
+#
+injected_compound 18F PBR111
+#
+# Subject identifier (string)
+#
+subject_identifier  
+#
+# Subject genus (string)
+#
+subject_genus Rat
+#
+# Subject orientation (integer)
+#   0 - Unknown subject orientation
+#   1 - Feet first, prone
+#   2 - Head first, prone
+#   3 - Feet first, supine
+#   4 - Head first, supine
+#   5 - Feet first, right
+#   6 - Head first, right
+#   7 - Feet first, left
+#   8 - Head first, left
+#
+subject_orientation 2
+#
+# Length units (integer)
+#   0 - Unknown length units
+#   1 - millimeters
+#   2 - centimeters
+#   3 - inches
+#
+subject_length_units 0
+#
+# Subject weight (float)
+#
+subject_length 0
+#
+# Weight units (integer)
+#   0 - Unknown weight units
+#   1 - grams
+#   2 - ounces
+#   3 - kilograms
+#   4 - pounds
+#
+subject_weight_units 1
+#
+# Subject weight (float)
+#
+subject_weight 0
+#
+# Subject phenotype (string)
+#
+subject_phenotype  
+#
+# Study model (string)
+#
+study_model Nu/nu
+#
+# Subject anesthesia (string)
+#
+anesthesia Isoflurane
+#
+# Subject analgesia (string)
+#
+analgesia  
+#
+# Other drugs (string)
+#
+other_drugs  
+#
+# Food access (string)
+#
+food_access Ad lib
+#
+# Water access (string)
+#
+water_access Ad Lib
+#
+# Subject date of birth (string)
+#
+subject_date_of_birth 01/01/2014
+#
+# Subject age (string)
+#
+subject_age  
+#
+# Subject sex (string)
+#
+subject_sex 2
+#
+# Subject scan region (string)
+#
+subject_scan_region Brain
+#
+#  Following parameters are used for PET or CT modalities.
+#
+#
+# Original acquisition filename, DOES NOT INCLUDE path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+acquisition_file_name 
+#
+#  Following parameters are used for PET or SPECT modalities.
+#
+#
+# Transaxial crystal pitch, in cm (float)
+#
+transaxial_crystal_pitch 0.163
+#
+# Axial crystal pitch, in cm (float)
+#
+axial_crystal_pitch 0.1592
+#
+# Crystal thickness, in cm (float)
+#
+crystal_thickness 1
+#
+# Depth of interaction, in cm (float)
+#
+depth_of_interaction 0.4584
+#
+# Isotope description (string)
+#
+isotope F-18
+#
+# Isotope half-life, in secs (float)
+#
+isotope_half_life 6586.2
+#
+# Isotope branching fraction (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         isotope branching fraction.
+#
+isotope_branching_fraction 0.967
+#
+# Deadtime correction applied to data set (integer)
+#   0 - No deadtime correction applied
+#   1 - Global estimate based on singles
+#   2 - CMS estimate based on singles
+#   3 - Global estimate based on running deadtime average
+#   4 - Blank/TX singles estimate (block based)
+#   5 - Old Global estimate based on singles (not continues)
+#
+deadtime_correction_applied 1
+#
+# Decay correction applied to data set (integer)
+#     0 (FALSE) - Decay correction has NOT been applied
+#     !0 (TRUE) - Decay correction has been applied
+#
+decay_correction_applied 1
+#
+# Attenuation applied to data set (integer)
+#   0 - No attenuation applied
+#   1 - Point source in windowed TX coincidence
+#   2 - Point source singles based TX
+#   3 - Segmented point source in TX coincidence
+#   4 - Segmented point source singles based TX
+#   5 - Calculated by geometry
+#   6 - Non-positron source singles based TX
+#   7 - Point source in non-windowed TX coincidence
+#   8 - Generated from CT image
+#
+attenuation_applied 0
+#
+# Scatter correction applied to data set (integer)
+#   0 - No scatter correction applied
+#   1 - Fit of emission tail
+#   2 - Monte Carlo of emission and transmission data
+#   3 - Direct calculation from analytical formulas
+#   4 - Model-based scatter for singles TX
+#   5 - TX off-window windowed coincidence subtraction
+#   6 - Singles TX scaled scatter from attenuation subtraction
+#
+scatter_correction 0
+#
+# Calibration units (integer)
+#   0 - Unknown calibration units
+#   1 - nCi/cc
+#   2 - Bq/cc
+#
+calibration_units 1
+#
+# Calibration factor (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         calibration factor.
+#
+calibration_factor 7008.063338
+#
+# Calibration source branching fraction (float)
+#   NOTE: Frame scale factor DOES NOT include
+#         calibration source branching fraction.
+#
+calibration_branching_fraction 1
+#
+# Dose units (integer)
+#   0 - Unknown dose units
+#   1 - mCi
+#   2 - MBq
+#
+dose_units 1
+#
+# Injected dose (float)
+dose 1.14538
+#
+# Injection date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+injection_time Fri Jun 27 10:12:30 2014
+#
+# Injection decay correction factor (float)
+#   NOTE: Frame scale factor and decay correction factor
+#   DO NOT include injection decay correction factor.
+#
+injection_decay_correction 0.999158
+#
+# Pre- and residual activity units (integer)
+#   0 - Unknown dose units
+#   1 - mCi
+#   2 - MBq
+#
+activity_units 1
+#
+# Activity before injection (float)
+activity_before_injection 1.202
+#
+# Activity before injection measurement date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+activity_before_injection_time Fri Jun 27 10:11:00 2014
+#
+# Residual activity (float)
+residual_activity 0.045
+#
+# Residual activity measurement date and time (string)
+#    Format is: Sun Sep 16 01:03:52 1973
+#
+residual_activity_time Fri Jun 27 10:13:30 2014
+#
+# Number of subsets in MAP reconstruction (integer)
+#
+map_subsets 16
+#
+# Number of MAP iterations (integer)
+#
+map_iterations 18
+#
+# Beta value for MAP reconstruction (float)
+#
+map_beta 0.0467533
+#
+# Ordinary Poisson for MAP reconstruction (int)
+#
+map_op 0
+#
+#  Following parameters are used for PET modality only.
+#
+#
+# Transaxial crystals per block (integer)
+#
+transaxial_crystals_per_block 20
+#
+# Axial crystals per block (integer)
+#
+axial_crystals_per_block 20
+#
+# Crystal offset for intrinsic rotation (integer)
+#
+intrinsic_crystal_offset 0
+#
+# Number of transaxial blocks (integer)
+#
+transaxial_blocks 16
+#
+# Number of axial blocks (integer)
+#
+axial_blocks 4
+#
+# Ring radius to crystal face, in cm (float)
+#
+radius 8.054
+#
+# Radial field-of-view, in cm (float)
+#
+radial_fov 7.5
+#
+# Source radius, in cm (float)
+#
+src_radius 7.396
+#
+# Source axial cm per revolution, in cm (float)
+#
+src_cm_per_rev 0
+#
+# Source encoder steps per revolution (integer)
+#
+src_steps_per_rev 11000
+#
+# Default number of projections (integer)
+#
+default_projections 128
+#
+# Default number of transaxial angles (integer)
+#
+default_transaxial_angles 160
+#
+# Lower level energy threshold, in KeV (float)
+#
+lld 350
+#
+# Upper level energy threshold, in KeV (float)
+#
+uld 650
+#
+# Coincidence timing window, in nsecs (int or float)
+#
+timing_window 3.432
+#
+# Span of data set (integer)
+#
+span 3
+#
+# Maximum ring difference of data set (integer)
+#
+ring_difference 79
+#
+# Size of W dimension in data set (integer)
+#
+w_dimension 1
+#
+# Version of histogram program used (float)
+#
+histogram_version 002.430
+#
+# Rebinning type (integer)
+#   0 - Unknown, or no, algorithm type
+#   1 - Full 3D binning (span and ring difference)
+#   2 - Single-Slice Rebinning
+#   3 - Fourier Rebinning
+#
+rebinning_type 1
+#
+# Version of rebinning program used (float)
+#
+rebinning_version 002.520
+#
+# Source type (integer)
+#
+#   0 - Unknown TX source type
+#   1 - TX point source
+#   2 - TX line source
+#
+tx_src_type 0
+#
+# Data order (integer)
+#   0 - Element/Axis/View/Ring_Diff - view mode
+#   1 - Element/View/Axis/Ring_Diff - sinogram mode
+#  NOTE that ElVwAxRd (XYZW) is the data order for images.
+#    ElVwAxRd for images means that Z and Y are flipped.
+#
+data_order 1
+#
+# Type of MAP used (integer)
+#
+#   0 - MAP
+#   1 - FastMAP
+#
+fastmap 1
+#
+# Corrections used in Fast MAP (integer)
+#
+#   0 - No FastMAP corrections
+#   1 - FastMAP axial resampling and arc correction
+#
+fastmap_corrections 0
+#
+# Fast MAP IRB table filename, possibly including path (string)
+#    NOTE: Filename may contain spaces, therefore the ENTIRE 
+#          line, up to the EOL, is used after the parameter name.
+#
+fastmap_irb_file_name C:\Program Files\Siemens\MI\Preclinical\MAP Files\IRBTables\Inveon_072_v3
+#
+# Map or Fast MAP resolution in mm (float)
+#
+map_resolution_in_mm 1.5
+#
+# Number of osem3d iterations in MAP reconstruction (integer)
+#
+map_osem3d_iterations 2
+#
+# MAP blur kernel type (int)
+#
+map_blur_type 2
+#
+# MAP prior type (int)
+#
+map_prior_type 1
+#
+# MAP blur kernel file prefix (string)
+#
+map_blur_file C:\Program Files\Siemens\MI\Preclinical\MAP Files\Kernel\QS120_v1
+#
+# MAP P matrix file prefix (string)
+#
+map_pmatrix_file C:\Program Files\Siemens\MI\Preclinical\MAP Files\Pmatrix_cylinder\QS120_0.4mm_128_r79s3_v4
+#
+# Arc correction applied to data set (integer)
+#   0 - Unknown, or no, arc correction
+#   1 - Radial arc correction (1D)
+#   2 - Resampled radial/angular arc correction (2D)
+#
+arc_correction_applied 1
+#
+# Number of singles rates in subheader (integer)
+#   NOTE: This normally is the number of blocks.
+#
+number_of_singles_rates 64
+#
+# Subject glucose level (string)
+#
+subject_glucose_level  
+#
+# Subject glucose level measurement time (string)
+#
+subject_glucose_level_time  
+#
+# End of Header indicator 
+#
+end_of_header
+#
+# Header for frame 0, detector_panel -1, event_type 4, energy_window -1, gate 0, bed 0.
+#
+#
+#  Following parameters are used for ALL modalities.
+#
+#
+# Frame number (integer)
+#
+frame 0
+#
+# Detector panel - NOTE: "ring" systems are "0" ONLY (integer)
+#
+detector_panel -1
+#
+# Event type (integer)
+#   0 - Unknown event type
+#   1 - Singles
+#   2 - Prompt events (coincidences)
+#   3 - Delay events
+#   4 - Trues (prompts - delays)
+#   5 - Energy spectrum data
+#
+event_type 4
+#
+# Energy window - NOTE PET/CT systems are typically "0" ONLY (integer)
+#
+energy_window -1
+#
+# Gate number (integer)
+#
+gate 0
+#
+# Bed number (integer)
+#
+bed 0
+#
+# Bed offset, in cm (float)
+#
+bed_offset 30.4846
+#
+# Ending horizontal bed offset, in cm (float)
+#
+ending_bed_offset 30.4846
+#
+# Vertical bed offset, in cm (float)
+#
+vertical_bed_offset 0.850059
+#
+# Data file offset to start of data (2 32-bit ints)
+#     Values are: low_part
+#             or: high_part low_part
+#
+data_file_pointer 0 0
+#
+# Frame start time, in secs (float)
+#
+frame_start 0
+#
+# Frame duration, in secs (float)
+#
+frame_duration 2
+#
+# Scale factor for data set (float)
+#
+scale_factor 0.5
+#
+# Minimum value in data set (float)
+#
+minimum -2.189e-020
+#
+# Maximum value in data set (float)
+#
+maximum 5.45638e-019
+#
+#  Following parameters are used for PET or SPECT modalities.
+#
+#
+# Deadtime correction for data set (float)
+#             NOTE: Scale factor INCLUDES this value.
+#
+deadtime_correction 1.2
+#
+# Global decay correction applied to data set (float)
+#             NOTE: Scale factor INCLUDES this value.
+#
+decay_correction 1.00011
+#
+# Prompts count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed prompts, 
+#         unhistogrammed prompts, and prompts at coincidence detection.
+#
+prompts 100   60   144
+#
+# Prompts countrate per sec before histogramming (int)
+#
+prompts_rate 80
+#
+#  Following parameters are used for PET modality only.
+#
+#
+# Delays count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed delays, 
+#         unhistogrammed delays, and delays at coincidence detection.
+#
+delays 21   4   24
+#
+# Trues count for data set (64-bit ints)
+#
+#   NOTE: The 3 values represent histogrammed trues, 
+#         unhistogrammed trues, and trues at coincidence detection.
+#
+trues 79   56   120
+#
+# Delays countrate per sec before histogramming (int)
+#
+delays_rate 10
+#
+# Singles rates array (integer  float  float)
+#       block_number    singles/sec    raw_singles/sec    xy_stored_singles/sec    block_singles_output/sec    raw_block_prompts/sec    block_prompts/sec    raw_block_delays/sec    block_delays/sec
+#
+singles 0 1483 3857 3830.5 1483 2.5 2.5 0 0
+singles 1 1483.5 3968.5 3727 1483.5 1.5 1.5 0.5 0.5
+singles 2 1460.5 3827.5 3800 1460.5 1 1 0 0
+singles 3 1519.5 3783 3736.5 1519.5 0.5 0.5 0 0
+singles 4 2300 5355 5028 2300 1 1 0 0
+singles 5 3717.5 6773 6585 3717.5 1 1 0 0
+singles 6 4285.5 7803.5 7575.5 4285.5 1 1 0.5 0.5
+singles 7 5398.5 9332 9221 5398.5 1.5 1.5 0 0
+singles 8 5213.5 8949.5 8655 5213.5 0.5 0.5 0.5 0.5
+singles 9 5086 8486 8348.5 5086 1 1 0.5 0.5
+singles 10 4378 7988.5 7883 4378 0 0 0.5 0.5
+singles 11 3235.5 6435.5 6238.5 3235.5 0.5 0.5 0.5 0.5
+singles 12 1784 4440.5 4403.5 1784 0.5 0.5 0.5 0.5
+singles 13 1529.5 3903.5 3794.5 1529.5 1 1 0.5 0.5
+singles 14 1419 3889.5 3767.5 1419 2 2 0 0
+singles 15 1442.5 3807.5 3638.5 1442.5 0.5 0.5 2.5 2.5
+singles 16 1515 4233.5 4037 1515 0 0 0 0
+singles 17 1529.5 4219 4049 1529.5 3 3 0.5 0.5
+singles 18 1590.5 4177.5 4109 1590.5 1 1 0 0
+singles 19 1606.5 4144 4094 1606.5 0.5 0.5 0.5 0.5
+singles 20 1649 4074.5 4040 1649 2 2 0.5 0.5
+singles 21 2450 5306 5187 2450 1 1 0 0
+singles 22 3922.5 6986.5 6947.5 3922.5 1 1 1 1
+singles 23 5754.5 9889 9762 5754 0.5 0.5 1 1
+singles 24 5826 9931 9795 5826 2 2 0.5 0.5
+singles 25 5301.5 9425.5 9325.5 5295.45 2.5 2.5 0.5 0.5
+singles 26 3492.5 6899 6830 3492.5 2.22222 2.22222 0 0
+singles 27 2044.5 5123 5040.5 2044.5 1.5 1.5 0.5 0.5
+singles 28 1591 4434 4400 1591 1.5 1.5 0.5 0.5
+singles 29 1511 4103.5 4080.5 1511 1.5 1.5 0.5 0.5
+singles 30 1472.5 4060.5 3915.5 1472.5 1 1 0 0
+singles 31 1460.5 3954 3772 1460.5 1.5 1.5 0 0
+singles 32 1563 4609 4367.5 1563 3 3 0 0
+singles 33 1581.5 4181.5 4055 1581.5 1.5 1.5 0.5 0.5
+singles 34 1537 4177 4053.5 1537 1.5 1.5 0 0
+singles 35 1580.5 4064.5 3942.5 1580.5 0 0 0 0
+singles 36 1638.5 4059 3966 1638.5 2.5 2.5 0 0
+singles 37 1775.5 4337.5 4284 1775.5 1 1 0 0
+singles 38 2074 5276 5145 2074 1.11111 1 0 0
+singles 39 2440 5745.5 5607 2440 2.5 2.5 0 0
+singles 40 2416 5650.5 5521.5 2416 2 2 0 0
+singles 41 2188.18 4958.5 4858.5 2188.18 1.5 1.5 0.5 0.5
+singles 42 1754 4485 4379 1754 2.22222 2.22222 0 0
+singles 43 1664 4525.5 4497.5 1664 1 1 0 0
+singles 44 1659 4317.5 4258.5 1659 1 1 0 0
+singles 45 1590 4416.5 4258 1590 1 1 0 0
+singles 46 1584 4319 4149.5 1584 1 1 0 0
+singles 47 1519.5 4154.5 3863.5 1519.5 2 2 0.5 0.5
+singles 48 1704 4478.5 4350.5 1715 3.5 3.5 0 0
+singles 49 1595.5 3858.5 3710.5 1595.5 0.454545 0.5 0 0
+singles 50 1402 3797.5 3688 1402 1 1.11111 1.5 1.5
+singles 51 1503 3843 3783.5 1504 0.5 0.5 0.5 0.5
+singles 52 1621.5 4024.5 3879.5 1621.5 1 0.909091 0 0
+singles 53 1815.45 4724 4610.5 1789.5 1 1 0 0
+singles 54 2454 6208.5 6050 2460.91 0 0 0 0
+singles 55 3680 9190.5 9046.5 3680 4.44444 4.44444 0 0
+singles 56 2476.67 5862 5716 2476.67 2 2 0.5 0.5
+singles 57 2116.5 4656 4529.5 2116.5 1 1 0.5 0.5
+singles 58 1753 4376.5 4333.5 1753 1 1 0 0
+singles 59 1602 4161.5 4092 1602 1 1 0 0
+singles 60 1634 4268 4196 1634 2 2 0 0
+singles 61 1708.5 4405 4330.5 1708.18 2 2 0 0
+singles 62 2131.36 5845 5772.5 2152.5 1 1 0.5 0.5
+singles 63 2066 5296 5256 2066.36 1.5 1.5 0.5 0.5
+#
+# End of Header indicator 
+#
+end_of_header
+frame 1
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 10420224
+frame_start 2
+frame_duration 2
+scale_factor 0.5
+minimum -4.38272e-006
+maximum 4.21479e-006
+deadtime_correction 1.19444
+decay_correction 1.00032
+prompts 102   55   151
+prompts_rate 80
+delays 24   12   35
+trues 78   43   116
+delays_rate 15
+singles 0 1468.45 3766.55 3740.05 1468.45 1.13636 1.13636 0 0
+singles 1 1498.05 4033.95 3786.09 1498.05 1.04545 1.04545 0.954545 0.954545
+singles 2 1538.23 3902.05 3873.18 1538.23 1 1 0 0
+singles 3 1567.68 3867.09 3818.77 1567.68 2.31818 2.31818 1.36364 1.36364
+singles 4 2386.82 5408.64 5093 2386.82 1 1 0.454545 0.454545
+singles 5 3708.41 6804.36 6620.91 3708.41 1 1 0.454545 0.454545
+singles 6 4428.23 7940.77 7729.59 4428.23 1 1 0.0454545 0.0454545
+singles 7 5410.77 9343.36 9237.82 5410.77 1.04545 1.04545 0.909091 0.909091
+singles 8 5369.86 9205.41 8928.18 5369.86 2.31818 2.31818 0.954545 0.954545
+singles 9 5140.55 8577.82 8436.68 5140.55 0.545455 0.545455 1.40909 1.40909
+singles 10 4415.27 7950.77 7840.73 4415.27 2.5 2.5 0.0454545 0.0454545
+singles 11 3308.68 6578.23 6373.05 3308.68 0.5 0.5 0.0454545 0.0454545
+singles 12 1827.64 4517.32 4468.95 1827.64 1.40909 1.40909 0.0454545 0.0454545
+singles 13 1494.95 3981.23 3876.77 1494.95 1.45455 1.45455 0.0454545 0.0454545
+singles 14 1484.45 3948.14 3823.86 1484.45 1.09091 1.09091 0.909091 0.909091
+singles 15 1444.77 3845.23 3677.14 1444.77 1.86364 1.86364 0.227273 0.227273
+singles 16 1528.18 4286.68 4087.45 1528.18 1.36364 1.36364 0.909091 0.909091
+singles 17 1561.77 4284.45 4108.55 1561.77 0.727273 0.727273 0.0454545 0.0454545
+singles 18 1520.95 4209.32 4131.73 1520.95 1 1 0.454545 0.454545
+singles 19 1576.5 4112.18 4058.09 1576.5 0.954545 0.954545 0.0454545 0.0454545
+singles 20 1643.55 4039.5 4005 1643.55 1.09091 1.09091 0.0454545 0.0454545
+singles 21 2497.73 5364.18 5230.18 2497.73 1.45455 1.45455 0 0
+singles 22 4012.05 7075.59 7029.77 4012.05 1 1 0.545455 0.545455
+singles 23 5784.5 9888.55 9742.45 5784.45 1.40909 1.40909 0.0909091 0.0909091
+singles 24 5867.36 10041 9895.45 5867.36 1.54545 1.54545 1.40909 1.40909
+singles 25 5197.41 9378.68 9275.5 5196.86 1.59091 1.59091 0.5 0.5
+singles 26 3546.14 7001.73 6944.09 3546.14 1.01852 1.01852 0 0
+singles 27 2020.41 5042.55 4959.59 2020.41 2.86364 2.86364 0.0454545 0.0454545
+singles 28 1629.18 4347.64 4316.82 1629.18 0.136364 0.136364 0.0454545 0.0454545
+singles 29 1526.91 4115.32 4090.5 1526.91 1.04545 1.04545 0.0454545 0.0454545
+singles 30 1514.77 4136.86 3990.5 1514.77 3.27273 3.27273 0 0
+singles 31 1476.86 3934.91 3763.36 1476.86 2.40909 2.40909 0 0
+singles 32 1538.45 4547.64 4322.5 1538.45 1.63636 1.63636 0 0
+singles 33 1567.86 4125.14 4017.73 1567.86 1.95455 1.95455 0.0454545 0.0454545
+singles 34 1513.82 4198.82 4068.05 1513.82 0.136364 0.136364 0 0
+singles 35 1561.86 4001.32 3871.59 1561.86 1.81818 1.81818 0 0
+singles 36 1591.68 4026.73 3941 1591.68 2.04545 2.04545 0.909091 0.909091
+singles 37 1745.95 4382.95 4333.09 1745.95 1.45455 1.45455 0.909091 0.909091
+singles 38 2090.82 5336.45 5192.27 2090.82 1.0101 1 0.454545 0.454545
+singles 39 2491.36 5852.77 5713.82 2491.36 1.59091 1.59091 0.454545 0.454545
+singles 40 2408.27 5592.32 5449.68 2408.27 2 2 0.454545 0.454545
+singles 41 2164.38 4873.05 4769.41 2164.38 2.40909 2.40909 0.0454545 0.0454545
+singles 42 1786.73 4456.82 4372.18 1786.73 2.26852 2.26852 0 0
+singles 43 1665.82 4450.95 4427.95 1665.82 1 1 0 0
+singles 44 1624.91 4347.95 4298.05 1624.91 1 1 0 0
+singles 45 1615 4460.59 4316.64 1615 1.45455 1.45455 0.454545 0.454545
+singles 46 1569.91 4266.27 4103.59 1569.91 0.545455 0.545455 0 0
+singles 47 1535.86 4190.86 3920.32 1535.86 1.54545 1.54545 0.954545 0.954545
+singles 48 1697.9 4519.86 4397.32 1691.82 0.318182 0.318182 0.454545 0.454545
+singles 49 1586.86 3832.59 3696.41 1586.86 1.54545 1.40909 0.454545 0.454545
+singles 50 1425.64 3878.86 3771.64 1425.64 0.545455 0.555556 1.5 1.5
+singles 51 1544.8 3861.18 3790.77 1538.55 0.0454545 0.0454545 0.0454545 0.0454545
+singles 52 1626.95 4016.32 3881.77 1626.95 1.1 1.09091 0.454545 0.454545
+singles 53 1825.55 4699 4573.23 1845.86 1 1 0.454545 0.454545
+singles 54 2523.09 6210.32 6070 2544.59 0.909091 0.909091 0.454545 0.454545
+singles 55 3620 9095.05 8943.32 3620 2.4537 1.76768 0.454545 0.454545
+singles 56 2470.56 5831.55 5694.64 2467.42 2 2 0.0454545 0.0454545
+singles 57 2117.41 4616 4496.32 2117.41 1 1 0.0454545 0.0454545
+singles 58 1741.64 4415.59 4366.68 1741.64 0.545455 0.545455 0 0
+singles 59 1622.45 4166.05 4083.82 1622.45 0.545455 0.545455 0.454545 0
+singles 60 1619 4228.91 4159.18 1619 1.09091 1.09091 0 0
+singles 61 1751.23 4493.64 4405.95 1747.32 2.45455 2.45455 0 0
+singles 62 2156.14 5895.45 5819.77 2136.59 1 1 0.0454545 0.0454545
+singles 63 2059.1 5295.55 5251.45 2059.14 1.04545 1.04545 0.0454545 0.0454545
+end_of_header
+frame 2
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 20840448
+frame_start 4
+frame_duration 2
+scale_factor 0.5
+minimum 0
+maximum 7.87286e-019
+deadtime_correction 1.125
+decay_correction 1.00053
+prompts 114   50   146
+prompts_rate 80
+delays 19   5   18
+trues 95   45   128
+delays_rate 10
+singles 0 1454.86 3785.6 3760.46 1454.86 1.0124 1.0124 0.454545 0.454545
+singles 1 1467.09 4031.72 3757.83 1467.09 1.00413 1.00413 0.541322 0.541322
+singles 2 1494.38 3835.64 3801.2 1494.38 0.545455 0.545455 0.909091 0.909091
+singles 3 1528.88 3859.28 3807.62 1528.88 1.57438 1.57438 0.123967 0.123967
+singles 4 2285.17 5217.15 4904.36 2285.17 1.90909 1.90909 0.0413223 0.0413223
+singles 5 3572.13 6684.44 6456.9 3572.13 1.45455 1.45455 0.495868 0.495868
+singles 6 4181.66 7670.07 7452.69 4181.66 0.545455 0.545455 0.00413223 0.00413223
+singles 7 5094.62 9033.03 8931.62 5094.62 0.0950413 0.0950413 0.0826446 0.0826446
+singles 8 5070.44 8740.04 8459.83 5070.44 2.93802 2.93802 0.995868 0.995868
+singles 9 4886.41 8209.8 8060.15 4886.41 0.958678 0.958678 0.128099 0.128099
+singles 10 4084.57 7576.89 7472.34 4084.57 2.04545 2.04545 0.913223 0.913223
+singles 11 3072.15 6217.11 6027.1 3072.15 0.954545 0.954545 0.458678 0.458678
+singles 12 1733.88 4327.03 4285.81 1733.88 1.49174 1.49174 0.00413223 0.00413223
+singles 13 1466.36 3919.2 3810.62 1466.36 1.04132 1.04132 0.00413223 0.00413223
+singles 14 1461.77 3922.56 3804.9 1461.77 1.46281 1.46281 0.53719 0.53719
+singles 15 1447.25 3811.38 3638.83 1447.25 1.9876 1.9876 0.475207 0.475207
+singles 16 1507.56 4196.97 4007.04 1507.56 0.578512 0.578512 0.0826446 0.0826446
+singles 17 1526.52 4206.31 4033.05 1526.52 1.8843 1.8843 0.00413223 0.00413223
+singles 18 1551.91 4134.03 4066.07 1551.91 1.45455 1.45455 0.0413223 0.0413223
+singles 19 1574.23 4192.93 4148.46 1574.23 0.995868 0.995868 0.458678 0.458678
+singles 20 1659.41 4128.59 4096.82 1659.41 1.00826 1.00826 0.458678 0.458678
+singles 21 2517.98 5398.11 5259.56 2517.98 0.586777 0.586777 0 0
+singles 22 3965.19 7016.42 6973.62 3965.19 1.90909 1.90909 0.0495868 0.0495868
+singles 23 5627.23 9714.41 9582.95 5627.22 1.49174 1.49174 0.46281 0.46281
+singles 24 5640.21 9682.36 9554.13 5640.21 1.50413 1.50413 1.49174 1.49174
+singles 25 5006.58 9117.61 9024.14 5006.53 1.96281 1.96281 0.0454545 0.0454545
+singles 26 3278.74 6706.07 6647.19 3278.74 1.45623 1.45623 0.454545 0.454545
+singles 27 1919.58 4895.23 4810.42 1919.58 1.16942 1.16942 0.913223 0.913223
+singles 28 1574.47 4341.15 4307.44 1574.47 0.466942 0.466942 0.00413223 0.00413223
+singles 29 1565.17 4163.21 4143.23 1565.17 0.0950413 0.0950413 0.00413223 0.00413223
+singles 30 1477.25 4015.62 3883.23 1477.25 2.57025 2.57025 0 0
+singles 31 1450.62 3938.63 3768.49 1450.62 2.49174 2.49174 0 0
+singles 32 1528.5 4483.42 4228.86 1528.5 1.05785 1.05785 0.909091 0.909091
+singles 33 1599.35 4098.65 3964.34 1599.35 0.632231 0.632231 0.458678 0.458678
+singles 34 1494.44 4148.07 4028 1494.44 0.921488 0.921488 0.454545 0.454545
+singles 35 1567.9 3998.76 3879.69 1567.9 1.98347 1.98347 0 0
+singles 36 1608.33 3998.79 3905.55 1608.33 0.18595 0.18595 0.53719 0.53719
+singles 37 1769.18 4370.27 4316.19 1769.18 1.49587 1.49587 0.0826446 0.0826446
+singles 38 2075.98 5252.4 5110.66 2075.98 1.00092 1 0.0413223 0.0413223
+singles 39 2426.94 5726.16 5585.35 2426.94 1.50826 1.50826 0.0413223 0.0413223
+singles 40 2448.48 5669.3 5524.52 2448.48 1.09091 1.09091 0.0413223 0.0413223
+singles 41 2130.4 4835.28 4749.04 2130.4 1.58264 1.58264 0.00413223 0.00413223
+singles 42 1758.79 4403.35 4307.47 1758.79 0.660774 0.660774 0 0
+singles 43 1646.89 4452.36 4423.45 1646.89 0.0909091 0.0909091 0 0
+singles 44 1580.45 4239.81 4180.73 1580.45 1.45455 1.45455 0 0
+singles 45 1545 4424.14 4274.24 1545 2.40496 2.40496 0.0413223 0.0413223
+singles 46 1562.26 4296.93 4116.69 1562.26 1.41322 1.41322 0 0
+singles 47 1558.71 4315.53 4014.12 1558.71 0.595041 0.595041 0.0867769 0.0867769
+singles 48 1686.08 4473.17 4366.12 1677.89 0.938017 0.938017 0.0413223 0.0413223
+singles 49 1552.44 3771.6 3640.13 1552.44 2.62879 2.85537 0.0413223 0.0413223
+singles 50 1421.88 3861.71 3744.24 1421.88 0.504132 0.462963 0.136364 0.136364
+singles 51 1447.9 3791.93 3726.43 1443.96 0.00413223 0.00413223 1.36777 1.36777
+singles 52 1637.45 4031.94 3892.89 1637.45 0.925 0.553719 0.0413223 0.0413223
+singles 53 1809.63 4714.45 4595.75 1803.26 1.45455 1.45455 0.495868 0.495868
+singles 54 2543.92 6238.67 6080.91 2526.63 1.90083 1.90083 0.0413223 0.0413223
+singles 55 3561.36 9066.82 8933.03 3561.36 2.04125 2.64731 0.0413223 0.0413223
+singles 56 2465.96 5823.32 5687.24 2468.95 0.636364 0.636364 0.00413223 0.00413223
+singles 57 2087.7 4628.27 4492.85 2085.67 1.90909 1.90909 0.458678 0.458678
+singles 58 1738.79 4392.33 4351.97 1738.79 0.504132 0.504132 0 0
+singles 59 1572.5 4134.64 4056.71 1572.5 1.41322 1.41322 0.0413223 0.416667
+singles 60 1558.55 4172.17 4104.47 1558.55 1.00826 1.00826 0 0
+singles 61 1756.48 4460.79 4373.72 1758.94 1.58678 1.58678 0 0
+singles 62 2155.93 5862.77 5788.16 2144.24 1 1 0.00413223 0.00413223
+singles 63 2014.92 5260.05 5213.77 2023.1 0.0950413 0.0950413 0.913223 0.913223
+end_of_header
+frame 3
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 31260672
+frame_start 6
+frame_duration 2
+scale_factor 0.5
+minimum -6.2446e-007
+maximum 3.28805e-006
+deadtime_correction 1.1
+decay_correction 1.00074
+prompts 89   53   139
+prompts_rate 75
+delays 18   2   19
+trues 71   51   120
+delays_rate 10
+singles 0 1434.99 3722.33 3691.41 1434.99 1.00113 1.00113 0.0413223 0.0413223
+singles 1 1489.28 4015.16 3764.8 1489.28 0.0912847 0.0912847 0.503757 0.503757
+singles 2 1519.94 3852.33 3818.75 1519.94 2.32231 2.32231 0.53719 0.53719
+singles 3 1516.72 3834.48 3786.15 1516.72 1.96131 1.96131 0.0112697 0.0112697
+singles 4 2160.92 5024.74 4701.31 2160.92 0.628099 0.628099 0.458302 0.458302
+singles 5 3166.1 6124.95 5933.35 3166.1 1.95041 1.95041 0.95417 0.95417
+singles 6 3866.06 7260.46 7044.34 3866.06 0.958678 0.958678 0.454921 0.454921
+singles 7 4739.51 8448.46 8351.97 4739.51 0.917731 0.917731 0.916604 0.916604
+singles 8 4652.77 8228.19 7950.89 4652.77 1.63073 1.63073 0.545079 0.545079
+singles 9 4396.04 7665.44 7525.47 4396.04 1.90533 1.90533 0.0116454 0.0116454
+singles 10 3640.87 6926.99 6820.21 3640.87 1.70455 1.70455 0.0830203 0.0830203
+singles 11 2846.56 5904.74 5715.65 2846.56 0.995868 0.995868 0.041698 0.041698
+singles 12 1726.26 4379.73 4342.35 1726.26 1.49925 1.49925 0.000375657 0.000375657
+singles 13 1482.85 3929.93 3826.42 1482.85 0.549211 0.549211 0.000344353 0.000344353
+singles 14 1454.71 3827.96 3698.17 1454.71 2.40571 2.40571 0.0488355 0.0488355
+singles 15 1407.93 3720.13 3557.17 1407.93 1.08978 1.08978 0.0432006 0.0432006
+singles 16 1517.96 4154.27 3962.46 1517.96 3.68896 3.68896 0.00751315 0.00751315
+singles 17 1492.87 4158.3 3974.82 1492.87 0.625845 0.625845 0.000375657 0.000375657
+singles 18 1533.36 4142.64 4066.46 1533.36 1.49587 1.49587 0.458302 0.458302
+singles 19 1553.57 4048.9 4001.22 1553.57 1.45417 1.45417 0.496243 0.496243
+singles 20 1624.04 4032.14 4002.89 1624.04 1.4553 1.4553 0.041698 0.041698
+singles 21 2215.72 4936.19 4808.6 2215.72 0.507889 0.507889 0 0
+singles 22 3468.2 6429.22 6380.78 3468.2 1.53719 1.53719 0.459053 0.459053
+singles 23 4825.66 8727.67 8591.63 4825.66 2.86288 2.86288 0.951165 0.951165
+singles 24 4825.47 8667.94 8536.29 4825.47 1.04583 1.04583 1.0447 1.0447
+singles 25 4271.96 8162.96 8064.47 4271.96 2.45116 2.45116 0.913223 0.913223
+singles 26 2892.16 6131.01 6065.2 2892.16 0.145623 0.145623 0.0413223 0.0413223
+singles 27 1852.69 4867.29 4791.4 1852.69 1.92449 1.92449 0.537566 0.537566
+singles 28 1572.22 4259.2 4232.49 1572.22 1.86063 1.86063 0.454921 0.454921
+singles 29 1582.29 4172.11 4146.66 1582.29 0.00864012 0.00864012 0.417011 0.417011
+singles 30 1469.3 3975.51 3833.48 1469.3 0.233659 0.233659 0.454545 0.454545
+singles 31 1444.6 3907.6 3721.23 1444.6 1.59016 1.59016 0 0
+singles 32 1512.59 4465.77 4224.9 1512.59 0.0961683 0.0961683 0.53719 0.53719
+singles 33 1532.67 3968.97 3854.94 1532.67 0.512021 0.512021 0.041698 0.041698
+singles 34 1495.4 4131.64 4016.64 1495.4 1.44741 1.44741 0.495868 0.495868
+singles 35 1518.9 3974.89 3850.88 1518.9 1.08941 1.08941 0 0
+singles 36 1564.85 3956.25 3867.32 1564.85 0.925995 0.925995 0.0488355 0.0488355
+singles 37 1749.47 4364.57 4312.84 1749.47 1.49962 1.49962 0.462059 0.462059
+singles 38 1948.73 5077.95 4938.24 1948.73 0.0909926 0.0909091 0.00375657 0.00375657
+singles 39 2191.09 5370.56 5244.58 2191.09 1.50075 1.50075 0.00375657 0.00375657
+singles 40 2227.59 5319.94 5184.05 2227.59 1.46281 1.46281 0.458302 0.458302
+singles 41 1963.67 4646.84 4554.91 1963.67 1.96206 1.96206 0.000375657 0.000375657
+singles 42 1723.98 4322.12 4225.68 1723.98 1.56608 1.56608 0 0
+singles 43 1620.17 4380.67 4354.4 1620.17 2.73554 2.73554 0 0
+singles 44 1536.4 4162.26 4110.98 1536.4 1.04132 1.04132 0 0
+singles 45 1554.09 4424.92 4276.75 1554.09 2.03681 2.03681 0.00344353 0.00344353
+singles 46 1542.48 4228.36 4057.43 1542.48 0.58302 0.58302 0 0
+singles 47 1507.16 4200.05 3918.1 1507.16 1.41773 1.41773 0.00788881 0.00788881
+singles 48 1713.61 4470.29 4349.65 1717.99 0.994365 0.994365 0.00375657 0.00375657
+singles 49 1567.04 3761.51 3625.01 1567.04 0.238981 0.259579 0.00375657 0.00375657
+singles 50 1443.81 3781.97 3659.93 1443.81 0.954921 1.0463 0.0123967 0.0123967
+singles 51 1468.9 3779.27 3721.04 1469.91 0.454921 0.454921 1.03343 1.03343
+singles 52 1571.13 3906.99 3770.26 1571.13 1.5925 1.86852 0.00375657 0.00375657
+singles 53 1805.42 4661.31 4546.89 1812.77 0.586777 0.586777 0.499624 0.499624
+singles 54 2426.39 6084.42 5935.08 2424.66 0.627348 0.627348 0.00375657 0.00375657
+singles 55 3599.21 9063.8 8933 3599.21 1.5492 1.26473 0.00375657 0.00375657
+singles 56 2431.45 5749.85 5622.93 2436.9 2.33058 2.33058 0.000375657 0.000375657
+singles 57 2034.77 4449.84 4320.71 2041.42 1.99174 1.99174 0.041698 0.041698
+singles 58 1670.8 4181.58 4137.91 1670.8 0.0458302 0.0458302 0 0
+singles 59 1557.05 4112.24 4039.7 1557.05 1.94666 1.94666 0.00413223 0.0378788
+singles 60 1566.69 4147.47 4090.41 1566.69 0.546206 0.546206 0 0
+singles 61 1718.77 4406.44 4322.61 1718.99 1.50789 1.50789 0 0
+singles 62 2152.81 5837.52 5754.38 2165.39 1.45455 1.45455 0.454921 0.454921
+singles 63 2074.08 5260 5218.07 2062.34 0.00864012 0.00864012 0.0830203 0.0830203
+end_of_header
+frame 4
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 41680896
+frame_start 8
+frame_duration 2
+scale_factor 0.5
+minimum -5.08144e-007
+maximum 1.70595e-006
+deadtime_correction 1.30435
+decay_correction 1.00095
+prompts 100   46   138
+prompts_rate 75
+delays 17   6   19
+trues 83   40   119
+delays_rate 10
+singles 0 1463.64 3800.67 3773.76 1463.64 1.90919 1.90919 0.458302 0.458302
+singles 1 1506.3 4006.38 3743.62 1506.3 0.462844 0.462844 0.0457961 0.0457961
+singles 2 1509.99 3808.39 3779.43 1509.99 2.0293 2.0293 0.503381 0.503381
+singles 3 1530.61 3828.59 3776.92 1530.61 1.08739 1.08739 0.910115 0.910115
+singles 4 2144.63 5029.98 4717.85 2144.63 0.511645 0.511645 0.0416638 0.0416638
+singles 5 3164.65 6158.18 5984.4 3164.65 0.631856 0.631856 0.0867427 0.0867427
+singles 6 3844.64 7277.77 7072.67 3844.64 0.0871525 0.0871525 0.950447 0.950447
+singles 7 4716.32 8376.68 8269.72 4716.32 0.992521 0.992521 0.537873 0.537873
+singles 8 4630.25 8173.93 7883.72 4630.25 3.78461 3.78461 0.504098 0.504098
+singles 9 4192.82 7317.77 7193.68 4192.82 1.99139 1.99139 0.00105867 0.00105867
+singles 10 3471.9 6687.91 6589.56 3471.9 3.89205 3.89205 0.0075473 0.0075473
+singles 11 2696.51 5709.98 5527.33 2696.51 0.545079 0.545079 0.00379072 0.00379072
+singles 12 1682.39 4272.7 4234.3 1682.39 0.590841 0.590841 3.41507e-005 3.41507e-005
+singles 13 1406.17 3889.54 3788.31 1406.17 1.41356 1.41356 3.44353e-005 3.44353e-005
+singles 14 1425.43 3793.45 3679.38 1425.43 1.12779 1.12779 0.458985 0.458985
+singles 15 1397.99 3696.83 3532.01 1397.99 0.553617 0.553617 0.00392733 0.00392733
+singles 16 1408.91 4082.66 3873.41 1408.91 1.699 1.699 0.000683014 0.000683014
+singles 17 1519.35 4108.48 3959.53 1519.35 0.51144 0.51144 3.41507e-005 3.41507e-005
+singles 18 1526.67 4037.06 3974.22 1526.67 0.135988 0.135988 0.496209 0.496209
+singles 19 1578.96 4065.81 4019.66 1578.96 1.49583 1.49583 0.045113 0.045113
+singles 20 1632.64 4038.83 4007.99 1632.64 1.49594 1.49594 0.00379072 0.00379072
+singles 21 2228.25 4936.02 4805.78 2228.25 1.40981 1.40981 0.909091 0.909091
+singles 22 3365.29 6307.66 6265.07 3365.29 0.59429 0.59429 0.496278 0.496278
+singles 23 4827.79 8737.97 8595.15 4827.79 1.16935 1.16935 0.0864695 0.0864695
+singles 24 4619.59 8439.81 8305.12 4619.59 1.00417 1.00417 0.549519 0.549519
+singles 25 4049.72 7829.36 7743.59 4049.72 0.677379 0.677379 0.0830203 0.0830203
+singles 26 2703.83 5846 5774.02 2703.83 0.0121352 0.0121352 0.00375657 0.00375657
+singles 27 1825.7 4738.84 4654.22 1825.7 1.99314 1.99314 0.503415 0.503415
+singles 28 1558.84 4282.65 4251.14 1558.84 1.07824 1.07824 0.0413565 0.0413565
+singles 29 1497.48 4088.37 4067.88 1497.48 1.36442 1.36442 0.0417011 0.0417011
+singles 30 1467.21 4027.77 3902.13 1467.21 1.38488 1.38488 0.495868 0.495868
+singles 31 1420.42 3912.51 3731.93 1420.42 0.599105 0.599105 0 0
+singles 32 1547.96 4512.8 4284.08 1547.96 0.917834 0.917834 0.957926 0.957926
+singles 33 1572.97 4073.09 3944.09 1572.97 3.22837 3.22837 0.458336 0.458336
+singles 34 1522.76 4099.69 3984.24 1522.76 0.586128 0.586128 0.0450789 0.0450789
+singles 35 1558.99 4018.17 3893.72 1558.99 0.553582 0.553582 0.454545 0.454545
+singles 36 1503.62 3841.93 3757.48 1503.62 0.538727 0.538727 0.00443959 0.00443959
+singles 37 1695.41 4279.05 4236.17 1695.41 0.590875 0.590875 0.0420053 0.0420053
+singles 38 1918.98 5099.36 4942.11 1918.98 2.73554 2.73554 0.454887 0.454887
+singles 39 2157.83 5346.87 5217.23 2157.83 2.8637 2.8637 0.000341507 0.000341507
+singles 40 2141.14 5177.72 5031.73 2141.14 1.49662 1.49662 0.0416638 0.0416638
+singles 41 1938.52 4619.71 4532.72 1938.52 0.632914 0.632914 3.41507e-005 3.41507e-005
+singles 42 1707.18 4297.92 4203.24 1707.18 0.547173 0.547173 0.454545 0.454545
+singles 43 1562.74 4313.24 4289.95 1562.74 2.06687 2.06687 0 0
+singles 44 1544.67 4167.93 4116 1544.67 1.00376 1.00376 0 0
+singles 45 1552.19 4455.45 4315.16 1552.19 1.09426 1.09426 0.500344 0.500344
+singles 46 1537.95 4236.67 4068.86 1537.95 0.0530018 0.0530018 0.454545 0.454545
+singles 47 1571.11 4240 3936.65 1571.11 1.94707 1.94707 0.000717164 0.000717164
+singles 48 1679.88 4402.75 4279.06 1671.18 0.999488 0.999488 0.000341507 0.000341507
+singles 49 1538.82 3721.05 3579.09 1538.82 0.0238981 0.0235981 0.000341507 0.000341507
+singles 50 1410.8 3744.73 3617.99 1410.8 1.90499 1.75386 0.910218 0.910218
+singles 51 1479.45 3744.02 3680.09 1477.99 0.950447 0.950447 0.548494 0.548494
+singles 52 1632.83 4027 3889.57 1632.83 0.966042 0.624411 0.000341507 0.000341507
+singles 53 1768.54 4694.66 4564.26 1769.28 0.0533434 0.0533434 0.0454204 0.0454204
+singles 54 2447.62 6172.22 6027.28 2461.33 1.87521 1.87521 0.000341507 0.000341507
+singles 55 3540.84 9036.25 8916.18 3540.84 1.95902 2.18873 0.000341507 0.000341507
+singles 56 2326.5 5644.08 5500.72 2331.41 2.93914 2.93914 3.41507e-005 3.41507e-005
+singles 57 1879.56 4290.9 4169.61 1890.13 1.09016 1.09016 0.00379072 0.00379072
+singles 58 1657.8 4248.32 4203.9 1657.8 1.3678 1.3678 0 0
+singles 59 1556.09 4062.48 3987.25 1556.09 0.631514 0.631514 0.000375657 0.00378788
+singles 60 1578.34 4158.86 4106.85 1578.34 1.41329 1.41329 0 0
+singles 61 1783.52 4422.86 4332.06 1771.4 1.04617 1.04617 0.454545 0.454545
+singles 62 2130.78 5811.14 5727.22 2130.49 0.586777 0.586777 0.495902 0.495902
+singles 63 2046.28 5248.18 5195.73 2062.73 3.63715 3.63715 0.0075473 0.0075473
+end_of_header
+frame 5
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 52101120
+frame_start 10
+frame_duration 2
+scale_factor 0.5
+minimum 0
+maximum 9.88902e-019
+deadtime_correction 1.16
+decay_correction 1.00116
+prompts 133   77   195
+prompts_rate 105
+delays 19   6   21
+trues 114   71   174
+delays_rate 10
+singles 0 1451.24 3755.97 3730.34 1451.24 1.5372 1.5372 0.0416638 0.0416638
+singles 1 1504.21 4041.94 3788.06 1504.21 2.3148 2.3148 0.458709 0.458709
+singles 2 1546.36 3842.58 3803.58 1546.36 1.09357 1.09357 0.0457619 0.0457619
+singles 3 1575.06 3910.33 3851.54 1575.06 3.28067 3.28067 0.0827378 0.0827378
+singles 4 2181.78 5149.54 4819.35 2181.78 2.31924 2.31924 0.00378762 0.00378762
+singles 5 3172.24 6127.11 5948.13 3172.24 1.87562 1.87562 0.462431 0.462431
+singles 6 3828.6 7252.98 7041.15 3828.6 0.00792296 0.00792296 0.54095 0.54095
+singles 7 4544.67 8171.06 8081.34 4544.67 0.99932 0.99932 0.503443 0.503443
+singles 8 4347.75 7821.72 7543.07 4347.75 1.70769 1.70769 0.0458271 0.0458271
+singles 9 4096.17 7225.25 7094.43 4096.17 1.99922 1.99922 0.909187 0.909187
+singles 10 3275.17 6477.08 6379.51 3275.17 2.3892 2.3892 0.000686118 0.000686118
+singles 11 2576.5 5596.82 5413.39 2576.5 0.504098 0.504098 0.000344611 0.000344611
+singles 12 1732.49 4357.97 4319.94 1732.49 3.23553 3.23553 0.454549 0.454549
+singles 13 1429.2 3909.96 3799.85 1429.2 0.583051 0.583051 0.454549 0.454549
+singles 14 1440.49 3835.77 3723.13 1440.49 1.46616 1.46616 0.0417259 0.0417259
+singles 15 1485.27 3873.35 3691.09 1485.27 2.32306 2.32306 0.00035703 0.00035703
+singles 16 1470.81 4124.79 3939.4 1470.81 1.51809 1.51809 6.20921e-005 6.20921e-005
+singles 17 1481.76 4188.5 4020.41 1481.76 0.50104 0.50104 0.454549 0.454549
+singles 18 1542.42 4086.55 4015.38 1542.42 1.376 1.376 0.0451099 0.0451099
+singles 19 1571.72 4059.16 4013.61 1571.72 0.135985 0.135985 0.458647 0.458647
+singles 20 1610.24 4018.53 3988.45 1610.24 1.04509 1.04509 0.45489 0.45489
+singles 21 2193.93 4999.18 4871.43 2193.93 0.128164 0.128164 0.0826446 0.0826446
+singles 22 3348.21 6201.15 6160.92 3348.21 0.0540264 0.0540264 0.499662 0.499662
+singles 23 4606.16 8382.54 8254.1 4606.16 2.37903 2.37903 0.916952 0.916952
+singles 24 4494.51 8215.89 8080.92 4494.51 1.00038 1.00038 1.41359 1.41359
+singles 25 3914.07 7537.67 7458.51 3914.07 0.516125 0.516125 0.916638 0.916638
+singles 26 2626.26 5742.82 5694 2626.26 1.50121 1.50121 0.000341507 0.000341507
+singles 27 1766.88 4722.62 4641.75 1766.88 1.54483 1.54483 0.045765 0.045765
+singles 28 1536.71 4234.33 4204.65 1536.71 1.00711 1.00711 0.458305 0.458305
+singles 29 1532.95 4116.22 4084.81 1532.95 1.48767 1.48767 0.00379101 0.00379101
+singles 30 1482.93 4033.89 3918.83 1482.93 1.94408 1.94408 0.499624 0.499624
+singles 31 1479.13 3984.77 3810.18 1479.13 0.963555 0.963555 0 0
+singles 32 1517.09 4497.07 4253.1 1517.09 2.35617 2.35617 0.0870842 0.0870842
+singles 33 1569.36 4063.92 3955.37 1569.36 1.65712 1.65712 0.0416669 0.0416669
+singles 34 1523.43 4102.7 3983.57 1523.43 0.962375 0.962375 0.458644 0.458644
+singles 35 1576.27 3934.38 3806.7 1576.27 1.41396 1.41396 0.0413223 0.0413223
+singles 36 1544.87 3917.9 3839.77 1544.87 0.958066 0.958066 0.000403599 0.000403599
+singles 37 1696.4 4329 4280.11 1696.4 0.508261 0.508261 0.00381867 0.00381867
+singles 38 1967.18 5119.49 4996.56 1967.18 1.61232 1.61232 0.495899 0.495899
+singles 39 2173.44 5457.9 5345.2 2173.44 2.98761 2.98761 3.10461e-005 3.10461e-005
+singles 40 2122.83 5182.07 5035.61 2122.83 1.49969 1.49969 0.458333 0.458333
+singles 41 1937.59 4490.43 4401.61 1937.59 0.966629 0.966629 0.454549 0.454549
+singles 42 1722.02 4306.17 4207.11 1722.02 2.05472 2.05472 0.950413 0.950413
+singles 43 1567.98 4283.93 4253.63 1567.98 1.09699 1.09699 0 0
+singles 44 1597.24 4240.72 4184.18 1597.24 2.81852 2.81852 0 0
+singles 45 1597.93 4455.5 4312.74 1597.93 3.2813 3.2813 0.954577 0.954577
+singles 46 1497.09 4217.88 4044.9 1497.09 2.27755 2.27755 0.0413223 0.0413223
+singles 47 1541.46 4213.18 3932.42 1541.46 0.631552 0.631552 0.909156 0.909156
+singles 48 1726.81 4497.98 4374.46 1727.83 1.4545 1.4545 0.454576 0.454576
+singles 49 1573.98 3786 3659.92 1573.98 0.00199151 0.00214528 0.454576 0.454576
+singles 50 1435.53 3831.79 3718.45 1435.53 1.1905 1.17539 0.0827471 0.0827471
+singles 51 1489.04 3730.37 3673.19 1481.18 0.54095 0.54095 0.0498631 0.0498631
+singles 52 1638.44 3983.82 3834.05 1638.44 2.36055 2.55203 3.10461e-005 3.10461e-005
+singles 53 1782.38 4689.97 4543.57 1773.57 0.459395 0.459395 0.00412913 0.00412913
+singles 54 2514.33 6226.11 6089.3 2497.19 0.625019 0.625019 3.10461e-005 3.10461e-005
+singles 55 3516.89 8947.84 8815.56 3516.89 4.1959 4.21887 3.10461e-005 3.10461e-005
+singles 56 2325.15 5681.73 5546.88 2325.64 2.08538 2.08538 0.909094 0.909094
+singles 57 1911.46 4308.26 4192.69 1899.56 1.46274 1.46274 0.000344611 0.000344611
+singles 58 1646.16 4215.76 4172.17 1646.16 2.39707 2.39707 0 0
+singles 59 1570.1 4078.86 3996.57 1570.1 0.511956 0.511956 0.45458 0.416982
+singles 60 1546.67 4193.53 4126.08 1546.67 1.03757 1.03757 0 0
+singles 61 1720.77 4357.99 4275.64 1735.12 1.0042 1.0042 0.0413223 0.0413223
+singles 62 2120.9 5826.92 5746.57 2111.41 2.78062 2.78062 0.499627 0.499627
+singles 63 1989.66 5248.93 5201.43 1981.06 3.51247 3.51247 0.000686118 0.000686118
+end_of_header
+frame 6
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 62521344
+frame_start 12
+frame_duration 2
+scale_factor 0.5
+minimum -3.47301e-007
+maximum 6.47798e-007
+deadtime_correction 1.01961
+decay_correction 1.00137
+prompts 181   87   245
+prompts_rate 135
+delays 32   19   48
+trues 149   68   197
+delays_rate 25
+singles 0 2638.75 5433.27 5404.58 2638.75 2.41247 2.41247 0.458333 0.458333
+singles 1 2481.75 5531.09 5251.64 2481.75 1.57407 1.57407 0.496246 0.496246
+singles 2 2435.58 5160.23 5126.23 2435.58 2.37214 2.37214 0.458706 0.458706
+singles 3 2359.55 5060.94 4987.87 2359.55 1.66188 1.66188 0.00752161 0.00752161
+singles 4 2912.89 6200.87 5851.76 2912.89 1.11993 1.11993 1.36398 1.36398
+singles 5 3792.48 7035.19 6845.74 3792.48 1.98869 1.98869 0.0420392 0.0420392
+singles 6 4212.6 7857.54 7627.83 4212.6 1.36436 1.36436 0.503723 0.503723
+singles 7 4766.33 8669.19 8573.76 4766.33 1.45448 1.45448 0.500313 0.500313
+singles 8 4475.25 8111.97 7850.28 4475.25 1.06434 1.06434 0.0041661 0.0041661
+singles 9 4237.38 7530.48 7393.13 4237.38 1.99993 1.99993 0.0826534 0.0826534
+singles 10 3566.83 6969.28 6873.14 3566.83 1.86577 1.86577 6.23744e-005 6.23744e-005
+singles 11 3160.14 6396.98 6193.94 3160.14 1.86401 1.86401 3.13283e-005 3.13283e-005
+singles 12 2398.86 5330.27 5287.72 2398.86 2.11232 2.11232 0.495868 0.495868
+singles 13 2337.65 5174.54 5060.44 2337.65 0.962096 0.962096 0.950413 0.950413
+singles 14 2641.41 5565.98 5430.74 2641.41 1.04238 1.04238 0.458339 0.458339
+singles 15 2593.21 5431.21 5246.01 2593.21 2.02937 2.02937 3.24573e-005 3.24573e-005
+singles 16 3022.35 6326.8 6114.49 3022.35 3.77437 3.77437 0.909097 0.909097
+singles 17 2808.8 5995.77 5812.31 2808.8 0.95464 0.95464 0.495868 0.495868
+singles 18 2779.31 5905.14 5820.49 2779.31 1.94327 1.94327 0.913192 0.913192
+singles 19 2514.25 5557.2 5509.42 2514.25 1.376 1.376 0.496241 0.496241
+singles 20 2320.02 4941.23 4910.31 2320.02 2.36774 2.36774 0.0413536 0.0413536
+singles 21 2671.27 5647.65 5527.86 2671.27 0.920742 0.920742 0.462059 0.462059
+singles 22 3492.11 6493.29 6454.17 3492.11 0.914002 0.914002 0.0454238 0.0454238
+singles 23 4554.2 8423.87 8310.83 4554.2 1.57991 1.57991 0.99245 0.99245
+singles 24 4390.41 8222.81 8099.17 4390.41 2.36367 2.36367 0.583054 0.583054
+singles 25 3831.28 7630.24 7538.05 3831.28 1.8651 1.8651 0.992422 0.992422
+singles 26 2695.57 5988.44 5931.73 2695.57 3.45843 3.45843 0.454576 0.454576
+singles 27 2162.44 5387.06 5289.25 2162.44 1.04953 1.04953 0.458706 0.458706
+singles 28 2137.43 5223.12 5188.15 2137.43 1.45519 1.45519 0.49621 0.49621
+singles 29 2477.09 5476.02 5442.25 2477.09 1.49888 1.49888 0.000344637 0.000344637
+singles 30 2912.99 6006.72 5866.71 2912.99 2.44946 2.44946 0.954511 0.954511
+singles 31 2939.47 5935.43 5729.11 2939.47 3.72396 3.72396 0 0
+singles 32 2375.64 5824.28 5579.37 2375.64 1.57783 1.57783 0.00791675 0.00791675
+singles 33 2197.21 4949.45 4831.4 2197.21 1.05974 1.05974 0.912879 0.912879
+singles 34 1995.77 4887.97 4755.32 1995.77 2.36022 2.36022 0.0416949 0.0416949
+singles 35 1922.39 4536.76 4402.88 1922.39 0.583087 0.583087 0.458302 0.458302
+singles 36 1780.9 4289.81 4196.8 1780.9 1.45073 1.45073 3.66908e-005 3.66908e-005
+singles 37 1808.31 4489.91 4443.65 1808.31 1.86439 1.86439 0.454893 0.454893
+singles 38 2004.29 5286.32 5150.14 2004.29 2.87385 2.87385 0.0450817 0.0450817
+singles 39 2173.95 5447.99 5315.02 2173.95 2.08978 2.08978 0.454548 0.454548
+singles 40 2143.44 5376.55 5243.24 2143.44 1.95452 1.95452 0.0416666 0.0416666
+singles 41 1951.14 4696.4 4607.87 1951.14 2.3606 2.3606 0.495868 0.495868
+singles 42 1763.82 4445.11 4353.83 1763.82 3.92123 3.82316 0.0864012 0.0864012
+singles 43 1752.54 4625.36 4595.33 1752.54 1.91791 1.91791 0 0
+singles 44 1781.57 4615.52 4566.74 1781.57 1.61987 1.61987 0 0
+singles 45 1927.54 5063.68 4908.43 1927.54 3.02557 3.02557 0.541325 0.541325
+singles 46 2059.28 5137.53 4949.99 2059.28 1.57069 1.57069 0.00375657 0.00375657
+singles 47 2274.68 5288.47 5003.4 2274.68 3.69378 3.69378 0.537196 0.537196
+singles 48 1981.68 5044.36 4915.86 1961.62 2.40495 2.40495 0.495871 0.495871
+singles 49 1863.09 4186.46 4055.45 1863.09 2.5002 2.27292 0.495871 0.495871
+singles 50 1649.14 4195.62 4076.68 1649.14 2.59921 2.37958 0.462068 0.462068
+singles 51 1694.9 4207.31 4138.93 1683.74 1.86736 1.86736 0.00453301 0.00453301
+singles 52 1776.68 4299.89 4140.37 1776.68 1.73606 1.7552 0.909094 0.909094
+singles 53 1912.74 5060.91 4920.32 1908.96 1.85994 1.85994 0.454921 0.454921
+singles 54 2490.39 6350.56 6198.57 2456.22 0.965911 0.965911 0.454548 0.454548
+singles 55 3596.08 9216.62 9091.87 3596.08 2.01633 2.20172 0.454548 0.454548
+singles 56 2360.85 5831.52 5687.9 2347.33 1.55322 1.55322 0.53719 0.53719
+singles 57 1977.86 4533.02 4405.24 1976.78 2.4057 2.4057 0.909122 0.909122
+singles 58 1712.83 4330.07 4283.83 1712.83 2.0361 2.0361 0 0
+singles 59 1643.65 4253.99 4183.78 1643.65 3.22836 3.22836 0.495871 0.541698
+singles 60 1702.42 4429.87 4353.73 1702.42 0.54887 0.54887 0 0
+singles 61 1967.34 4793 4696.42 1928.01 1.45493 1.45493 0.458302 0.458302
+singles 62 2283.59 6256.54 6166.05 2277.4 2.52551 2.52551 0.499966 0.499966
+singles 63 2288.97 5745.36 5689.22 2288.11 2.59204 2.59204 0.909153 0.909153
+end_of_header
+frame 7
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 72941568
+frame_start 14
+frame_duration 2
+scale_factor 0.5
+minimum 0
+maximum 6.49199e-020
+deadtime_correction 1
+decay_correction 1.00158
+prompts 757   284   746
+prompts_rate 410
+delays 553   214   535
+trues 204   70   211
+delays_rate 295
+singles 0 7584.43 12805.8 12729.5 7584.43 4.31022 4.31022 2.95486 2.95486
+singles 1 7091.52 13906.8 13524.3 7091.52 3.77946 3.77946 3.68148 3.68148
+singles 2 7441.87 12315 12247.4 7441.87 4.7611 4.7611 5.49625 5.49625
+singles 3 7006.32 11636.4 11533 7006.32 6.06017 6.06017 2.91729 2.91729
+singles 4 7346.63 12959.6 12524.3 7346.63 4.64727 4.64727 3.30582 3.30582
+singles 5 7796.13 13051.4 12813.2 7796.13 6.08988 6.08988 2.08684 2.08684
+singles 6 7775.24 13372.5 13102.5 7775.24 4.21494 4.21494 1.70864 1.70864
+singles 7 7546.94 13091.3 12944 7546.94 4.22313 4.22313 4.59094 4.59094
+singles 8 7554.57 12937.5 12619.6 7554.57 5.5513 5.5513 3.63674 3.63674
+singles 9 7777.49 12711 12513.5 7777.49 4.72727 4.72727 4.09842 4.09842
+singles 10 7481.98 12829 12685.3 7481.98 8.80598 8.80598 5.00001 5.00001
+singles 11 7599.1 12968.8 12717.2 7599.1 9.73867 9.73867 3.18182 3.18182
+singles 12 7278.08 12604.6 12473.9 7278.08 5.64657 5.64657 5.49962 5.49962
+singles 13 8013.42 13540.4 13371.4 8013.42 9.17837 9.17837 2.16253 2.16253
+singles 14 8746.95 14587.8 14356 8746.95 7.36749 7.36749 3.37153 3.37153
+singles 15 8138.47 13688.7 13455.1 8138.47 3.36631 3.36631 4.58334 4.58334
+singles 16 10402.9 17595.6 17257.2 10402.9 5.79767 5.79767 6.32576 6.32576
+singles 17 9958.98 18202.1 17916.9 9958.98 5.08679 5.08679 2.77235 2.77235
+singles 18 9929.94 16377.3 16138.2 9929.94 6.5403 6.5403 5.53756 5.53756
+singles 19 9404.48 15489.3 15350.9 9404.48 5.12509 5.12509 5.45802 5.45802
+singles 20 8116.82 13001.9 12925.5 8116.82 4.7607 4.7607 5.91285 5.91285
+singles 21 7942.39 13225.2 13025.3 7942.39 2.35643 2.35643 3.7885 3.7885
+singles 22 7538.83 12212.6 12118.6 7538.83 0.537637 0.537637 2.92045 2.92045
+singles 23 7235.38 12857.2 12705.1 7235.38 6.96181 6.96181 4.18113 4.18113
+singles 24 7400.95 13133.4 12974.5 7400.95 5.66942 5.66942 4.14391 4.14391
+singles 25 7512.84 13765.9 13626.2 7512.84 4.71501 4.71501 3.72658 3.72658
+singles 26 6812.32 12308 12196.5 6812.32 5.76895 5.76895 5.95042 5.95042
+singles 27 7222.95 13198.8 13016.8 7222.95 6.33746 6.33746 5.49625 5.49625
+singles 28 8395.68 14559.8 14454.4 8395.68 5.58684 5.58684 5.9542 5.9542
+singles 29 10074.7 16580.1 16464.8 10074.7 8.77262 8.77262 7.50003 7.50003
+singles 30 11374.4 18239.2 17959.2 11374.4 9.76813 9.76813 5.49621 5.49621
+singles 31 10860 17368.2 17072.6 10860 5.79309 5.79309 9.58333 9.58333
+singles 32 9976.88 18155.8 17746.8 9976.88 7.41617 7.41617 6.25066 6.25066
+singles 33 9174.75 17320.8 17063.9 9174.75 3.7327 3.7327 2.81026 2.81026
+singles 34 8461.89 14780.3 14492.3 8461.89 4.76002 4.76002 3.18561 3.18561
+singles 35 7932.94 13572.9 13379.8 7932.94 4.59846 4.59846 5.03819 5.03819
+singles 36 6038.72 10616.8 10446.5 6038.72 1.95007 1.95007 0.909094 0.909094
+singles 37 6099.39 11230.4 11114.4 6099.39 2.89676 2.89676 1.70457 1.70457
+singles 38 5795.39 11768.3 11571.4 5795.39 2.53399 2.53399 3.33709 3.33709
+singles 39 5016.27 10384.8 10220.9 5016.27 3.82634 3.82634 1.40496 1.40496
+singles 40 5483.49 11047.4 10858.9 5483.49 3.3595 3.3595 3.18561 3.18561
+singles 41 5428.74 10305.6 10173.4 5428.74 2.94187 2.94187 5.04508 5.04508
+singles 42 4961.71 9549.1 9431.26 4961.71 6.72011 6.5686 2.73513 2.73513
+singles 43 5635.23 11027.3 10964.1 5635.23 7.65983 7.65983 3.63636 3.63636
+singles 44 6627.87 12078.7 11947.4 6627.87 5.14726 5.14726 3.18182 3.18182
+singles 45 8319.32 15168.5 14894.4 8319.32 6.63869 6.63869 4.62844 4.62844
+singles 46 9746.3 16727.5 16470 9746.3 3.77915 3.77915 6.66698 6.66698
+singles 47 9996.79 16913 16489.4 9996.79 4.42671 4.42671 7.96143 7.96143
+singles 48 5572.64 11120.4 10944.6 5570.97 4.30954 4.30954 1.86326 1.86326
+singles 49 5187.1 9027.41 8863.22 5187.1 3.54168 3.52274 3.68144 3.68144
+singles 50 4805.38 9442.78 9274.24 4805.38 3.41811 3.53163 0.0420062 0.0420062
+singles 51 4784.16 9591.57 9487.17 4783.23 3.80612 3.80612 1.36405 1.36405
+singles 52 4336.52 8433.63 8245.94 4336.52 3.06134 1.97775 1.44628 1.44628
+singles 53 4468.98 9949.17 9760.03 4468.66 1.98727 1.98727 1.85954 1.85954
+singles 54 5012.31 10689.6 10502.1 4826.35 3.72417 3.72417 1.70455 1.8595
+singles 55 5194.64 12359.7 12192.4 5194.64 3.36512 3.10014 3.67769 3.67769
+singles 56 4805.53 10030.6 9827.99 4613.11 4.23211 4.23211 2.77611 2.77611
+singles 57 4418.99 8631.64 8450.93 3696.53 4.30961 4.30961 0.991738 0.991738
+singles 58 3847.98 8187.28 8098.98 3847.98 7.00328 7.00328 5 5
+singles 59 4205.33 8769.91 8645.34 4205.33 5.6857 5.29349 1.86326 1.71181
+singles 60 4665.22 9427.26 9327.16 4665.22 5.95899 5.95899 2.91667 1.81818
+singles 61 5289.3 10029.8 9913.31 5043.17 4.22318 4.22318 2.53819 1.85985
+singles 62 5402.38 11996.5 11853.7 5401.87 3.86596 3.86596 2.31818 2.31818
+singles 63 5627.41 11257.8 11167.2 5627.34 4.78109 4.78109 2.80992 2.80992
+end_of_header
+frame 8
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 83361792
+frame_start 16
+frame_duration 2
+scale_factor 0.5
+minimum -9.42321e-027
+maximum 0.329274
+deadtime_correction 1
+decay_correction 1.00179
+prompts 176228   7164   152771
+prompts_rate 84870
+delays 16276   6357   18984
+trues 159952   807   133787
+delays_rate 10545
+singles 0 28759.5 47153.3 46513.6 28759.5 94.4828 94.4828 94.3595 94.3595
+singles 1 27407.9 52002.9 50772.7 27407.9 120.798 120.798 70.7892 70.7892
+singles 2 27898.8 46915 46286.9 27899.3 104.978 104.978 66.8633 66.8633
+singles 3 28561 44806.5 44154.4 28561 100.551 100.551 79.3561 79.3561
+singles 4 27057.9 46531.8 45417.2 27057.4 101.332 101.332 71.6642 71.6642
+singles 5 27413.7 44096 43232.6 27413.7 74.19 74.19 77.917 77.917
+singles 6 27119.1 45704.3 44773 27119.1 72.6559 72.6559 68.1709 68.1709
+singles 7 25576.5 45685.9 44930.3 25576.1 73.5657 73.5657 69.5083 69.5083
+singles 8 26312.2 43342.9 42427.2 26312.2 118.232 118.232 76.9697 76.9697
+singles 9 26663.4 41898.7 41104.9 26663.4 112.702 112.702 74.4635 74.4635
+singles 10 25467.9 42362.2 41674.6 25467.9 118.073 118.073 82.2727 82.2727
+singles 11 26303.6 43952.2 43129.3 26303.6 126.34 126.34 88.0165 88.0165
+singles 12 27740.3 45935.4 45140.8 27740.3 116.422 116.422 89.5909 89.5909
+singles 13 29542.1 48185.5 47338.3 29542.1 127.198 127.198 96.1057 96.1057
+singles 14 30352 49798 48905.1 30352 134.761 134.761 104.852 104.852
+singles 15 28948 47866.3 47065.9 28948 125.761 125.761 112.235 112.235
+singles 16 41746.6 69989.1 68283.8 41746.6 160.073 160.073 126.939 126.939
+singles 17 41165.8 74959.7 73422.9 41165.8 218.644 218.644 117.979 117.979
+singles 18 41665 71383.5 69593.6 41664.5 217.413 217.413 108.685 108.685
+singles 19 42995 68924.5 67491 42995 174.557 174.557 114.133 114.133
+singles 20 40314.3 60516.5 59401.9 40314.3 183.615 183.615 99.1739 99.1739
+singles 21 40234.3 63112.3 61699.6 40234.3 163.396 163.396 108.526 108.526
+singles 22 39959.9 60198 58905.3 39959.9 154.594 154.594 94.792 94.792
+singles 23 37109.1 65083.9 63792.5 37109.1 166.997 166.997 92.6528 92.6528
+singles 24 38211.9 62970.8 61816.3 38211.9 208.243 208.243 134.929 134.929
+singles 25 37994.3 65084.2 63830.1 37994.3 216.792 216.792 124.884 124.884
+singles 26 35310.7 59148 58055.6 35310.2 218.252 218.252 135.541 135.541
+singles 27 36990.7 62661.7 61192.9 36990.7 237.849 237.849 142.772 142.772
+singles 28 39490.1 65231.8 63973.6 39490.1 215.053 215.053 137.359 137.359
+singles 29 42121.8 68230.9 67014.1 42121.8 229.434 229.434 162.5 162.5
+singles 30 43560.9 69846.8 68107.2 43560.9 234.524 234.524 171.409 171.409
+singles 31 42231.4 66838.5 65197.5 42231.4 245.072 245.072 150.417 150.417
+singles 32 55613.4 97017.4 94067.4 55613.4 465.674 465.674 163.296 163.296
+singles 33 53855.9 93442.8 90624 53855.4 755.339 755.339 138.437 138.437
+singles 34 54423.4 94613.4 91412.3 54422.9 929.524 929.524 154.835 154.835
+singles 35 57271.2 89191.6 86892.3 57271.2 906.327 906.327 160.458 160.458
+singles 36 52542.6 79699.3 77287 54813.9 868.359 868.359 140.083 140.083
+singles 37 54749.5 86117.8 83741.8 54749.5 657.536 657.536 136.064 136.064
+singles 38 54457.3 92321.2 89886.9 54457.3 527.049 527.049 132.834 132.834
+singles 39 50173.8 89453.3 86914.7 50173.8 448.984 448.984 144.673 144.673
+singles 40 51857.6 85900.2 83700.4 51857.6 963.033 963.033 169.432 169.432
+singles 41 50343.5 78947.3 76672.1 50343.1 861.631 861.631 151.368 151.368
+singles 42 46314.7 72952.2 71283.3 46314.7 905.611 905.597 165.703 165.703
+singles 43 47155.5 77965.7 76260.4 47155.5 922.515 922.515 163.512 163.512
+singles 44 50191.6 80363.5 78294.3 50190.7 813.195 813.195 190.289 190.289
+singles 45 52302.2 88194.4 85639 52302.2 1084.69 1084.69 208.148 208.148
+singles 46 54789.7 89179.3 86775 54789.7 1373.98 1373.98 197.879 197.879
+singles 47 55102 89538 86801.3 55102 1474.04 1474.04 208.451 208.451
+singles 48 52687.1 85859.1 83310.4 52686.9 1220.85 1220.85 143.489 129.715
+singles 49 52077.9 76601.1 74469.4 52077.9 2024.41 2024.41 150.789 150.789
+singles 50 52390 86749.3 83957.7 52390 2468.49 2468.5 130.004 130.004
+singles 51 57599 91886.1 89183.4 57598.9 2500.35 2500.35 174.28 149.215
+singles 52 53613.8 83884 80974.2 53613.3 2602.1 2386.41 140.586 140.586
+singles 53 58603.5 99212.2 95972.7 58602.6 2087.45 2087.45 137.896 137.896
+singles 54 58698.8 95942.2 92661.6 58681.5 1513.97 1513.97 145.17 131.987
+singles 55 53489.1 91069.1 88323.9 53489.1 1078.03 1078.01 143.062 143.062
+singles 56 55971.4 91401.4 88274.4 55953.9 3815.39 3815.39 156.616 156.616
+singles 57 53828.5 80483.3 77744.2 50313 3239.94 3239.94 165.09 165.09
+singles 58 48293.5 78995.2 76631.7 48293.5 2895.17 2476.09 186.818 186.818
+singles 59 48174.6 78685.4 76579.1 48174.6 3207.79 2504.57 187.897 187.883
+singles 60 49686.8 81092.5 79128.4 49686.8 2754.18 2754.18 181.629 167.652
+singles 61 50345.8 78800 76714.8 50323.5 3182.66 3182.66 188.867 173.905
+singles 62 50882.9 87077.4 84692.6 50882.9 3673.08 3673.08 158.393 158.393
+singles 63 52124.8 81914.3 79813.4 52124.8 3898.16 3898.16 180.651 154.346
+end_of_header
+frame 9
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 93782016
+frame_start 18
+frame_duration 2
+scale_factor 0.5
+minimum -2.97677e-026
+maximum 0.804033
+deadtime_correction 1
+decay_correction 1.002
+prompts 443609   18454   414102
+prompts_rate 230055
+delays 43701   17261   54494
+trues 399908   1193   359608
+delays_rate 30270
+singles 0 48875.4 79893.5 78350.8 48875.4 343.589 343.589 236.76 236.76
+singles 1 48293 85342.3 82938.3 48291.2 367.345 367.345 225.072 225.072
+singles 2 49704.4 81689.5 80052.9 49704.5 364.089 364.089 226.988 226.988
+singles 3 49570.1 77407.9 75824.5 49569.6 335.505 335.505 239.487 239.487
+singles 4 47830.7 83754.7 81373.5 47829.8 329.667 329.667 221.515 221.515
+singles 5 47684.9 76465.5 74512.1 47684.9 301.745 301.745 206.792 206.792
+singles 6 48346.3 81389.5 79334.4 48345.4 257.969 257.969 193.598 193.598
+singles 7 47362.4 82417.4 80509.6 47361.9 254.415 254.415 206.773 206.773
+singles 8 47533.4 77928.4 75858.8 47533.4 471.657 471.657 267.906 267.906
+singles 9 47387.6 73859.4 71985 47386.7 477.064 477.064 263.289 263.289
+singles 10 45949.4 76227.9 74546.3 45949.4 530.279 530.279 279.298 279.298
+singles 11 46523.5 77298.8 75507.2 46523.1 550.576 550.576 252.092 252.092
+singles 12 47936.8 79463.7 77643.3 47936.8 553.869 553.869 284.508 284.508
+singles 13 49578.4 81370 79500.8 49578.4 526.109 526.109 291.464 291.464
+singles 14 49973.4 82849.8 80907.7 49972.9 577.706 577.706 289.985 289.985
+singles 15 48430.7 80573.8 78852.4 48430.7 550.978 550.978 310.658 310.658
+singles 16 71150.6 120009 116046 71150.1 602.734 602.734 360.631 360.631
+singles 17 72175.1 122776 119310 72175.1 686.695 686.695 356.18 356.18
+singles 18 73358.6 124751 119909 73358.6 680.219 680.219 338.517 338.517
+singles 19 75676.4 121945 118122 75676.4 655.414 655.414 364.012 364.012
+singles 20 74190.8 113510 110155 74189 667.601 667.601 319.016 319.016
+singles 21 73268.6 114852 111207 73268.1 578.036 578.036 312.353 312.353
+singles 22 74604.1 112043 108497 74604.1 578.599 578.599 326.649 326.649
+singles 23 73291.3 124424 120724 73290.4 549.727 549.727 351.15 351.15
+singles 24 72653.4 119156 115789 72652.4 882.113 882.113 430.448 430.448
+singles 25 71197.7 121739 118273 71197.7 895.163 895.163 404.574 404.574
+singles 26 67889.1 113026 109943 67888.7 911.659 911.659 372.322 372.322
+singles 27 68542.8 115523 111808 68542.3 946.623 946.623 405.252 405.252
+singles 28 70832.3 117359 114064 70831.8 995.421 995.421 415.669 415.669
+singles 29 72181.1 117815 114661 72181.1 957.676 957.676 451.591 451.591
+singles 30 72543.3 117331 113342 72543.3 1063.59 1063.59 438.141 438.141
+singles 31 71358.3 113531 109870 71357.9 1095.92 1095.92 428.22 428.22
+singles 32 96583.5 170342 163214 96583 1606.42 1606.42 456.663 456.663
+singles 33 98116 156901 150211 98116 2160.49 2160.49 445.313 445.313
+singles 34 99935.8 170249 162114 99935.3 2564.05 2564.05 475.894 475.894
+singles 35 103925 162278 155906 103925 2648.3 2648.3 512.314 512.314
+singles 36 101962 157187 149964 102168 2465.31 2465.31 473.189 473.189
+singles 37 104425 164525 157389 104424 2124.78 2124.78 453.106 453.106
+singles 38 106158 178811 171567 106157 1754.28 1754.28 462.319 462.319
+singles 39 102973 176231 168491 102972 1428.54 1428.54 456.334 456.334
+singles 40 101692 167440 160901 101692 3418 3418 564.039 564.039
+singles 41 98547.6 153586 146859 98547.1 3094.69 3094.69 542.197 542.197
+singles 42 93476.3 146187 140675 93476.3 2944.6 2944.6 530.973 530.973
+singles 43 93554.6 153426 148133 93554.6 3021.14 3021.14 538.956 538.956
+singles 44 94724.2 151060 145154 94724.2 3195.68 3195.68 570.935 570.935
+singles 45 94530.2 159513 152957 94529.8 3710.88 3710.88 566.65 566.65
+singles 46 96157.2 157040 150978 96157.2 4238.54 4238.54 542.788 542.788
+singles 47 95840.2 156418 149895 95839.7 4649 4649 592.586 592.586
+singles 48 101467 165065 157748 101467 4093.71 4093.71 464.349 447.701
+singles 49 104402 153870 147142 104401 5844.49 5844.49 490.981 490.981
+singles 50 106740 179817 168424 106739 6964.86 6964.86 534.091 534.091
+singles 51 112897 180333 172133 112896 7423.67 7423.67 512.428 504.474
+singles 52 112888 176710 167503 112887 7095.19 7075.58 505.053 505.053
+singles 53 117389 198375 188643 117388 6108.86 6108.86 533.9 533.9
+singles 54 118532 193389 183516 118530 4857.18 4857.18 491.834 490.635
+singles 55 114627 192093 183064 114626 3580.28 3580.27 493.915 493.915
+singles 56 113684 185486 176009 113682 12905.5 12905.5 611.965 611.965
+singles 57 109546 163988 155627 109225 11264.5 11026 563.645 563.645
+singles 58 103222 167785 160221 103222 10305.9 10037.6 613.347 613.347
+singles 59 101620 164642 157604 101620 10251.8 9959.96 589.354 589.353
+singles 60 101307 164183 157846 101307 10521.7 10521.7 591.512 590.241
+singles 61 100126 155555 149220 100124 11266.6 11266.6 577.17 575.81
+singles 62 99069.8 168606 161587 99069.4 12225.7 12225.7 581.218 581.218
+singles 63 100624 156899 150482 100623 12843.9 12843.9 598.065 584.031
+end_of_header
+frame 10
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 104202240
+frame_start 20
+frame_duration 2
+scale_factor 0.5
+minimum -2.30105e-026
+maximum 0.315426
+deadtime_correction 1.02082
+decay_correction 1.00221
+prompts 586432   25009   552981
+prompts_rate 307210
+delays 58724   23679   74587
+trues 527708   1330   478394
+delays_rate 41435
+singles 0 60717.3 99190.3 96961.9 60716.9 647.144 647.144 351.069 351.069
+singles 1 60530.7 106109 102690 60530.1 627.486 627.486 344.097 344.097
+singles 2 61956.3 99964 97575.8 61955.9 629.917 629.917 352.453 352.453
+singles 3 61123.6 95795.7 93435.4 61120.9 547.773 547.773 339.499 339.499
+singles 4 59589.2 103793 100537 59589.1 524.061 524.061 326.047 326.047
+singles 5 58906.4 94489.6 91710.2 58903.6 524.25 524.25 303.899 303.899
+singles 6 59898.8 100492 97531.3 59898.7 475.27 475.27 292.145 292.145
+singles 7 59476.6 101175 98569.5 59476.5 496.765 496.765 300.161 300.161
+singles 8 59006.7 97042.6 94184 59006.7 1505.15 1505.15 384.791 384.791
+singles 9 58709.8 91496.8 88872.3 58709.2 1468.37 1468.37 380.329 380.329
+singles 10 57495.4 95024.8 92618.3 57494.9 1550.93 1550.93 391.754 391.754
+singles 11 57724.4 96045.8 93533.8 57723.5 1608.23 1608.23 402.917 402.917
+singles 12 59401.5 98484.4 95904.8 59400.2 1663.99 1663.99 430.41 430.41
+singles 13 61375.8 100817 98164.2 61375.3 1689.65 1689.65 435.133 435.133
+singles 14 61473.9 101900 99076.6 61473.4 1747.97 1747.97 444.582 444.582
+singles 15 60509.6 100446 97947.9 60508.7 1731.45 1731.45 442.787 442.787
+singles 16 87633.7 148231 142496 87632.7 1110.7 1110.7 500.512 500.512
+singles 17 89516.8 151266 146158 89515.9 1171.06 1171.06 472.38 472.38
+singles 18 90537.6 151248 145176 90537.6 1152.29 1152.29 503.501 503.501
+singles 19 92236.9 148794 143403 92236.5 1089.13 1089.13 501.274 501.274
+singles 20 90868.3 138933 134072 90867.6 1074.78 1074.78 504.001 504.001
+singles 21 89622.6 140518 135368 89621.6 984.367 984.367 469.363 469.363
+singles 22 91168.1 137244 132182 91167.2 914.873 914.873 491.514 491.514
+singles 23 90298.3 150438 145247 90298.2 890.43 890.43 486.468 486.468
+singles 24 89643 147146 142282 89642.5 2280.65 2280.65 571.045 571.045
+singles 25 87384.8 149881 144863 87385.2 2207.29 2207.29 594.957 594.957
+singles 26 84479 140536 135923 84478.5 2217.88 2217.88 577.484 577.484
+singles 27 84736.6 143120 137820 84736.1 2331.06 2331.06 572.75 572.75
+singles 28 86925.7 144474 139706 86924.3 2453.22 2453.22 579.152 579.152
+singles 29 88113.3 143851 139300 88112.8 2434.79 2434.79 608.781 608.781
+singles 30 88114.8 143025 137507 88114.4 2664.87 2664.87 619.845 619.845
+singles 31 87401.7 139729 134407 87401.2 2624.17 2624.17 615.747 615.747
+singles 32 116926 207100 197283 116926 2293.77 2293.77 672.424 672.424
+singles 33 119279 189938 180583 119278 2794.59 2794.59 732.756 732.756
+singles 34 121452 204319 193159 121452 3189 3189 670.081 670.081
+singles 35 125405 197105 187976 125403 3368.48 3368.48 693.847 693.847
+singles 36 123921 191413 181190 123939 3091.39 3091.39 685.745 685.745
+singles 37 125814 199225 189302 125814 2753.16 2753.16 644.009 644.009
+singles 38 127362 216115 205928 127362 2339.03 2339.03 685.665 685.665
+singles 39 125821 210881 200372 125821 2082.14 2082.14 671.03 671.03
+singles 40 123615 204006 194703 123614 5345.27 5345.27 789.404 789.404
+singles 41 119951 187732 178274 119950 4917.25 4917.25 798.22 798.22
+singles 42 115397 180915 173038 115396 4772.24 4772.24 798.725 798.725
+singles 43 114659 188446 180878 114659 4951.47 4951.47 807.632 807.632
+singles 44 115492 185317 177011 115491 5200.52 5200.52 797.812 797.812
+singles 45 115442 195710 186338 115441 5745.53 5745.53 829.241 829.241
+singles 46 116664 191376 182780 116663 6308.96 6308.96 823.566 823.566
+singles 47 115894 190008 180825 115893 6662.18 6662.18 817.508 817.508
+singles 48 124735 203504 192995 124735 5465.79 5465.79 715.85 714.336
+singles 49 128309 190561 180522 128309 7166.77 7166.77 710.998 710.998
+singles 50 131410 220296 207347 131409 8153.62 8153.62 729.463 729.463
+singles 51 137292 220592 208656 137291 8579.42 8579.42 731.584 730.861
+singles 52 137600 217737 203653 137598 7966.84 7965.05 730.914 730.914
+singles 53 140556 239119 225668 140555 7219.9 7219.9 752.173 752.173
+singles 54 142231 233141 219510 142230 5962.93 5962.93 740.153 743.24
+singles 55 139279 234420 221729 139278 4668.66 4668.66 750.356 750.356
+singles 56 136964 224663 211809 136964 16726 16726 876.997 876.997
+singles 57 132415 199310 187595 132385 15079 15057.4 873.059 873.059
+singles 58 127337 207658 196834 127337 14163.7 13998.8 865.304 865.304
+singles 59 125743 203881 193675 125743 14280.1 14086.4 850.85 850.85
+singles 60 124627 202538 193287 124626 14511.5 14511.5 847.865 847.749
+singles 61 123133 192625 183237 123133 14976.1 14976.1 826.561 820.081
+singles 62 123110 209251 199158 123109 16024.2 16024.2 835.565 835.565
+singles 63 123953 194218 184709 123948 16834.4 16834.4 869.005 837.185
+end_of_header
+frame 11
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 114622464
+frame_start 22
+frame_duration 2
+scale_factor 0.5
+minimum -7.18787e-026
+maximum 0.20243
+deadtime_correction 1.10105
+decay_correction 1.00242
+prompts 645761   28394   682219
+prompts_rate 379010
+delays 66616   27067   85083
+trues 579145   1327   597136
+delays_rate 47265
+singles 0 67200.2 109553 106811 67199.7 905.195 905.195 394.107 394.107
+singles 1 66936.4 116634 112747 66936.4 815.681 815.681 425.373 425.373
+singles 2 68401.5 109395 106534 68399.2 821.356 821.356 414.768 414.768
+singles 3 67180.8 105124 102331 67179.6 733.888 733.888 410.45 410.45
+singles 4 64797.6 112205 108478 64796.7 666.278 666.278 359.186 359.186
+singles 5 64217.4 102922 99725.9 64215.3 664.023 664.023 381.89 381.89
+singles 6 65408.5 109762 106407 65406.7 623.661 623.661 362.013 362.013
+singles 7 65022 110008 106924 65021.5 629.251 629.251 367.742 367.742
+singles 8 64308.3 105473 102155 64308.3 2375.47 2375.47 459.149 459.149
+singles 9 64261.8 99806.5 96753.8 64261.8 2389.85 2389.85 476.394 476.394
+singles 10 62562.3 103699 100880 62561.8 2393.72 2393.72 441.523 441.523
+singles 11 62592.7 104511 101571 62591.7 2484.39 2484.39 473.447 473.447
+singles 12 64901.5 107464 104306 64901.4 2602.9 2602.9 486.855 486.855
+singles 13 67224.2 110366 107260 67224.1 2723.6 2723.6 534.558 534.558
+singles 14 67496.3 111784 108566 67494.9 2822.09 2822.09 506.326 506.326
+singles 15 66415.9 110177 107182 66414.9 2736.5 2736.5 499.799 499.799
+singles 16 95498.1 161577 154954 95497.5 1487.79 1487.79 577.551 577.551
+singles 17 97632.9 164574 158570 97632.4 1440.1 1440.1 630.671 630.671
+singles 18 98109.8 163588 156672 98108.9 1398.39 1398.39 592.591 592.591
+singles 19 99305.6 160378 154134 99305.1 1347.65 1347.65 578.627 578.627
+singles 20 98424.8 149196 143735 98424.8 1233.16 1233.16 561.273 561.273
+singles 21 96442.1 151833 145862 96441.1 1182.22 1182.22 558.936 558.936
+singles 22 98102.6 147793 141946 98101.6 1134.53 1134.53 552.41 552.41
+singles 23 97255.3 161987 155935 97254.8 1069.13 1069.13 526.497 526.497
+singles 24 96374.4 158146 152427 96374.3 3358.7 3358.7 700.504 700.504
+singles 25 94100 161536 155706 94099.6 3311.12 3311.12 698.178 698.178
+singles 26 91452.6 152191 147056 91452.6 3305.72 3305.72 653.408 653.408
+singles 27 91858.3 155258 149059 91857.8 3335.1 3335.1 689.341 689.341
+singles 28 93731.9 156232 150644 93731.8 3478.82 3478.82 693.559 693.559
+singles 29 95845.8 156952 151513 95844.3 3708.62 3708.62 747.162 747.162
+singles 30 96252.7 156070 149672 96252.2 3958.62 3958.62 734.077 734.077
+singles 31 95629.7 152606 146424 95629.7 4005.38 4005.38 695.977 695.977
+singles 32 127170 224976 213433 127169 2773.52 2773.52 771.242 771.242
+singles 33 128886 205590 194703 128884 3106.78 3106.78 786.16 786.16
+singles 34 131361 220422 207895 131361 3349.91 3349.91 771.371 771.371
+singles 35 134450 210935 200692 134449 3446.68 3446.68 803.385 803.385
+singles 36 132945 204128 192759 132946 3146.14 3136.94 760.068 760.068
+singles 37 133453 212096 200838 133452 2917.56 2917.56 778.401 778.401
+singles 38 135461 230178 218781 135459 2590.37 2590.37 736.424 736.424
+singles 39 134343 224197 212588 134342 2365.65 2365.65 771.912 771.912
+singles 40 131089 216696 206410 131088 6520.48 6520.48 939.534 939.534
+singles 41 128127 200260 189695 128127 6043.84 6043.84 920.293 920.293
+singles 42 124052 194999 185772 124051 5966.57 5966.57 943.975 943.975
+singles 43 123574 203120 194206 123573 6071.95 6071.95 926.148 926.148
+singles 44 124456 199956 190309 124455 6410.55 6410.55 942.528 942.528
+singles 45 124034 210616 200083 124033 6800.96 6800.96 953.113 953.113
+singles 46 125524 206420 196374 125523 7400.36 7400.36 949.87 949.87
+singles 47 125327 205894 195176 125326 7637.93 7637.93 959.773 959.773
+singles 48 134513 220552 208408 134511 6153.71 6153.71 825.532 825.394
+singles 49 138913 207406 195346 138911 7428.8 7428.8 843.727 843.727
+singles 50 141137 236510 222443 141136 8124.42 8124.42 833.133 833.133
+singles 51 146430 235388 222033 146429 8377.22 8377.22 864.689 864.624
+singles 52 146458 231539 216870 146457 7624.26 7624.1 838.265 838.265
+singles 53 149076 253964 239039 149073 7077.72 7077.72 859.743 859.743
+singles 54 150065 246501 231326 150064 5943.45 5943.45 837.015 825.294
+singles 55 147261 248144 234021 147260 4904.88 4904.88 814.123 814.123
+singles 56 144531 237389 223111 144529 17737.4 17737.4 1073.36 1073.36
+singles 57 140398 211669 198700 140393 16476.3 16474.3 1026.64 1026.64
+singles 58 135850 221987 209901 135848 15586.7 15569.5 1006.39 1006.39
+singles 59 134883 219032 207577 134882 15987 15981.5 1010.53 1010.53
+singles 60 134145 218362 207837 134144 16300.6 16300.6 1024.35 1024.34
+singles 61 132896 207949 197253 132896 16747.4 16747.4 1016.96 1005.84
+singles 62 132450 225697 214027 132449 17428.1 17428.1 995.88 999.597
+singles 63 134230 210563 199535 134228 17933.1 17933.1 1010.82 1020.2
+end_of_header
+frame 12
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 125042688
+frame_start 24
+frame_duration 2
+scale_factor 0.5
+minimum -6.86442e-026
+maximum 0.372189
+deadtime_correction 1.13136
+decay_correction 1.00263
+prompts 673054   30375   639563
+prompts_rate 355310
+delays 71121   28945   90946
+trues 601933   1430   548617
+delays_rate 50525
+singles 0 70210.9 114678 111631 70208.6 1032.29 1032.29 427.426 427.426
+singles 1 70179.2 121979 117748 70178.8 923.698 923.698 465.943 465.943
+singles 2 71165.1 114529 111489 71164 897.851 897.851 446.343 446.343
+singles 3 70005.5 109386 106369 70004.5 792.172 792.172 442.121 442.121
+singles 4 67308.4 116756 112836 67308.3 722.389 722.389 414.017 414.017
+singles 5 66932.5 107462 104018 66931.8 734.457 734.457 390.991 390.991
+singles 6 68099.9 114229 110728 68099.2 723.515 723.515 394.728 394.728
+singles 7 67732.9 115144 111788 67732.9 716.296 716.296 377.522 377.522
+singles 8 67083.5 109988 106457 67082.6 2736.41 2736.41 521.741 521.741
+singles 9 66992.9 104116 100802 66992.4 2793.17 2793.17 532.854 532.854
+singles 10 65281.1 108601 105513 65280.2 2773.97 2773.97 489.229 489.229
+singles 11 65308.4 108826 105609 65308.3 2809.03 2809.03 500.768 500.768
+singles 12 67882.9 112161 108849 67881.9 3019.41 3019.41 534.26 534.26
+singles 13 69895.8 115220 111831 69894.5 3134.87 3134.87 557.232 557.232
+singles 14 70536.9 116749 113174 70536.4 3226.55 3226.55 564.211 564.211
+singles 15 69602.4 115358 111940 69600.9 3246.5 3246.5 560.436 560.436
+singles 16 99622.5 168554 161327 99622 1646.16 1646.16 646.879 646.879
+singles 17 101603 171281 164792 101601 1591.37 1591.37 630.516 630.516
+singles 18 102303 170759 163279 102303 1547.13 1547.13 649.781 649.781
+singles 19 103145 167109 160367 103145 1480.24 1480.24 620.719 620.719
+singles 20 102015 154642 148781 102014 1373.47 1373.47 614.207 614.207
+singles 21 99856.1 157377 150980 99855.5 1333.84 1333.84 589.911 589.911
+singles 22 101652 153547 147171 101651 1284.96 1284.96 583.401 583.401
+singles 23 101368 168903 162519 101368 1220.83 1220.83 614.682 614.682
+singles 24 100161 164696 158559 100159 3875.79 3875.79 773.228 773.228
+singles 25 97999.1 168132 161951 97999 3903.28 3903.28 703.925 703.925
+singles 26 95021.1 158401 152705 95020.7 3790.52 3790.52 717.583 717.583
+singles 27 95337.1 161287 154686 95335.7 3856.83 3856.83 777.213 777.213
+singles 28 97752.4 162457 156524 97752 4049.9 4049.9 743.051 743.051
+singles 29 99512.8 163127 157185 99512.7 4276.24 4276.24 814.742 814.742
+singles 30 100063 162451 155527 100062 4590.78 4590.78 791.28 791.28
+singles 31 99329.1 158928 152252 99328.1 4636.85 4636.85 784.18 784.18
+singles 32 131661 233189 221000 131660 2913.96 2913.96 829.687 829.687
+singles 33 133780 213201 201609 133779 3279.71 3279.71 832.833 832.833
+singles 34 136508 229029 215510 136507 3489.08 3489.08 831.034 831.034
+singles 35 138887 218656 207375 138886 3511.97 3511.97 836.949 836.949
+singles 36 137565 211656 199454 137565 3227.83 3227 823.643 823.643
+singles 37 138524 219990 207767 138524 2949.32 2949.32 804.867 804.867
+singles 38 140100 238214 226002 140099 2710.94 2710.94 809.22 809.22
+singles 39 138191 232437 219764 138190 2381.88 2381.88 848.356 848.356
+singles 40 135880 225022 213836 135878 6877.77 6877.77 1010.41 1010.41
+singles 41 132610 207996 196535 132609 6577.62 6577.62 1030.03 1030.03
+singles 42 128568 202137 192318 128567 6352.16 6365.14 981.725 981.725
+singles 43 127950 211156 201578 127948 6525.18 6525.18 989.65 989.65
+singles 44 129649 208507 198075 129646 6805.05 6805.05 988.412 988.412
+singles 45 128979 219456 207986 128978 7273.72 7273.72 1034.83 1034.83
+singles 46 130209 214880 203945 130208 7743.21 7743.21 1054.08 1054.08
+singles 47 130412 214351 202917 130410 7932.99 7932.99 1026.8 1026.8
+singles 48 139966 229257 216085 139965 6292.61 6292.61 881.412 881.399
+singles 49 144537 215719 202812 144535 7497.62 7497.62 883.066 883.066
+singles 50 147038 246902 231414 147036 8175.4 8175.4 897.103 897.103
+singles 51 151815 244091 229909 151814 8107.02 8107.02 906.335 906.329
+singles 52 151908 239934 224513 151906 7413.11 7413.1 918.479 918.479
+singles 53 153925 262802 246733 153924 6720.7 6720.7 934.522 934.522
+singles 54 154853 255077 238713 154851 5690.31 5690.31 931.001 917.754
+singles 55 152231 257068 241394 152230 5001.81 5001.81 903.102 903.102
+singles 56 148951 245548 230227 148950 17701.1 17701.1 1089.86 1091.21
+singles 57 145725 219945 206153 145403 16952.4 16952.2 1066.51 1066.51
+singles 58 141045 230664 217568 141043 16138.3 16136.8 1066.04 1066.04
+singles 59 139913 227854 215369 139912 16584.7 16584.2 1078.23 1078.23
+singles 60 139786 227462 216091 139785 16808.2 16808.2 1075.85 1075.85
+singles 61 138316 216631 205025 138316 16906.6 16906.6 1068.81 1067.08
+singles 62 138005 235045 222538 138003 17492.1 17492.1 1121.09 1106.33
+singles 63 139521 219150 207540 139520 18226.6 18226.6 1122.58 1118.65
+end_of_header
+frame 13
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 135462912
+frame_start 26
+frame_duration 2
+scale_factor 0.5
+minimum -8.08743e-026
+maximum 0.294472
+deadtime_correction 1.14063
+decay_correction 1.00285
+prompts 686695   31957   656187
+prompts_rate 364545
+delays 75217   30689   96260
+trues 611478   1268   559927
+delays_rate 53475
+singles 0 72350.5 118254 115066 72349.9 1095.66 1095.66 436.584 436.584
+singles 1 72518.1 125789 121413 72518.1 1030.34 1030.34 461.449 461.449
+singles 2 73325 117841 114592 73324.5 983.896 983.896 476.94 476.94
+singles 3 72164.1 112972 109706 72161.3 908.379 908.379 454.284 454.284
+singles 4 69779.4 120854 116704 69778 854.308 854.308 423.092 423.092
+singles 5 68870.7 111002 107432 68869.7 808.587 808.587 425.545 425.545
+singles 6 70335.9 117980 114180 70333.6 787.592 787.592 437.473 437.473
+singles 7 70279.4 118609 115036 70278.4 782.845 782.845 429.32 429.32
+singles 8 69091.7 113636 109836 69089.8 2886.04 2886.04 500.158 500.158
+singles 9 68992.5 107516 104017 68992.5 2940.74 2940.74 563.896 563.896
+singles 10 67021.9 111446 108175 67021.4 2851.27 2851.27 529.475 529.475
+singles 11 67758 112807 109456 67757.6 2964.91 2964.91 546.888 546.888
+singles 12 70009.8 115715 112265 70009.3 3183.94 3183.94 552.66 552.66
+singles 13 72317.3 119000 115404 72317.2 3383.17 3383.17 574.748 574.748
+singles 14 72512.4 120061 116379 72511.9 3501.05 3501.05 582.201 582.201
+singles 15 71487 118859 115474 71486.4 3461.95 3461.95 583.221 583.221
+singles 16 102010 172785 165376 102008 1724.65 1724.65 666.08 666.08
+singles 17 104078 176154 169403 104077 1688.31 1688.31 665.956 665.956
+singles 18 104734 174886 167115 104733 1647.47 1647.47 670.889 670.889
+singles 19 106450 172645 165521 106450 1612.29 1612.29 662.793 662.793
+singles 20 104905 159541 153250 104904 1524.86 1524.86 637.655 637.655
+singles 21 103235 162782 156014 103235 1392.17 1392.17 639.083 639.083
+singles 22 105172 158781 152088 105171 1438.18 1438.18 638.34 638.34
+singles 23 104869 174483 167534 104869 1353.71 1353.71 650.88 650.88
+singles 24 103598 170401 163908 103597 4113.25 4113.25 815.293 815.293
+singles 25 101383 174137 167302 101383 4133.48 4133.48 771.721 771.721
+singles 26 98042.8 163928 157792 98041.9 4019.59 4019.59 784.78 784.78
+singles 27 98353.8 166782 159770 98353.3 4094.26 4094.26 802.474 802.474
+singles 28 101197 168170 161899 101196 4385.49 4385.49 808.914 808.914
+singles 29 102570 168385 162175 102570 4516.93 4516.93 846.34 846.34
+singles 30 102725 167092 159826 102722 4762.8 4762.8 831.48 831.48
+singles 31 101831 163461 156435 101829 4866.08 4866.08 804.016 804.016
+singles 32 134917 239764 226869 134917 3019.91 3019.91 865.881 865.881
+singles 33 137385 219372 207135 137383 3392.7 3392.7 890.712 890.712
+singles 34 139973 235428 221107 139972 3618.1 3618.1 931.912 931.912
+singles 35 143167 225693 213886 142915 3587.91 3587.91 898.359 898.359
+singles 36 141597 217930 204996 141596 3361.17 3361.09 881.24 881.24
+singles 37 143444 228139 215193 143443 3166.3 3166.3 878.17 878.17
+singles 38 145181 247118 233996 145180 2867.36 2867.36 850.422 850.422
+singles 39 143511 241307 227652 143509 2594.72 2594.72 894.851 894.851
+singles 40 140240 232783 220579 140239 7109.34 7109.34 1086.4 1086.4
+singles 41 137220 215555 203257 137219 6792.97 6792.97 1084.09 1084.09
+singles 42 133149 209881 199203 133147 6583.38 6584.56 1056.52 1056.52
+singles 43 132324 218584 208423 132322 6766.83 6766.83 1037.7 1037.7
+singles 44 133287 215062 203877 133286 6888.5 6888.5 1086.22 1086.22
+singles 45 133219 226908 214692 133218 7447.16 7447.16 1080.89 1080.89
+singles 46 133950 221236 209663 133949 7881.2 7881.2 1096.28 1096.28
+singles 47 133697 220670 208529 133695 8227.09 8227.09 1105.62 1105.62
+singles 48 143566 236181 222355 143565 6437.96 6437.96 934.284 921.036
+singles 49 148412 221667 208235 148411 7781.6 7781.6 945.733 945.733
+singles 50 150887 253537 237357 150884 8390.49 8390.49 936.555 936.555
+singles 51 155875 251715 236439 155874 8432 8432 1011.78 1017.39
+singles 52 156403 248165 231529 156401 7732.56 7732.55 985.316 985.316
+singles 53 159677 273019 255698 159674 7040.06 7040.06 934.956 934.956
+singles 54 160532 264265 246814 160528 6208.66 6208.66 981.6 987.978
+singles 55 158444 267718 250906 158444 5286.53 5286.53 968.918 968.918
+singles 56 154895 254733 238378 154892 18014.6 18014.6 1195.49 1184.66
+singles 57 151123 228535 213713 150914 17166.6 17166.6 1151.05 1151.05
+singles 58 146343 239838 225728 146342 16261.2 16215.2 1144.64 1144.64
+singles 59 144746 235950 222633 144745 16592.9 16597.7 1113.48 1113.48
+singles 60 144187 235290 222870 144186 16944.4 16944.4 1116.9 1116.9
+singles 61 142567 223758 211384 142566 17332 17332 1176.26 1167.67
+singles 62 142106 242509 229154 142105 17882.9 17882.9 1166.46 1165.12
+singles 63 143290 225609 213095 143289 18399.2 18399.2 1183.55 1177.15
+end_of_header
+frame 14
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 145883136
+frame_start 28
+frame_duration 2
+scale_factor 0.5
+minimum -8.80934e-026
+maximum 0.34374
+deadtime_correction 1.14674
+decay_correction 1.00306
+prompts 703864   33574   670583
+prompts_rate 372545
+delays 79128   32324   101426
+trues 624736   1250   569157
+delays_rate 56345
+singles 0 74319.1 121019 117767 74318.2 1135.97 1135.97 476.158 476.158
+singles 1 73998.9 128203 123707 73998.9 1060.94 1060.94 486.041 486.041
+singles 2 75368.2 120656 117330 75366.8 992.627 992.627 506.54 506.54
+singles 3 74026.7 115903 112492 74025.6 890.307 890.307 463.571 463.571
+singles 4 71173.6 123474 119161 71172.1 832.21 832.21 432.099 432.099
+singles 5 70645.1 113779 110034 70644.5 823.962 823.962 451.055 451.055
+singles 6 71436.9 119995 116155 71435.8 801.145 801.145 487.706 487.706
+singles 7 71377.2 121266 117596 71376.2 773.895 773.895 433.12 433.12
+singles 8 70698.3 115880 112114 70697.3 2995.55 2995.55 570.469 570.469
+singles 9 70416.1 109776 106177 70415.7 3082.34 3082.34 571.575 571.575
+singles 10 69011.5 114746 111350 69011 3103.3 3103.3 556.771 556.771
+singles 11 68988.5 114993 111566 68988.4 2994.54 2994.54 565.172 565.172
+singles 12 71120.9 117947 114311 71120.4 3212.83 3212.83 594.333 594.333
+singles 13 73868.9 121392 117620 73867 3497.11 3497.11 611.795 611.795
+singles 14 73992 122680 118777 73991.1 3592.37 3592.37 638.72 638.72
+singles 15 73551.5 122058 118414 73550.6 3558.81 3558.81 632.566 632.566
+singles 16 105565 178495 170740 105563 1791.33 1791.33 706.608 706.608
+singles 17 106764 180064 173056 106763 1728.94 1728.94 699.178 699.178
+singles 18 107394 179615 171420 107393 1627.5 1627.5 718.263 718.263
+singles 19 108678 176163 168742 108675 1628.84 1628.84 717.527 717.527
+singles 20 107563 163466 156854 107562 1596.81 1596.81 697.969 697.969
+singles 21 105629 166349 159383 105628 1454.29 1454.29 667.908 667.908
+singles 22 107561 162268 155364 107561 1443.93 1443.93 683.195 683.195
+singles 23 106777 177840 170679 106775 1376.25 1376.25 690.08 690.08
+singles 24 105685 173701 166888 105685 4194.84 4194.84 849.572 849.572
+singles 25 103063 177283 170417 103062 4300.77 4300.77 845.56 845.56
+singles 26 100712 167860 161559 100711 4239.51 4239.51 817.253 817.253
+singles 27 100190 170072 162765 100189 4224.48 4224.48 834.77 834.77
+singles 28 103352 172046 165482 103351 4528.79 4528.79 875.356 875.356
+singles 29 104923 171993 165585 104921 4689.27 4689.27 889.667 889.667
+singles 30 105414 171274 163661 105413 4994.35 4994.35 857.648 857.648
+singles 31 104469 167738 160175 104469 5016.92 5016.92 855.82 855.82
+singles 32 138425 245903 232349 138424 3160.45 3160.45 932.088 932.088
+singles 33 140774 224730 211932 140773 3374.79 3374.79 924.156 924.156
+singles 34 143471 242063 227109 143469 3587.55 3587.55 945.174 945.174
+singles 35 146258 231290 218783 146234 3610.72 3610.72 938.942 938.942
+singles 36 145049 223605 210117 145047 3331.47 3331.46 925.113 925.113
+singles 37 145936 232760 219353 145935 3095.57 3095.57 917.817 917.817
+singles 38 148366 252628 238876 148365 2848.85 2848.85 906.702 906.702
+singles 39 146648 245865 231829 146648 2569.97 2569.97 917.714 917.714
+singles 40 143245 237473 224937 143243 7299.94 7299.94 1119.67 1119.67
+singles 41 139875 220042 207120 139874 7099.82 7099.82 1141.17 1141.17
+singles 42 136276 214828 203638 136275 6916.22 6916.32 1106.5 1106.5
+singles 43 136105 224666 213845 136103 6981.53 6981.53 1132.97 1132.97
+singles 44 136577 220012 208442 136576 7261.13 7261.13 1157.84 1157.84
+singles 45 136823 233010 220222 136822 7757.47 7757.47 1142.81 1142.81
+singles 46 137942 227726 215735 137940 8056.02 8056.02 1141.13 1141.13
+singles 47 137300 227021 214143 137299 8335.64 8335.64 1192.78 1192.78
+singles 48 148216 244027 229341 148215 6568 6568 928.928 941.458
+singles 49 153660 229452 215280 153659 7773.78 7773.78 1025.98 1025.98
+singles 50 156146 262456 245379 156143 8230.5 8230.5 1017.41 1017.41
+singles 51 160876 259931 243664 160875 8257.91 8257.91 1056.68 1047.49
+singles 52 161125 255285 237787 161123 7548.87 7548.87 1026.85 1026.85
+singles 53 164199 280219 262147 164197 6828.19 6828.19 1022.27 1022.27
+singles 54 164331 270650 252434 164330 5955.79 5955.79 1024.24 1024.82
+singles 55 161144 272487 255536 161144 5222.41 5222.41 1017.63 1017.63
+singles 56 158325 261439 244336 158323 18198.2 18198.2 1220.95 1219.97
+singles 57 154067 233652 218162 154045 17254.7 17254.7 1210.1 1210.1
+singles 58 150044 245838 231139 150042 16828.7 16815.8 1182.69 1182.69
+singles 59 148338 241903 227878 148336 17091.3 17041.6 1216.68 1216.68
+singles 60 147890 241635 228548 147889 17389 17389 1196.08 1196.08
+singles 61 147175 231006 217754 147174 17735.6 17735.6 1231.48 1230.7
+singles 62 147014 250504 236361 147014 18239.8 18239.8 1196.5 1196.37
+singles 63 148070 233876 220419 148068 18707.2 18707.2 1241.35 1241.56
+end_of_header
+frame 15
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 156303360
+frame_start 30
+frame_duration 5
+scale_factor 0.2
+minimum -4.74907e-027
+maximum 0.37894
+deadtime_correction 1.15528
+decay_correction 1.00343
+prompts 1805131   88054   1899984
+prompts_rate 395830
+delays 207990   84181   281369
+trues 1597141   3873   1618615
+delays_rate 58615
+singles 0 76140 124139 120666 76138.2 1225.61 1225.61 518.314 518.314
+singles 1 76125.2 132053 127212 76124.4 1081.19 1081.19 511.578 511.578
+singles 2 77111.5 123619 120026 77110.1 1053.56 1053.56 531.79 531.79
+singles 3 75757.8 118614 115135 75756.9 959.819 959.819 490.907 490.907
+singles 4 73021.3 126485 121957 73020.5 875.854 875.854 472.965 472.965
+singles 5 72318.5 116299 112420 72317.1 855.537 855.537 451.387 451.387
+singles 6 73569.7 123664 119532 73568.5 848.89 848.89 494.143 494.143
+singles 7 73474.9 124314 120486 73472.9 842.842 842.842 467.428 467.428
+singles 8 72457.2 118978 114901 72456.2 3177.14 3177.14 608.287 608.287
+singles 9 72270 112580 108811 72269.1 3261.44 3261.44 590.637 590.637
+singles 10 70706.6 117547 114063 70705.8 3232.24 3232.24 600.453 600.453
+singles 11 70676.3 117894 114358 70674.6 3199.21 3199.21 597.507 597.507
+singles 12 73190.4 121255 117490 73189.2 3471.45 3471.45 626.128 626.128
+singles 13 75632.5 124556 120622 75631.8 3639.89 3639.89 639.492 639.492
+singles 14 76150.8 126162 122054 76149.7 3819.9 3819.9 653.605 653.605
+singles 15 74979.9 124804 120985 74978.9 3776.49 3776.49 641.445 641.445
+singles 16 107988 183098 174866 107987 1903.32 1903.32 744.87 744.87
+singles 17 109737 184936 177459 109736 1835.15 1835.15 738.43 738.43
+singles 18 110377 184193 175638 110376 1756.06 1756.06 770.51 770.51
+singles 19 111263 180805 173028 111262 1695.72 1695.72 739.713 739.713
+singles 20 110040 167436 160518 110039 1608.92 1608.92 702.614 702.614
+singles 21 108167 170759 163322 108166 1553.63 1553.63 706.843 706.843
+singles 22 110128 166488 159113 110127 1492.65 1492.65 712.623 712.623
+singles 23 109677 182520 175088 109675 1465.05 1465.05 720.58 720.58
+singles 24 108384 178493 171317 108383 4518.84 4518.84 900.368 900.368
+singles 25 106084 182378 175208 106083 4522.15 4522.15 879.252 879.252
+singles 26 102908 171957 165288 102907 4383.83 4383.83 848.164 848.164
+singles 27 103012 174953 167265 103012 4456.9 4457.1 859.607 859.607
+singles 28 105451 176124 169224 105450 4696.11 4696.11 903.86 903.86
+singles 29 107453 176532 169687 107453 4985.74 4985.74 928.256 928.256
+singles 30 107840 175654 167730 107838 5231.13 5231.13 917.986 917.986
+singles 31 107114 171927 164157 107113 5251.42 5251.42 945.032 945.032
+singles 32 141682 252511 238199 141681 3292.71 3292.71 975.657 975.657
+singles 33 144753 230908 217508 144751 3591.53 3591.53 987.083 987.083
+singles 34 147119 247899 232256 147117 3618.94 3618.94 998.276 998.276
+singles 35 149972 237300 224215 149971 3631.76 3631.76 997.652 997.652
+singles 36 148817 229631 215416 148815 3443.9 3443.9 977.312 977.312
+singles 37 150320 239660 225583 150319 3220.6 3220.6 993.57 993.57
+singles 38 151922 259188 244794 151921 2966.88 2966.88 984.681 984.681
+singles 39 150055 252400 237790 150054 2726.73 2726.73 981.451 981.451
+singles 40 146971 244251 231033 146969 7454.23 7454.23 1168.83 1168.83
+singles 41 143854 226235 212691 143853 7177.49 7177.49 1194.66 1194.66
+singles 42 140255 221050 209356 140170 7041.2 7041.21 1179.48 1179.48
+singles 43 139057 229827 218595 139056 7307.75 7307.75 1169.54 1169.54
+singles 44 140204 226177 213950 140202 7546.77 7546.77 1181.46 1181.46
+singles 45 139716 238387 225040 139714 7921.25 7921.25 1202.8 1202.8
+singles 46 141130 233289 220676 141128 8459.85 8459.85 1199.66 1199.66
+singles 47 140850 232989 219571 140849 8580.41 8580.41 1210.88 1210.88
+singles 48 152415 251121 235636 152414 6850.31 6850.31 1006.3 1006.79
+singles 49 157745 236016 221133 157743 8062.45 8062.45 1092.15 1092.15
+singles 50 160339 270468 252256 160336 8453.67 8453.67 1072.98 1072.98
+singles 51 165068 267162 250238 165066 8434.73 8434.73 1081.6 1081.25
+singles 52 165290 262440 244071 165289 7571.88 7571.88 1098.15 1098.15
+singles 53 167825 287679 268657 167823 6941.47 6941.47 1074.9 1074.9
+singles 54 168939 278672 259559 168936 6022.53 6022.53 1069.39 1069.42
+singles 55 165930 280441 262587 165928 5390.48 5390.48 1070.1 1070.1
+singles 56 162644 268824 250685 162642 18455.1 18455.1 1315.23 1315.19
+singles 57 158626 240685 224290 158624 17723.3 17723.3 1279.81 1279.81
+singles 58 154763 253603 237995 154761 17306.5 17306 1286.45 1286.45
+singles 59 152871 249951 235016 152869 17635.6 17633.7 1281.6 1281.6
+singles 60 152167 248857 235021 152166 17960.7 17960.7 1283.7 1283.7
+singles 61 151180 237399 223468 151178 18174.4 18174.4 1274.1 1274.07
+singles 62 150976 257872 242903 150974 18620.6 18620.6 1278.13 1278.13
+singles 63 151763 239664 225603 151762 19020.3 19020.3 1275.63 1275.64
+end_of_header
+frame 16
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 166723584
+frame_start 35
+frame_duration 5
+scale_factor 0.2
+minimum -1.86503e-026
+maximum 0.618082
+deadtime_correction 1.15857
+decay_correction 1.00395
+prompts 1837790   92239   1937323
+prompts_rate 403605
+delays 219151   88736   296889
+trues 1618639   3503   1640434
+delays_rate 61850
+singles 0 78152.9 127674 123978 78151.5 1251.56 1251.56 591.281 591.281
+singles 1 78180.4 135724 130604 78179 1176.2 1176.2 565.061 565.061
+singles 2 79524.7 127229 123433 79523.8 1102.06 1102.06 564.3 564.3
+singles 3 77704.7 121401 117734 77703.9 1019.22 1019.22 522.727 522.727
+singles 4 74858.7 129630 124925 74857.9 936.379 936.379 511.845 511.845
+singles 5 74050.3 119363 115278 74048.4 889.828 889.828 488.323 488.323
+singles 6 75487.5 126839 122501 75486.7 900.342 900.342 488.044 488.044
+singles 7 75356.7 127802 123791 75355.5 891.648 891.648 494.132 494.132
+singles 8 74404.5 122397 118135 74402.9 3317.39 3317.39 605.126 605.126
+singles 9 74290.4 115660 111733 74290 3378.9 3378.9 630.986 630.986
+singles 10 72658.1 120546 116894 72657 3335.09 3335.09 609.44 609.44
+singles 11 72591.8 121061 117287 72590.6 3337.28 3337.28 624.712 624.712
+singles 12 75211.6 124598 120618 75211.3 3643.33 3643.33 682.159 682.159
+singles 13 77762.6 127944 123859 77761.8 3885.96 3885.96 684.211 684.211
+singles 14 78021.6 129289 125018 78020.9 3998.84 3998.84 696.485 696.485
+singles 15 76760.8 128020 123998 76760.1 3904.29 3904.29 678.133 678.133
+singles 16 110319 187373 178759 110318 2006.09 2006.09 791.341 791.341
+singles 17 112370 189622 181726 112369 1908.28 1908.28 779.747 779.747
+singles 18 113268 188866 179901 113265 1820.81 1820.81 785.789 785.789
+singles 19 114038 185390 177282 114036 1802.91 1802.91 777.874 777.874
+singles 20 112782 171855 164466 112780 1725.34 1725.34 779.908 779.908
+singles 21 110860 175211 167409 110859 1650.33 1650.33 745.071 745.071
+singles 22 112774 170864 163140 112773 1593.95 1593.95 741.255 741.255
+singles 23 112920 187774 179882 112920 1516.16 1516.16 746.561 746.561
+singles 24 111188 183342 175752 111187 4693.22 4693.22 932.815 930.206
+singles 25 108889 187347 179691 108888 4659.89 4659.89 926.894 926.894
+singles 26 105753 176879 169868 105752 4547.84 4547.84 900.122 900.122
+singles 27 105690 179456 171491 105688 4670.65 4670.66 913.639 913.639
+singles 28 108444 181017 173759 108442 4930.04 4930.04 964.956 964.956
+singles 29 110184 181231 174075 110183 5163.88 5163.88 974.933 974.933
+singles 30 110472 180042 171727 110469 5384.27 5384.27 971.076 971.076
+singles 31 110007 176436 168332 110006 5501.98 5501.98 992.501 992.501
+singles 32 145424 259472 244594 145423 3456.45 3456.45 1010.99 1010.99
+singles 33 148112 236774 222668 148111 3711.79 3711.79 1038.73 1038.73
+singles 34 150636 254078 237706 150635 3802.27 3802.27 1031.47 1031.47
+singles 35 153942 243680 229814 153940 3787.95 3787.95 1032.03 1032.03
+singles 36 152668 235857 220957 152667 3546.69 3546.69 1028.74 1028.74
+singles 37 153947 246008 231075 153946 3354.45 3354.45 1002.25 1002.25
+singles 38 155615 266370 251145 155613 3056.61 3056.61 1044.03 1044.03
+singles 39 154132 259541 243903 154132 2875.07 2875.07 1026.98 1026.98
+singles 40 150869 251147 237116 150868 7680.16 7680.16 1262.26 1262.26
+singles 41 147398 232242 218011 147396 7454.13 7454.13 1249.22 1249.22
+singles 42 144048 227190 214838 144044 7302.35 7302.35 1237.86 1237.86
+singles 43 142927 236461 224566 142926 7443.18 7443.18 1188.44 1188.44
+singles 44 144011 232633 219837 144009 7769.49 7769.49 1235.83 1235.83
+singles 45 142980 244343 230389 142980 8131.59 8131.59 1261.45 1261.45
+singles 46 144538 239263 225967 144536 8567.49 8567.49 1256.53 1256.53
+singles 47 143908 238512 224484 143906 8743.48 8743.48 1258.3 1258.3
+singles 48 156531 258166 241872 156530 6979.82 6979.82 1119.86 1119.88
+singles 49 161593 242575 226703 161591 8197.98 8197.98 1122.78 1122.78
+singles 50 164567 277581 258765 164565 8574.95 8574.95 1132.61 1132.61
+singles 51 169392 274662 256628 169389 8440.57 8440.57 1145.25 1145.24
+singles 52 169599 269520 250227 169597 7635.65 7635.65 1150.12 1150.12
+singles 53 172570 296381 276253 172567 7061.98 7061.98 1160.96 1160.96
+singles 54 173199 286761 266487 173197 6180.87 6180.87 1150.94 1150.94
+singles 55 170709 289075 270161 170706 5541.17 5541.17 1139.04 1139.04
+singles 56 167174 276861 257741 167172 18718.7 18718.7 1374.43 1374.43
+singles 57 163461 248330 230979 163459 17931.7 17931.7 1391.92 1391.92
+singles 58 159050 261263 244733 159049 17389.1 17389.1 1360.82 1360.82
+singles 59 157110 257094 241431 157108 17859.3 17859.2 1362.75 1362.75
+singles 60 156352 255861 241480 156350 18153.3 18153.3 1363.22 1363.22
+singles 61 155546 244589 229813 155544 18425.4 18425.4 1369.39 1369.39
+singles 62 154733 264952 249156 154730 18867.9 18867.9 1362.24 1362.24
+singles 63 156016 246649 231869 156014 19244.2 19244 1378.87 1378.87
+end_of_header
+frame 17
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 177143808
+frame_start 40
+frame_duration 5
+scale_factor 0.2
+minimum -3.76911e-026
+maximum 0.487003
+deadtime_correction 1.16599
+decay_correction 1.00448
+prompts 1887231   97493   1989919
+prompts_rate 414565
+delays 229249   93083   310589
+trues 1657982   4410   1679330
+delays_rate 64705
+singles 0 79826.1 130566 126733 79825.1 1333.14 1333.14 617.357 617.357
+singles 1 80035.2 138832 133574 80034.4 1184.08 1184.08 564.041 564.041
+singles 2 81060.4 130076 126150 81059.2 1154.5 1154.5 588.435 588.435
+singles 3 79449.6 124615 120727 79448.6 1049.39 1049.39 562.797 562.797
+singles 4 76550.9 132685 127757 76550.1 971.399 971.399 528.148 528.148
+singles 5 76153.7 122499 118190 76152.8 957.686 957.686 512.435 512.435
+singles 6 77299.3 130158 125648 77297.8 949.821 949.821 526.848 526.848
+singles 7 77222.6 130789 126605 77221.2 924.102 924.102 531.12 531.12
+singles 8 76378.1 125562 121095 76377 3472.59 3472.59 673.274 673.274
+singles 9 75797.1 118309 114224 75795.4 3526.11 3526.11 662.153 662.153
+singles 10 74424.9 123547 119710 74423.9 3464.23 3464.23 651.517 651.517
+singles 11 74152.4 123929 120008 74151.4 3508.74 3508.74 641.143 641.143
+singles 12 76597.9 127270 123205 76596.8 3724.74 3724.74 681.237 681.237
+singles 13 79423.9 130904 126578 79422.2 3989.46 3989.46 700.162 700.162
+singles 14 79832.2 132455 127996 79830.6 4142.84 4142.84 722.749 722.749
+singles 15 78811 131333 127151 78810.4 4021.32 4021.32 716.274 716.274
+singles 16 112789 191636 182648 112788 2047.54 2047.54 842.359 842.359
+singles 17 115159 194449 186184 115158 1965.13 1965.13 827.106 827.106
+singles 18 115160 193101 183714 115159 1894.65 1894.65 824.453 824.453
+singles 19 116568 189768 181235 116567 1854.15 1854.15 808.187 808.187
+singles 20 115169 175697 168047 115167 1792.32 1792.32 810.189 810.189
+singles 21 113403 179448 171227 113402 1697.13 1697.13 766.541 766.541
+singles 22 115307 174896 166720 115305 1660.73 1660.73 783.894 783.894
+singles 23 115272 192206 183858 115271 1595.43 1595.43 781.599 781.599
+singles 24 113845 188129 180200 113843 4891.85 4891.85 969.531 969.431
+singles 25 111297 191719 183829 111295 4839.8 4839.8 975.073 975.073
+singles 26 108252 181399 173924 108250 4767.99 4767.99 960.005 960.005
+singles 27 108341 184132 175773 108340 4932.52 4932.53 957.063 957.063
+singles 28 110837 185489 177905 110836 5159.81 5159.81 985.96 985.96
+singles 29 112437 185214 177736 112435 5320.73 5320.73 1005.77 1005.77
+singles 30 112790 184275 175590 112787 5659.4 5659.4 1002.16 1002.16
+singles 31 112423 180780 172314 112422 5702.96 5702.96 993.365 993.365
+singles 32 148643 265792 250103 148643 3495.83 3495.83 1057.35 1057.35
+singles 33 151523 242650 227901 151522 3826.61 3826.61 1086.11 1086.11
+singles 34 153736 260555 243365 153734 3886.05 3886.05 1095.63 1095.63
+singles 35 157400 249718 235196 157398 3871.65 3871.65 1132.58 1132.58
+singles 36 155947 241527 225872 155945 3674.68 3674.68 1064.37 1064.37
+singles 37 157947 252568 236890 157946 3465.75 3465.75 1032.39 1032.39
+singles 38 159459 273161 257202 159457 3139.68 3139.68 1069.96 1069.96
+singles 39 158087 266413 250083 158086 2982.12 2982.12 1075.27 1075.27
+singles 40 154713 257789 243056 154712 7952.89 7952.89 1317.01 1317.01
+singles 41 151454 239240 224271 151452 7637.66 7637.66 1294.39 1294.39
+singles 42 147641 233323 220305 147639 7526.05 7526.05 1318.96 1318.96
+singles 43 146414 242497 229959 146413 7724.55 7724.55 1285.13 1285.13
+singles 44 147442 238670 225239 147441 8009.98 8000.58 1305.61 1305.61
+singles 45 146445 250829 236048 146443 8399.48 8399.48 1306.98 1306.98
+singles 46 147714 245100 231232 147712 8766.06 8766.06 1336.21 1336.21
+singles 47 147061 244317 229480 147061 9017.44 9017.44 1308.01 1312.53
+singles 48 160515 265067 247961 160513 7079.03 7079.03 1163.65 1163.65
+singles 49 165463 248873 232278 165461 8246.27 8246.27 1187.03 1187.03
+singles 50 168469 284736 264868 168465 8611.15 8611.15 1189.91 1189.91
+singles 51 173656 282033 263069 173654 8670.6 8670.6 1209.05 1209.05
+singles 52 174021 277205 256836 174019 7838.29 7838.29 1202.5 1202.5
+singles 53 176769 303832 282539 176767 7132.38 7132.38 1185.23 1185.23
+singles 54 177744 294784 273383 177741 6300.61 6300.61 1201.38 1201.38
+singles 55 175263 296900 276995 175260 5646.58 5646.58 1190.35 1190.35
+singles 56 171500 284262 264148 171498 18869.2 18869.2 1429.21 1429.21
+singles 57 167473 255126 236777 167471 18083.3 18083.3 1440.07 1440.07
+singles 58 163173 268366 251105 163172 17555 17555 1385.99 1385.99
+singles 59 161392 264437 247727 161390 18070 18070 1444.53 1444.53
+singles 60 160227 262611 247404 160225 18312.6 18312.6 1446.85 1446.85
+singles 61 159160 251268 235783 159158 18627.5 18627.5 1419.59 1419.59
+singles 62 158641 272140 255533 158639 19066.7 19066.7 1412.97 1412.97
+singles 63 159814 252873 237322 159814 19542.9 19542.8 1441.88 1441.88
+end_of_header
+frame 18
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 187564032
+frame_start 45
+frame_duration 5
+scale_factor 0.2
+minimum -9.5309e-023
+maximum 0.503815
+deadtime_correction 1.17088
+decay_correction 1.00501
+prompts 1914729   100770   1945859
+prompts_rate 405385
+delays 237504   97177   322748
+trues 1677225   3593   1623111
+delays_rate 67235
+singles 0 81562.7 133279 129254 81561.5 1386.85 1386.85 600.283 600.283
+singles 1 81354.4 141307 135849 81353.1 1273.43 1273.43 602.271 602.271
+singles 2 82622.7 132612 128507 82620.7 1189.6 1189.6 609.171 609.171
+singles 3 81022.5 126837 122830 81020.3 1096.32 1096.32 576.069 576.069
+singles 4 78051 135356 130312 78049 1018.52 1018.52 553.967 553.967
+singles 5 77312.8 124721 120275 77311.8 1009.14 1009.14 548.363 548.363
+singles 6 78698.6 132483 127771 78697.4 976.532 976.532 544.302 544.302
+singles 7 78607 133120 128803 78605.8 980.158 980.158 551.966 551.966
+singles 8 77692.2 127574 122996 77691.2 3594.52 3594.52 679.164 679.164
+singles 9 77505.9 120884 116552 77505 3700.62 3700.62 687.006 687.006
+singles 10 75461.5 125627 121680 75460.7 3586.32 3586.32 684.866 684.866
+singles 11 75506.4 126250 122191 75505.1 3636.49 3636.49 667.159 667.159
+singles 12 78286.1 130121 125763 78285.1 3905.18 3905.18 689.663 689.663
+singles 13 80972.1 133441 129046 80970.5 4131.9 4131.9 751.16 751.16
+singles 14 81140.9 134658 130093 81139.4 4212.42 4212.42 738.375 738.375
+singles 15 80455.4 134075 129728 80454.1 4265.05 4265.05 745.434 745.434
+singles 16 115036 195594 186246 115034 2121.83 2121.83 853.552 853.552
+singles 17 117012 197970 189416 117010 2046.35 2046.35 861.619 861.619
+singles 18 117388 196762 187044 117387 1988.64 1988.64 849.594 849.594
+singles 19 118793 193295 184469 118811 1870.35 1870.35 856.469 856.469
+singles 20 117361 179062 171204 117359 1855.09 1855.09 812.123 812.123
+singles 21 115787 183194 174621 115786 1775.66 1775.66 775.636 775.636
+singles 22 117668 178295 169956 117666 1717.72 1717.72 819.573 819.573
+singles 23 117684 196430 187719 117682 1665.21 1665.21 819.677 819.677
+singles 24 116293 191794 183579 116292 5122.38 5122.38 1017.67 1017.67
+singles 25 113498 195707 187421 113497 5037.68 5037.68 997.695 997.695
+singles 26 110475 184888 177307 110474 4927.23 4927.23 1005.19 1005.19
+singles 27 110257 187562 178981 110256 5033.75 5033.75 1010.66 1010.66
+singles 28 112758 188706 180855 112756 5281.92 5281.92 1024.84 1024.84
+singles 29 114447 188742 180971 114445 5618.68 5618.68 1040.99 1040.99
+singles 30 114743 187443 178555 114741 5822.67 5822.67 1065.66 1065.66
+singles 31 114212 183798 175101 114210 5855.88 5855.88 1059.36 1059.36
+singles 32 151615 270937 254751 151614 3622.53 3622.53 1121.82 1121.82
+singles 33 154346 247314 232034 154345 3922.95 3922.95 1165.43 1165.43
+singles 34 157306 265992 248180 157304 4015.62 4015.62 1154.64 1154.64
+singles 35 160081 254260 239287 160079 3996.03 3996.03 1131.45 1129.9
+singles 36 158862 246083 229818 158861 3725.76 3725.76 1121.9 1121.9
+singles 37 160639 257583 241229 160637 3476.18 3476.18 1105.48 1105.48
+singles 38 163044 279104 262409 163044 3298.83 3298.83 1146.73 1146.73
+singles 39 161005 272010 254955 161002 3021.81 3021.81 1117.51 1117.51
+singles 40 158086 263798 248440 158085 8111.46 8111.46 1363.35 1363.35
+singles 41 154462 243903 228435 154460 7887.22 7887.22 1360.94 1360.94
+singles 42 150426 238267 224702 150424 7690.62 7690.62 1339.38 1339.38
+singles 43 149323 247513 234556 149321 7868.83 7868.83 1330.01 1330.01
+singles 44 150050 243101 229121 150048 8126.35 8137.71 1353.68 1353.68
+singles 45 148741 255146 239984 148738 8552.67 8552.67 1365.65 1365.65
+singles 46 150035 249209 234834 150033 8956.39 8956.39 1388.89 1388.89
+singles 47 149733 248920 233636 149731 9188.36 9188.36 1360.31 1360.48
+singles 48 163208 269990 252074 163206 7187.85 7187.85 1195.33 1195.33
+singles 49 168426 253607 236221 168424 8350.24 8350.24 1240.66 1240.66
+singles 50 171931 290848 270359 171929 8745.04 8745.04 1254.23 1254.23
+singles 51 176660 287290 267677 176659 8751.95 8751.95 1271.5 1271.5
+singles 52 177026 282524 261407 177024 7976.86 7976.86 1226.83 1226.83
+singles 53 180644 310878 288783 180642 7393.94 7393.94 1261.93 1261.93
+singles 54 181175 300852 278731 181172 6492.91 6492.91 1237.55 1237.55
+singles 55 178830 303158 282406 178828 5776.6 5776.6 1230.59 1230.59
+singles 56 175131 290468 269667 175130 19114.4 19114.4 1521.12 1521.12
+singles 57 170891 260632 241555 170889 18436.1 18461.3 1503.46 1503.46
+singles 58 166614 273983 256014 166612 17833.5 17833.5 1462.73 1462.73
+singles 59 164525 269812 252537 164523 18305.4 18305.4 1490.56 1490.56
+singles 60 163162 267973 252045 163160 18402.4 18402.4 1452.76 1452.76
+singles 61 162348 256104 239949 162346 18852.4 18852.4 1479.22 1479.22
+singles 62 161963 277840 260597 161962 19232 19232 1466.46 1466.46
+singles 63 162620 257830 241618 162619 19695.3 19695.3 1474.3 1474.3
+end_of_header
+frame 19
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 197984256
+frame_start 50
+frame_duration 5
+scale_factor 0.2
+minimum -1.21778e-025
+maximum 0.415608
+deadtime_correction 1.17243
+decay_correction 1.00554
+prompts 1946559   103704   2058273
+prompts_rate 428805
+delays 244995   99786   332401
+trues 1701564   3918   1725872
+delays_rate 69250
+singles 0 82617.6 135269 131116 82616.8 1415.65 1415.65 623.472 623.472
+singles 1 82702.3 143758 138173 82701.7 1279.55 1279.55 623.357 623.357
+singles 2 83818.2 134769 130578 83816.8 1208.83 1208.83 623.045 623.045
+singles 3 82444.7 129104 124932 82443.7 1102.17 1102.17 602.043 602.043
+singles 4 79279.3 137663 132476 79278 1046.29 1046.29 566.691 566.691
+singles 5 78709.3 126934 122327 78707.4 1039.58 1039.58 560.706 560.706
+singles 6 79827.8 134802 129941 79826.2 1017.56 1017.56 567.665 567.665
+singles 7 80277 135874 131409 80275.6 1005.39 1005.39 578.922 578.922
+singles 8 78823 129788 125115 78820.8 3674.79 3674.79 693.622 693.622
+singles 9 78669.8 122852 118434 78668.8 3779.83 3779.83 694.116 694.116
+singles 10 76644.7 127638 123547 76644.1 3705.82 3705.82 679.033 679.033
+singles 11 76877.8 128427 124240 76877.3 3755.44 3755.44 692.198 692.198
+singles 12 79437.5 131944 127532 79436.7 3975.21 3975.21 726.718 726.718
+singles 13 82351.2 135669 131080 82350.4 4273.15 4273.15 782.545 782.545
+singles 14 82483.9 136973 132291 82482.3 4330.09 4330.09 760.707 760.707
+singles 15 81630.4 136164 131715 81629.6 4316.16 4316.16 754.055 754.055
+singles 16 116488 198402 188899 116487 2186.61 2186.61 889.175 889.175
+singles 17 118660 200868 192077 118659 2135.05 2135.05 874.678 874.678
+singles 18 119072 199492 189508 119068 2029.76 2029.76 891.523 891.523
+singles 19 120583 196482 187440 120582 1984.24 1984.24 878.659 878.659
+singles 20 118989 181737 173564 118987 1910.39 1910.39 844.12 844.12
+singles 21 117573 186117 177369 117572 1811.95 1811.95 839.448 839.448
+singles 22 119270 181086 172412 119268 1757.8 1757.8 849.984 849.984
+singles 23 119487 199454 190492 119484 1743.47 1743.47 823.834 823.834
+singles 24 118213 195300 186808 118211 5246.82 5246.82 1039.72 1039.72
+singles 25 115210 198813 190306 115208 5207.6 5207.6 1050.1 1050.1
+singles 26 111918 187719 179896 111916 5029.89 5029.89 998.469 998.469
+singles 27 111801 190331 181382 111799 5227.64 5227.64 1028.68 1028.68
+singles 28 114521 192033 183886 114520 5455.28 5455.28 1058.46 1058.46
+singles 29 116262 191735 183692 116261 5771.1 5771.1 1080.62 1080.62
+singles 30 116400 190320 181155 116400 6026.06 6026.06 1089.45 1089.45
+singles 31 115431 186126 177156 115429 6049.26 6049.26 1100.55 1100.55
+singles 32 152965 274529 257813 152963 3668.37 3668.37 1148.53 1148.53
+singles 33 156020 250589 234933 156018 3940.11 3940.11 1166.17 1166.17
+singles 34 159241 269724 251518 159239 4088.49 4088.49 1171.72 1171.72
+singles 35 162317 258065 242703 162316 3994.27 3994.27 1153.06 1153.65
+singles 36 161345 250361 233561 161343 3846.57 3846.57 1152.19 1152.19
+singles 37 162986 261595 244660 162983 3593.12 3593.12 1172.13 1172.13
+singles 38 165179 283546 266297 165176 3308.61 3308.61 1181.22 1181.22
+singles 39 163709 276423 258713 163707 3123.34 3123.34 1139.9 1139.9
+singles 40 160376 268014 252061 160374 8263.9 8263.9 1415.13 1415.13
+singles 41 157411 248600 232658 157409 8006.05 8006.05 1389.46 1389.46
+singles 42 152722 241975 227937 152720 7841.37 7841.37 1398.63 1398.63
+singles 43 151733 251831 238316 151732 8088.8 8088.8 1363.27 1363.27
+singles 44 152464 246788 232423 152462 8350.65 8335.3 1402.26 1402.26
+singles 45 150903 259152 243494 150901 8732.41 8732.41 1374.06 1374.06
+singles 46 152371 253411 238584 152369 9126.21 9126.21 1399.77 1399.77
+singles 47 151792 252744 237015 151789 9385.13 9385.13 1411.17 1411.17
+singles 48 165718 274292 255867 165716 7187.03 7187.03 1199.44 1199.44
+singles 49 170821 257659 239768 170820 8438.09 8438.09 1277.33 1277.33
+singles 50 174405 295285 274057 174403 8886.35 8886.35 1317.66 1317.66
+singles 51 179384 292083 271848 179382 8912.88 8910.65 1303.9 1303.9
+singles 52 179741 287190 265405 179738 8076.03 8076.03 1278.92 1278.92
+singles 53 183212 315512 292830 183210 7451.88 7451.88 1307.96 1307.96
+singles 54 184098 305791 283102 184095 6582.03 6582.03 1286.64 1286.64
+singles 55 181531 308278 286919 181529 5776.79 5776.79 1272.33 1272.33
+singles 56 178282 295942 274455 178281 19163.1 19163.1 1583.12 1583.12
+singles 57 173645 264987 245420 173643 18295.4 18296.4 1536.29 1536.29
+singles 58 169512 279214 260528 169510 17871.5 17871.5 1511.64 1511.64
+singles 59 167313 274503 256582 167311 18186.6 18186.6 1501.37 1501.37
+singles 60 165619 272423 255886 165618 18420.9 18420.9 1504.53 1504.53
+singles 61 164922 260492 243827 164919 18763.9 18763.9 1545.55 1545.55
+singles 62 163947 281973 264053 163946 19144.1 19144.1 1509.48 1509.48
+singles 63 165004 261997 245242 165002 19606.4 19606.4 1528.82 1528.82
+end_of_header
+frame 20
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 208404480
+frame_start 55
+frame_duration 5
+scale_factor 0.2
+minimum -2.9653e-026
+maximum 0.44625
+deadtime_correction 1.17614
+decay_correction 1.00607
+prompts 1973659   105964   2004686
+prompts_rate 417640
+delays 251956   101787   341154
+trues 1721703   4177   1663532
+delays_rate 71070
+singles 0 84169.9 137415 133133 84168.7 1470.99 1470.99 637.057 637.057
+singles 1 83843.9 145584 139901 83842.8 1313.64 1313.64 652.629 652.629
+singles 2 85078.2 136563 132264 85076.4 1230.34 1230.34 623.963 623.963
+singles 3 83398.6 130907 126600 83397.1 1154.89 1154.89 612.194 612.194
+singles 4 80268.6 139539 134164 80266.7 1062.74 1062.74 587.18 587.18
+singles 5 79439 128255 123590 79438.6 1056.52 1056.52 552.527 552.527
+singles 6 80932.2 136387 131488 80929.7 1033.56 1033.56 540.295 540.295
+singles 7 81136.8 137308 132733 81135 1027.9 1027.9 555.151 555.151
+singles 8 79874.9 131607 126761 79873.3 3784.03 3784.03 701.485 701.485
+singles 9 79910.6 124695 120207 79908.6 3873.26 3873.26 695.158 695.158
+singles 10 77540.6 129387 125127 77539.6 3821.38 3821.38 718.232 718.232
+singles 11 77632.2 129999 125715 77630.9 3840.21 3840.21 710.469 710.469
+singles 12 80228.4 133577 128994 80226 4080.2 4080.2 755.258 755.258
+singles 13 83304.5 137448 132749 83302.9 4380.31 4380.31 772.982 772.982
+singles 14 83360 138704 133844 83358.9 4550.2 4550.2 798.104 798.104
+singles 15 82435 137676 133061 82434 4404.08 4404.08 790.733 790.733
+singles 16 117970 201115 191328 117968 2278.14 2278.14 901.507 901.507
+singles 17 120169 203763 194732 120166 2175.39 2175.39 893.641 893.641
+singles 18 120507 202220 192041 120505 2065.18 2065.18 911.02 911.02
+singles 19 122032 199042 189701 122030 1986.89 1986.89 894.371 894.371
+singles 20 120273 184230 175758 120272 1965.4 1965.4 899.582 899.582
+singles 21 118846 188349 179276 118844 1856.81 1856.81 842.863 842.863
+singles 22 121194 183729 174812 121193 1849.72 1849.72 872.692 872.692
+singles 23 120760 201950 192822 120756 1759.36 1759.36 887.263 887.263
+singles 24 119534 197670 188924 119531 5420.65 5420.65 1065.37 1065.37
+singles 25 116873 201488 192690 116872 5480.29 5480.29 1068.85 1068.85
+singles 26 113526 190387 182273 113525 5254.8 5254.8 1044.75 1044.75
+singles 27 112975 192424 183342 112974 5325.49 5325.49 1034.56 1034.56
+singles 28 115584 193759 185472 115582 5595.2 5595.2 1108.59 1108.59
+singles 29 117448 193845 185716 117446 5939.27 5939.27 1100.6 1100.6
+singles 30 117689 192645 183171 117687 6243.89 6243.89 1097.86 1097.86
+singles 31 117009 188787 179495 117008 6173.05 6173.05 1137.33 1137.33
+singles 32 154733 277827 260838 154732 3787.44 3787.24 1179.37 1179.37
+singles 33 158150 254148 238026 158149 4021.73 4021.73 1190.81 1190.81
+singles 34 160401 272659 253995 160400 4133.98 4133.98 1233.53 1233.53
+singles 35 164266 261312 245471 164264 4107.09 4107.09 1204.16 1204.18
+singles 36 163337 253641 236550 163335 3893.91 3893.91 1169.12 1169.12
+singles 37 165165 265095 247853 165163 3698.39 3698.39 1200.66 1200.66
+singles 38 167571 287635 269930 167569 3422.83 3422.83 1184.47 1184.47
+singles 39 165634 280379 262130 165633 3169.94 3169.94 1187.69 1187.69
+singles 40 162617 271823 255491 162615 8427.65 8427.65 1464.43 1464.43
+singles 41 159152 251788 235367 159151 8182.73 8182.73 1482.67 1482.67
+singles 42 154477 244953 230736 154475 7951.01 7951.01 1399.18 1399.18
+singles 43 153396 254729 240970 153393 8199.95 8199.95 1437.24 1437.24
+singles 44 154117 249750 234948 154115 8394.26 8393.67 1436.63 1436.63
+singles 45 152720 262383 246336 152719 8932.98 8932.98 1438.43 1438.43
+singles 46 153933 256368 241254 153931 9312.16 9312.16 1444.8 1444.8
+singles 47 153328 255403 239432 153327 9482.31 9482.31 1463.51 1463.51
+singles 48 167380 277535 258829 167378 7366.42 7366.42 1270.36 1270.36
+singles 49 173167 261091 242767 173164 8442.04 8442.04 1327.01 1327.01
+singles 50 176635 299140 277586 176634 9012.17 9012.17 1312.41 1312.41
+singles 51 181189 295564 274706 181188 8877.61 8877.53 1334.77 1334.77
+singles 52 182172 291129 268902 182169 8252.54 8252.54 1296.69 1296.69
+singles 53 185451 319922 296486 185449 7454.69 7454.69 1338.19 1338.19
+singles 54 186666 310351 286876 186663 6641.81 6641.81 1326.79 1326.79
+singles 55 183898 312800 290759 183895 5918.15 5918.15 1293.94 1293.94
+singles 56 180226 299860 277710 180224 19193.2 19193.2 1619.16 1619.16
+singles 57 175801 268418 248368 175799 18439.1 18438.9 1591.4 1591.4
+singles 58 171557 282740 263650 171555 18015.4 18015.4 1564.1 1564.1
+singles 59 169326 278354 259904 169324 18382 18382 1525.24 1525.24
+singles 60 167728 275566 258768 167727 18633.5 18633.5 1568.64 1568.64
+singles 61 166693 263664 246574 166692 18973.4 18973.4 1544.25 1544.25
+singles 62 166082 285566 267371 166102 19327.7 19327.9 1565.56 1565.56
+singles 63 166928 265211 248046 166926 19843.7 19843.7 1572.84 1572.84
+end_of_header
+frame 21
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 218824704
+frame_start 60
+frame_duration 60
+scale_factor 0.0166667
+minimum -2.70689e-025
+maximum 1.33092
+deadtime_correction 1.18366
+decay_correction 1.00952
+prompts 23734401   1317702   25657956
+prompts_rate 429060
+delays 3102942   1263860   4354948
+trues 20631459   53842   21303008
+delays_rate 72825
+singles 0 85571.9 140027 135596 85570.3 1556.55 1556.55 660.09 660.09
+singles 1 85486.8 148862 142933 85486 1395.86 1395.86 665.906 665.906
+singles 2 86593.9 139239 134739 86591.9 1315.55 1315.57 667.173 667.173
+singles 3 84904.1 133211 128778 84902.5 1229.83 1229.83 640.107 640.107
+singles 4 81835.8 142220 136709 81834 1160.47 1160.47 604.592 604.592
+singles 5 81330.7 131173 126314 81328.8 1125.72 1125.72 595.424 595.424
+singles 6 82547.8 139313 134210 82546.5 1106.57 1106.57 597.675 597.675
+singles 7 82662.1 140287 135488 82660.6 1080.44 1080.44 601.379 601.379
+singles 8 81589.4 134475 129433 81587.7 4146.21 4146.21 740.088 740.088
+singles 9 81196.1 126982 122262 81194.6 4214.56 4214.56 734.117 734.117
+singles 10 79457 132401 128046 79455.8 4123.94 4123.94 738.416 738.416
+singles 11 79286.6 132732 128285 79284.2 4150.23 4149.45 738.822 738.822
+singles 12 81943.8 136304 131618 81942.4 4461.93 4461.93 769.419 769.419
+singles 13 84754.5 140159 135292 84753 4753.42 4753.42 804.146 804.146
+singles 14 84977.3 141523 136491 84976.1 4863.3 4863.66 819.911 819.911
+singles 15 84231.4 140646 135871 84230.2 4821.38 4821.38 815.434 815.434
+singles 16 119632 204212 194129 119631 2375.44 2375.44 921.517 921.517
+singles 17 122002 206928 197590 122000 2282.36 2282.36 943.899 943.899
+singles 18 122374 205418 194886 122369 2180.42 2180.42 935.552 935.552
+singles 19 123705 202020 192423 123703 2112.43 2112.45 932.39 932.39
+singles 20 122302 187033 178415 122301 2059.3 2059.3 902.374 902.374
+singles 21 120790 191759 182431 120789 1976.65 1977.12 891.073 891.073
+singles 22 123003 187006 177753 123001 1905.68 1905.68 892.982 892.982
+singles 23 123135 205890 196390 123133 1863.31 1862.97 890.174 890.174
+singles 24 121584 201426 192356 121582 5809.39 5809.39 1105.5 1105.5
+singles 25 118879 205456 196363 118877 5775.83 5775.83 1093.43 1093.43
+singles 26 115518 193878 185467 115517 5626.06 5626.06 1066.83 1066.83
+singles 27 115080 196198 186795 115078 5718.37 5718.37 1067.16 1067.1
+singles 28 117516 197306 188754 117514 6028.85 6028.85 1110.59 1110.59
+singles 29 119285 197218 188737 119284 6355.06 6355.06 1129.35 1129.37
+singles 30 119446 195904 186176 119444 6607.49 6607.49 1148.78 1148.78
+singles 31 118989 192145 182642 118988 6646.42 6646.42 1151.87 1151.87
+singles 32 156873 281959 264419 156871 3825.57 3825.57 1210.96 1210.96
+singles 33 159950 257453 240899 159949 4064.62 4064.62 1232.88 1232.86
+singles 34 162959 276692 257520 162957 4193.2 4193.2 1246.84 1246.84
+singles 35 166342 265186 248915 166340 4169.59 4169.59 1246.04 1246.04
+singles 36 165369 257187 239561 165370 3930.1 3930.1 1221.33 1221.33
+singles 37 167831 269883 252080 167828 3733.78 3733.78 1223.26 1223.26
+singles 38 170247 292930 274553 170244 3471.32 3471.32 1227.76 1227.76
+singles 39 168645 285480 266716 168643 3270.55 3270.56 1215.79 1215.79
+singles 40 165458 277058 260055 165456 8632.82 8632.82 1504.35 1504.35
+singles 41 161801 256515 239399 161800 8367.35 8367.35 1481.06 1481.06
+singles 42 157519 250063 235120 157517 8208.79 8208.79 1454.33 1454.33
+singles 43 155842 259256 244972 155840 8390.6 8390.6 1444.54 1444.54
+singles 44 156073 253686 238539 156072 8622.14 8620.5 1481.45 1481.45
+singles 45 154892 266731 250136 154891 9051.74 9051.74 1470.01 1470.01
+singles 46 156083 260273 244693 156082 9428.94 9428.94 1505.51 1505.51
+singles 47 155360 259310 242802 155359 9599.34 9599.34 1495.08 1494.96
+singles 48 169706 281649 262388 169704 7147.66 7147.66 1304.22 1304.22
+singles 49 175177 264829 245974 175176 8252.63 8252.63 1345.36 1345.36
+singles 50 178947 303497 281345 178944 8705.01 8705.01 1361.98 1361.98
+singles 51 183824 300218 278743 183822 8739.83 8739.34 1373.75 1373.75
+singles 52 184699 295881 272866 184700 8053.56 8053.56 1357.4 1357.4
+singles 53 188575 325579 301443 188573 7428.72 7428.72 1359.51 1359.59
+singles 54 189908 316394 291963 189905 6588.89 6588.89 1368.54 1368.54
+singles 55 187644 319347 296474 187642 5901.49 5901.47 1360.83 1360.83
+singles 56 184089 306628 283529 184086 18620.1 18620.1 1661.86 1661.86
+singles 57 179502 274543 253678 179500 17873 17873 1635.6 1635.55
+singles 58 174872 288522 268770 174871 17309 17309 1602.85 1602.76
+singles 59 172003 283077 264166 172002 17692.3 17692.3 1606.84 1606.84
+singles 60 170144 280474 263114 170142 17868.4 17868.4 1591.79 1591.79
+singles 61 169062 267863 250236 169060 18096.1 18096.1 1598.44 1598.44
+singles 62 168356 289972 271270 168354 18579.2 18579.2 1602.98 1603.27
+singles 63 169223 269275 251655 169221 19032.7 19032.7 1624.94 1624.88
+end_of_header
+frame 22
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 229244928
+frame_start 120
+frame_duration 60
+scale_factor 0.0166667
+minimum -1.77477e-025
+maximum 1.29439
+deadtime_correction 1.18161
+decay_correction 1.01591
+prompts 22948567   1294739   24983342
+prompts_rate 417780
+delays 3047306   1237852   4273879
+trues 19901261   56887   20709463
+delays_rate 71465
+singles 0 85228.3 139473 135094 85227 1599.82 1599.82 655.447 655.447
+singles 1 84999.2 147994 142122 84997.7 1428.57 1428.54 648.657 648.657
+singles 2 86161.1 138593 134128 86159.4 1363.07 1363.07 656.702 656.702
+singles 3 84347 132359 127976 84345.4 1267.62 1267.62 629.322 629.322
+singles 4 81167.8 141120 135684 81166.1 1192.71 1192.71 594.949 594.949
+singles 5 80829 130454 125638 80827.6 1159.69 1159.69 582.22 582.22
+singles 6 82170.7 138773 133699 82169 1134.69 1134.69 590.158 590.158
+singles 7 82267.9 139582 134841 82266.3 1106.81 1106.81 591.948 591.948
+singles 8 81089.8 133671 128688 81088.3 4384.49 4384.49 731.362 731.362
+singles 9 80806.5 126343 121687 80805 4450.46 4450.46 735.562 735.562
+singles 10 79037.4 131659 127348 79036.2 4349.1 4349.08 721.324 721.324
+singles 11 78743.9 131818 127428 78742.5 4379.65 4379.65 728.501 728.501
+singles 12 81480.7 135577 130924 81479.5 4705.6 4705.6 759.666 759.666
+singles 13 84414.6 139670 134828 84413.3 4989.18 4989.18 797.206 797.206
+singles 14 84642 140927 135933 84640.6 5118.55 5118.55 803.77 803.77
+singles 15 83863 139989 135258 83862 5099.26 5099.26 796.58 796.58
+singles 16 118587 202481 192556 118586 2434.62 2434.6 910.071 910.071
+singles 17 120852 204944 195807 120850 2323.2 2323.2 931.558 931.558
+singles 18 121175 203517 193165 121174 2219.98 2219.98 922.112 922.112
+singles 19 122496 200118 190709 122494 2157.11 2156.64 921.084 921.084
+singles 20 120967 184941 176501 120966 2089.2 2089.2 885.456 885.456
+singles 21 119627 189898 180722 119625 2011.38 2011.39 864.374 864.374
+singles 22 122047 185542 176432 122045 1959.87 1959.87 879.595 879.61
+singles 23 122223 204366 195030 122222 1913.63 1913.63 871.114 871.114
+singles 24 120601 199768 190861 120599 6076.43 6076.43 1092.18 1092.18
+singles 25 117891 203894 194929 117890 6072.28 6072.28 1063.03 1063.03
+singles 26 114634 192450 184166 114633 5892.79 5892.78 1052.22 1052.22
+singles 27 113974 194485 185229 113972 5980.38 5980.38 1058.38 1058.38
+singles 28 116359 195532 187102 116358 6289.35 6289.86 1083.22 1083.22
+singles 29 118053 195355 187013 118052 6608.07 6608.07 1116.08 1116.08
+singles 30 118466 194344 184766 118464 6887.78 6887.77 1123 1123
+singles 31 117950 190572 181208 117948 6931.23 6931.27 1127.56 1127.56
+singles 32 154895 278556 261411 154893 3751.71 3751.71 1190.53 1190.53
+singles 33 157952 254388 238248 157950 3943.06 3943.06 1198.68 1198.68
+singles 34 161079 273625 254865 161077 4061.09 4061.09 1227.36 1227.36
+singles 35 164121 261798 245879 164119 4052.17 4052.17 1221.92 1221.92
+singles 36 163374 254109 236861 163371 3834.34 3834.34 1195.2 1195.2
+singles 37 166078 267307 249825 166075 3654.28 3654.26 1208.5 1208.5
+singles 38 168699 290274 272275 168698 3421.88 3422.64 1201.77 1201.77
+singles 39 167366 283357 264927 167367 3234.84 3234.84 1201.23 1201.35
+singles 40 164235 275025 258272 164233 8547.7 8547.7 1468.95 1468.62
+singles 41 160723 254806 237907 160721 8315.32 8315.34 1454.19 1454.19
+singles 42 156302 248262 233560 156300 8136.65 8135.2 1433.22 1432.55
+singles 43 154343 256732 242693 154341 8284.99 8285 1424.02 1424.02
+singles 44 154362 251031 236163 154361 8463.41 8463.39 1434.69 1434.69
+singles 45 153184 264023 247774 153187 8884.74 8883.73 1447.13 1447.13
+singles 46 154352 257531 242273 154350 9241.59 9241.59 1467.8 1467.56
+singles 47 153685 256548 240378 153683 9410.25 9410.25 1460.48 1460.48
+singles 48 167295 277557 258816 167293 6616.12 6616.12 1277.71 1277.71
+singles 49 172814 261105 242871 172812 7631.32 7631.32 1306.13 1306.13
+singles 50 176596 299363 277797 176594 8097.67 8097.69 1337.32 1337.32
+singles 51 181230 295822 275004 181228 8189.17 8189.15 1349.12 1349.41
+singles 52 182315 291813 269390 182314 7605.78 7605.78 1326.39 1326.39
+singles 53 186723 322151 298521 186721 7081.44 7081.44 1352.46 1352.46
+singles 54 188482 313821 289790 188480 6300.44 6300.43 1344.08 1344.08
+singles 55 186440 317191 294643 186437 5639.47 5639.47 1324.95 1324.95
+singles 56 183094 304834 282003 183093 17126.6 17126.6 1644.96 1644.96
+singles 57 178452 272860 252223 178450 16406 16406 1611.35 1611.33
+singles 58 173616 286393 266890 173614 15813.5 15813.1 1576.12 1576.12
+singles 59 170224 280041 261517 170222 16082.1 16082.6 1565.55 1565.55
+singles 60 167866 276719 259836 167864 16223 16223 1558.66 1558.66
+singles 61 167064 264529 247379 167062 16420.5 16420.5 1564.71 1564.71
+singles 62 166164 286137 267875 166162 16886.7 16886.7 1573.48 1573.28
+singles 63 166939 265606 248439 166938 17348.8 17351.6 1583.84 1584.05
+end_of_header
+frame 23
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 239665152
+frame_start 180
+frame_duration 60
+scale_factor 0.0166667
+minimum -3.09903e-021
+maximum 1.17262
+deadtime_correction 1.1773
+decay_correction 1.02235
+prompts 22188450   1257652   24096765
+prompts_rate 402955
+delays 2957204   1201287   4147353
+trues 19231246   56365   19949412
+delays_rate 69350
+singles 0 84171.9 137754 133478 84167.1 1604.68 1604.68 637.809 637.809
+singles 1 83977.6 146115 140384 83976.3 1422.52 1422.52 638.733 638.546
+singles 2 85060.2 136736 132382 85058.6 1360.06 1360.06 639.358 639.358
+singles 3 83231.5 130590 126316 83230 1264.69 1265.11 614.45 614.45
+singles 4 80107.6 139282 133973 80106.1 1192.14 1192.14 580.315 580.315
+singles 5 79866.8 128883 124175 79865.5 1175.13 1175.13 578.562 578.562
+singles 6 81077.8 136848 131898 81076.6 1143.19 1143.17 574.535 574.535
+singles 7 81195.6 137751 133125 81194.2 1108.16 1108.16 579.608 579.608
+singles 8 80056.1 132029 127144 80054.8 4481.04 4481.04 710.988 710.988
+singles 9 79855.8 124839 120288 79854.1 4557.88 4558.17 714.836 714.836
+singles 10 78063 130063 125836 78064.4 4449.95 4449.95 701.317 701.317
+singles 11 77698.9 130093 125824 77697.7 4468.49 4468.49 705.828 705.776
+singles 12 80513.7 133886 129336 80512.7 4815.12 4815.12 736.743 736.743
+singles 13 83409.5 137919 133196 83407.9 5109.2 5109.2 775.256 775.256
+singles 14 83682.7 139231 134373 83681.4 5243.08 5243.08 778.617 778.617
+singles 15 82889.5 138354 133719 82888.2 5196.29 5196.28 781.151 781.151
+singles 16 116847 199480 189806 116846 2440.73 2440.71 874.901 874.901
+singles 17 118906 201743 192873 118905 2303.4 2303.4 893.743 893.743
+singles 18 119335 200340 190275 119334 2202.96 2202.96 901.585 901.585
+singles 19 120440 196749 187598 120438 2144.61 2144.61 885.552 885.552
+singles 20 119039 182008 173832 119037 2101.79 2101.79 857.244 857.244
+singles 21 117930 187077 178180 117928 2016.32 2016.32 841.941 841.941
+singles 22 120227 182741 173895 120226 1966.38 1966.38 848.022 848.022
+singles 23 120454 201257 192193 120452 1896.91 1896.91 851.299 851.299
+singles 24 118834 196881 188196 118832 6188.34 6188.34 1056.76 1057.26
+singles 25 116246 200955 192251 116244 6157.91 6157.91 1040.76 1040.76
+singles 26 113067 189746 181683 113066 5990.67 5990.67 1008.35 1008.74
+singles 27 112330 191647 182610 112327 6096.21 6096.21 1025.63 1025.63
+singles 28 114626 192532 184351 114625 6380.28 6380.28 1054.84 1054.84
+singles 29 116471 192648 184564 116469 6728.83 6728.83 1087.06 1087.06
+singles 30 116751 191488 182142 116750 7000.94 7000.94 1088.53 1088.53
+singles 31 116157 187623 178531 116156 7039.61 7039.61 1084.08 1084.08
+singles 32 152315 273849 257231 152313 3643.79 3643.79 1141.51 1141.51
+singles 33 155408 250133 234498 155405 3836.57 3836.83 1172.75 1172.51
+singles 34 158424 268924 250786 158422 3946.75 3946.76 1190.14 1190.14
+singles 35 161482 257396 241997 161480 3961.02 3961.02 1186.09 1186.09
+singles 36 160551 249553 232858 160549 3745.58 3745.58 1155.85 1155.85
+singles 37 163486 262936 245924 163484 3588 3587.99 1164.68 1164.68
+singles 38 166286 286009 268562 166284 3366.7 3366.7 1172.71 1172.71
+singles 39 165073 279176 261208 165071 3176.54 3176.54 1163.18 1163.18
+singles 40 161922 271067 254772 161920 8407.25 8407.25 1425.78 1425.78
+singles 41 158358 250987 234578 158356 8181.45 8181.45 1411.68 1411.68
+singles 42 154130 244672 230382 154128 8006.28 8006.28 1384.74 1384.74
+singles 43 151990 252776 239181 151988 8135.43 8135.43 1378.57 1378.57
+singles 44 152061 247116 232718 152059 8312.02 8312.93 1395.51 1396.13
+singles 45 150870 259979 244184 150868 8649.24 8649.21 1395.21 1395.21
+singles 46 151918 253347 238554 151916 9014.77 9014.79 1427.19 1427.74
+singles 47 151088 252228 236588 151086 9197.14 9197.14 1428.27 1428.27
+singles 48 163955 271876 253872 163953 6170.05 6170.05 1233.36 1233.36
+singles 49 169509 255999 238409 169508 7126.28 7126.28 1274.59 1274.59
+singles 50 173435 293465 272694 173433 7590.11 7590.11 1293.31 1293.31
+singles 51 177803 289828 269831 177801 7721.84 7721.84 1300.98 1300.73
+singles 52 178949 286186 264578 178948 7223.46 7223.46 1288.79 1288.79
+singles 53 183656 316554 293670 183654 6773.81 6773.81 1313.48 1313.48
+singles 54 185683 308910 285598 185681 6047.03 6047.03 1310.56 1310.28
+singles 55 183821 312479 290552 183821 5398.22 5398.22 1294.44 1294.44
+singles 56 180612 300407 278208 180610 15983.5 15983.5 1594.25 1594.25
+singles 57 176181 269023 248924 176179 15284.2 15284.2 1562.45 1562.45
+singles 58 171065 281883 262962 171063 14689.5 14694.4 1526.2 1526.2
+singles 59 167292 275089 257181 167291 14800 14805 1515.62 1515.62
+singles 60 164877 271614 255300 164875 14914 14914 1513.43 1513.43
+singles 61 164064 259659 243072 164062 15156.2 15156.2 1519.63 1519.5
+singles 62 163060 280723 263100 163058 15596.7 15596.8 1518.8 1518.8
+singles 63 163860 260531 244025 163858 16131.6 16131.6 1539.17 1539.56
+end_of_header
+frame 24
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 250085376
+frame_start 240
+frame_duration 60
+scale_factor 0.0166667
+minimum -3.42289e-017
+maximum 1.06003
+deadtime_correction 1.17403
+decay_correction 1.02882
+prompts 21702175   1227801   23176103
+prompts_rate 387560
+delays 2873627   1169393   4032101
+trues 18828548   58408   19144002
+delays_rate 67425
+singles 0 83213.5 136092 131911 83212.4 1600.73 1600.73 620.89 620.89
+singles 1 82890.3 144359 138715 82888.8 1429.48 1429.48 619.215 619.214
+singles 2 84029.8 135143 130880 84028.3 1362.86 1362.86 624.533 624.533
+singles 3 82238.8 129048 124884 82237.1 1272.34 1272.34 598.204 598.204
+singles 4 79199.3 137604 132404 79197.8 1212.35 1212.35 562.559 562.559
+singles 5 79030 127435 122809 79028.8 1173.44 1173.44 559.729 559.729
+singles 6 80216.8 135332 130487 80215.4 1150.74 1150.74 557.424 557.424
+singles 7 80298.6 136262 131721 80297.1 1111.79 1111.79 561.544 561.544
+singles 8 79143.8 130485 125714 79142.6 4534.27 4534.27 696.1 696.1
+singles 9 78892.1 123303 118843 78891 4616.12 4616.12 696.129 696.129
+singles 10 77142.5 128526 124382 77141.2 4501.84 4501.84 676.283 676.283
+singles 11 76775.1 128581 124384 76773.8 4527.39 4527.39 693.292 693.292
+singles 12 79467.4 132259 127823 79466.2 4845.13 4845.15 716.351 716.351
+singles 13 82541.1 136459 131845 82539.8 5170.99 5170.99 752.061 752.061
+singles 14 82732.4 137607 132847 82731 5294.6 5294.6 760.61 760.579
+singles 15 81884.8 136668 132157 81883.4 5233.65 5234.37 767.628 767.628
+singles 16 115227 196700 187282 115222 2421.2 2421.2 856.013 856.013
+singles 17 117365 199100 190462 117364 2309.93 2309.93 876.939 876.939
+singles 18 117676 197497 187698 117673 2207.45 2207.45 872.53 872.53
+singles 19 118759 193949 185050 118757 2150.98 2150.98 866.231 866.231
+singles 20 117507 179576 171598 117505 2105.26 2105.39 837.483 837.483
+singles 21 116398 184625 175945 116396 2011.4 2011.4 823.046 823.046
+singles 22 118714 180406 171767 118712 1962.85 1962.85 823.665 823.665
+singles 23 118874 198672 189814 118876 1906.3 1906.3 824.771 825.337
+singles 24 117362 194371 185922 117361 6245.09 6245.09 1024.82 1024.82
+singles 25 114829 198464 189931 114827 6251.26 6251.26 1005.04 1005.04
+singles 26 111800 187509 179626 111798 6039.14 6039.14 997.054 997.056
+singles 27 110925 189213 180383 110923 6139.82 6139.82 992.677 992.677
+singles 28 113165 189937 181956 113163 6441 6441 1024.53 1024.53
+singles 29 114949 190133 182223 114947 6789.05 6789.05 1050.16 1050.16
+singles 30 115185 188829 179722 115183 7036.02 7036.02 1056.83 1056.47
+singles 31 114694 185133 176266 114693 7079.82 7079.83 1068.5 1068.5
+singles 32 150076 269708 253555 150074 3591.51 3591.51 1116.33 1116.57
+singles 33 153068 246399 231202 153067 3755 3755.09 1145.19 1145.19
+singles 34 156203 265013 247329 156201 3897.91 3897.91 1152.08 1152.08
+singles 35 159085 253474 238543 159083 3890.6 3890.6 1154.19 1154.19
+singles 36 158300 245987 229734 158298 3719.67 3719.4 1129.04 1129.04
+singles 37 161340 259276 242785 161338 3557.97 3557.97 1126.96 1126.96
+singles 38 164274 282358 265290 164272 3345.47 3345.47 1143.33 1143.33
+singles 39 162864 275539 257995 162862 3139.77 3139.77 1128.95 1128.95
+singles 40 160008 267723 251850 160006 8336.77 8336.75 1395.32 1395.32
+singles 41 156475 247948 231909 156473 8109.56 8109.56 1368.83 1368.59
+singles 42 152278 241664 227726 152276 7928.13 7928.13 1346.83 1346.83
+singles 43 149902 249361 236079 149900 8049.5 8049.52 1339.3 1339.3
+singles 44 149958 243625 229613 149957 8195.69 8195.59 1351.46 1351.47
+singles 45 148766 256254 240876 148764 8528.05 8528.05 1354.09 1354.09
+singles 46 149801 249800 235409 149800 8889.37 8889.37 1382.05 1382.05
+singles 47 149000 248671 233492 148998 9062.8 9062.8 1388.93 1388.93
+singles 48 161258 267111 249719 161256 5878.41 5878.41 1201.37 1201.37
+singles 49 166597 251441 234511 166595 6744.71 6744.71 1242.99 1242.99
+singles 50 170520 288455 268362 170518 7226.64 7225.98 1266.36 1266.36
+singles 51 174783 284799 265431 174780 7455.46 7455.46 1259.82 1260.07
+singles 52 175952 281213 260351 175959 6994.73 6994.73 1253.6 1253.6
+singles 53 181034 311613 289451 181032 6583.68 6583.68 1261.61 1261.61
+singles 54 183122 304350 281661 183120 5876.47 5876.47 1267.53 1267.73
+singles 55 181281 308006 286702 181279 5253.45 5253.45 1257.32 1257.32
+singles 56 178343 296454 274794 178345 15249.6 15249.6 1541.77 1541.77
+singles 57 173818 265292 245721 173818 14540.6 14540.6 1518.06 1518.06
+singles 58 168705 277779 259375 168699 13903.1 13904.4 1491.27 1491.27
+singles 59 164740 270629 253292 164738 13993.4 13995 1470.38 1470.38
+singles 60 162222 267075 251324 162220 14089.7 14089.7 1469.61 1469.61
+singles 61 161421 255199 239197 161419 14302 14302 1468.17 1468.77
+singles 62 160436 276075 259020 160434 14801.5 14801.5 1471.18 1471.18
+singles 63 161106 256130 240161 161104 15249.2 15249.2 1490.25 1490.16
+end_of_header
+frame 25
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 260505600
+frame_start 300
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 3.0924
+deadtime_correction 1.16579
+decay_correction 1.04845
+prompts 103600583   5740422   111132986
+prompts_rate 370690
+delays 13414510   5448532   18856992
+trues 90186073   291890   92275994
+delays_rate 62895
+singles 0 80628.2 131881 127924 80626.9 1579.61 1579.68 577.914 577.914
+singles 1 80425.3 139920 134596 80424.1 1418.99 1418.99 580.299 580.299
+singles 2 81510.7 131006 127002 81509.4 1356.78 1356.83 587.245 587.245
+singles 3 79639.9 124939 121020 79636.9 1265.78 1265.85 561.81 561.789
+singles 4 76671.5 133270 128342 76669.5 1196.33 1196.51 529.375 529.375
+singles 5 76741 123722 119335 76739.6 1173.45 1173.45 522.698 522.693
+singles 6 77989.8 131500 126892 77988.4 1146 1146 527.643 527.585
+singles 7 78006.6 132263 127982 78006.6 1098.45 1098.45 526.823 526.834
+singles 8 76907.4 126691 122150 76906 4580.81 4580.73 645.557 645.623
+singles 9 76665.5 119766 115528 76663.6 4654.28 4654.28 648.225 648.225
+singles 10 75033.4 124909 120979 75032.3 4553.9 4553.9 640.554 640.554
+singles 11 74478.4 124657 120690 74477.4 4556.46 4556.46 643.28 643.342
+singles 12 77135.5 128286 124076 77134.4 4881.94 4881.94 672.363 672.363
+singles 13 80083.3 132330 127959 80082.1 5201.68 5201.68 703.987 704.019
+singles 14 80303.2 133545 129029 80302 5332.83 5332.9 713.015 713.015
+singles 15 79504.6 132625 128349 79505.6 5289.79 5289.79 713.808 713.809
+singles 16 111357 189888 181055 111356 2395.02 2395.06 803.897 803.897
+singles 17 113344 192107 184034 113342 2292.61 2292.61 818.592 818.592
+singles 18 113725 190708 181530 113722 2196.7 2196.77 817.393 817.445
+singles 19 114673 187121 178813 114672 2144.49 2144.49 807.471 807.471
+singles 20 113461 173270 165826 113458 2103.32 2103.3 782.65 782.65
+singles 21 112778 178684 170525 112776 2021.01 2020.96 767.145 767.085
+singles 22 115085 174650 166545 115083 1970.38 1970.38 776.549 776.429
+singles 23 115290 192392 184085 115285 1909.98 1909.89 774.247 774.244
+singles 24 113837 188296 180346 113835 6341.68 6341.68 960.246 960.246
+singles 25 111390 192214 184201 111388 6324.15 6324.15 948.514 948.514
+singles 26 108310 181531 174135 108308 6119.14 6119.15 927.007 927.007
+singles 27 107353 182931 174621 107352 6185.45 6185.45 927.877 927.877
+singles 28 109393 183571 176094 109391 6455.49 6455.5 953.133 953.134
+singles 29 111206 183729 176348 111205 6794.5 6794.64 979.67 979.67
+singles 30 111564 182729 174184 111563 7077.09 7077.09 995.567 995.567
+singles 31 110845 178818 170492 110845 7106.42 7106.42 988.79 988.79
+singles 32 144567 259570 244554 144566 3454.87 3454.9 1035.15 1035.16
+singles 33 147509 237081 222961 147508 3630.13 3630.08 1064.46 1064.46
+singles 34 150660 255158 238668 150658 3764.28 3764.28 1078.59 1078.54
+singles 35 153312 243949 230109 153311 3787.85 3787.93 1080.56 1080.56
+singles 36 152721 236895 221764 152720 3633.83 3633.88 1054.87 1054.87
+singles 37 156007 250333 234931 156004 3492.08 3492.08 1061.04 1061.04
+singles 38 158963 272842 256882 158961 3279.82 3279.82 1071.94 1071.94
+singles 39 157883 266635 250191 157881 3098.27 3098.27 1061.33 1061.33
+singles 40 155199 259285 244382 155195 8203.08 8203.01 1308.99 1308.99
+singles 41 151698 239873 224824 151696 7968.6 7968.6 1289.05 1289.04
+singles 42 147382 233568 220517 147383 7763.45 7763.45 1260.1 1260.07
+singles 43 144864 240624 228285 144866 7840.16 7840.13 1248.18 1248.23
+singles 44 144746 234956 221854 144744 7931 7931 1260.08 1260.08
+singles 45 143674 247174 232822 143672 8243.09 8243.27 1263.18 1263.18
+singles 46 144562 240796 227389 144561 8609.77 8609.77 1284.98 1285.09
+singles 47 143613 239462 225290 143612 8782.01 8782.01 1289.53 1289.53
+singles 48 154390 255331 239350 154388 5282.95 5282.84 1107.21 1107.21
+singles 49 159691 240537 225012 159689 6093.34 6093.33 1152.41 1152.37
+singles 50 163561 275899 257426 163560 6606.41 6606.41 1168.27 1168.27
+singles 51 167456 272233 254491 167454 6860.36 6860.36 1174.92 1174.92
+singles 52 168733 269155 249897 168731 6549.45 6549.45 1157.57 1157.64
+singles 53 174092 299073 278559 174092 6226.3 6226.17 1180.53 1180.54
+singles 54 176589 292787 271729 176587 5591.36 5591.25 1188.84 1188.94
+singles 55 174999 296696 276877 174997 4972.12 4972.12 1172.12 1172.1
+singles 56 172380 285876 265681 172378 13880.7 13880.7 1445.5 1445.5
+singles 57 167790 255424 237164 167791 13197.3 13197.3 1420.68 1420.64
+singles 58 162580 267154 250031 162579 12541.1 12542.2 1383.55 1383.6
+singles 59 158328 259709 243658 158326 12485.6 12485.6 1361.13 1361.13
+singles 60 155656 255909 241428 155654 12491.1 12491.1 1350.86 1350.86
+singles 61 154996 244578 229853 154994 12717.7 12717.2 1362.3 1362.31
+singles 62 153821 264287 248602 153816 13215.8 13215.4 1362.03 1362.02
+singles 63 154382 245073 230416 154381 13687.7 13687.7 1381.9 1381.97
+end_of_header
+frame 26
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 270925824
+frame_start 600
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 3.14033
+deadtime_correction 1.15502
+decay_correction 1.08209
+prompts 99243216   5241414   106678749
+prompts_rate 355830
+delays 12175897   4944017   17114691
+trues 87067319   297397   89564058
+delays_rate 57085
+singles 0 77322.6 126323 122702 77321.5 1552.92 1552.92 529.885 529.885
+singles 1 76988.8 133860 128922 76987.9 1393.36 1393.36 528.728 528.728
+singles 2 78059.8 125323 121650 78058.6 1341.48 1341.48 534.412 534.412
+singles 3 76245 119505 115924 76243.5 1255.78 1255.78 512.997 512.997
+singles 4 73460.1 127535 122956 73459.1 1198.83 1198.8 483.584 483.584
+singles 5 73770.1 118783 114707 73768.6 1180.64 1180.73 480.228 480.228
+singles 6 74925.1 126192 121915 74923.4 1142.52 1142.52 480.805 480.805
+singles 7 74988.3 127009 123026 74985.7 1095.53 1095.53 482.176 482.176
+singles 8 73965.5 121729 117511 73963.8 4606.07 4606.06 593.43 593.475
+singles 9 73774.7 115118 111174 73773.4 4678.34 4678.32 595.392 595.392
+singles 10 72230 120109 116455 72229 4566.57 4566.57 588.381 588.381
+singles 11 71589.1 119694 116007 71587.7 4554.82 4554.89 584.293 584.293
+singles 12 74079.3 123074 119165 74078.3 4867.51 4867.51 613.862 613.882
+singles 13 76926.8 127013 122939 76926.2 5201.49 5201.34 643.84 643.84
+singles 14 77163 128195 124015 77162.1 5333.77 5333.77 653.881 653.862
+singles 15 76261 127084 123145 76259.9 5276.5 5276.5 651.386 651.386
+singles 16 106253 180979 172893 106251 2355.39 2355.39 730.286 730.286
+singles 17 108072 182886 175546 108071 2269.37 2269.37 744.823 744.823
+singles 18 108443 181582 173179 108443 2183.26 2183.26 743.249 743.25
+singles 19 109297 178049 170508 109297 2148.1 2148.1 731.516 731.516
+singles 20 108236 165003 158253 108235 2118.15 2118.15 713.256 713.268
+singles 21 107867 170610 163135 107866 2038.98 2038.98 701.028 701.119
+singles 22 110244 166984 159548 110242 1985.82 1985.82 711.507 711.511
+singles 23 110557 184151 176537 110555 1912.91 1912.91 712.943 712.961
+singles 24 109200 180294 172993 109199 6424.34 6424.33 876.213 876.213
+singles 25 106885 184173 176774 106883 6378.93 6378.93 863.633 863.633
+singles 26 103962 173961 167137 103961 6161.96 6161.96 844.108 844.149
+singles 27 102871 175026 167356 102870 6207.5 6207.5 842.953 842.953
+singles 28 104741 175501 168648 104740 6464.17 6464.1 866.724 866.724
+singles 29 106530 175767 168999 106529 6808.15 6808.19 891.076 891.103
+singles 30 106815 174690 166835 106813 7075.56 7075.55 901.567 901.567
+singles 31 105932 170640 162999 105931 7100.13 7100.13 904.156 904.156
+singles 32 137468 246456 232825 137470 3315.51 3315.51 937.94 937.941
+singles 33 140191 224853 212093 140189 3498 3498 963.91 963.877
+singles 34 143175 241825 226897 143173 3654.02 3654.02 977.747 977.796
+singles 35 145539 231076 218653 145538 3701.84 3701.84 978.509 978.383
+singles 36 145122 224602 210939 145121 3586.2 3586.32 957.308 957.308
+singles 37 148675 237964 224010 148673 3455.35 3455.42 961.424 961.424
+singles 38 151791 259810 245333 151790 3253.01 3253.01 975.921 975.921
+singles 39 150928 254240 239251 150926 3056.48 3056.48 965.081 965.081
+singles 40 148728 247747 234126 148726 8127.59 8127.57 1192.65 1192.6
+singles 41 145299 229131 215371 145298 7889.6 7889.6 1170.44 1170.44
+singles 42 141133 223082 211163 141133 7652.01 7652.01 1147.17 1147.17
+singles 43 138490 229526 218281 138490 7676.25 7676.25 1134.98 1134.86
+singles 44 138176 223784 211856 138175 7710.92 7710.92 1144.26 1144.26
+singles 45 137295 235704 222591 137294 7999.14 7999.14 1146.16 1146.23
+singles 46 138024 229390 217173 138024 8359.25 8359.25 1169.62 1169.62
+singles 47 136838 227692 214824 136837 8544.83 8544.92 1166.73 1166.73
+singles 48 145448 239925 225749 145447 4732.35 4732.35 994.798 994.798
+singles 49 150420 225921 212202 150418 5474.78 5474.78 1037.46 1037.46
+singles 50 154021 258973 242594 154020 6006.93 6006.93 1052.46 1052.46
+singles 51 157472 255206 239549 157472 6347.31 6347.32 1055.34 1055.34
+singles 52 158793 252477 235396 158793 6150.85 6150.85 1043.92 1043.92
+singles 53 164295 281345 263062 164293 5902.24 5902.24 1063.79 1063.81
+singles 54 166979 276040 257224 166978 5326.13 5326.13 1072.59 1072.59
+singles 55 165726 280338 262573 165724 4701.05 4701.05 1065.11 1065.11
+singles 56 163760 270766 252562 163758 12678.3 12678.8 1309.19 1309.19
+singles 57 159332 241764 225283 159330 11969.5 11969.5 1284.3 1284.3
+singles 58 154250 252718 237291 154249 11293.2 11293.2 1252.04 1252.09
+singles 59 149917 245311 230924 149914 11112.1 11112.1 1225.35 1225.32
+singles 60 147223 241496 228585 147222 11052.5 11052.5 1212.49 1212.52
+singles 61 146680 230862 217676 146677 11261.3 11261.6 1227.13 1227.13
+singles 62 145373 249363 235312 145369 11769.4 11769.4 1230.62 1230.59
+singles 63 145774 230865 217824 145773 12270.4 12270.4 1241.78 1241.8
+end_of_header
+frame 27
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 281346048
+frame_start 900
+frame_duration 300
+scale_factor 0.00333333
+minimum -1.52603e-021
+maximum 3.44136
+deadtime_correction 1.14462
+decay_correction 1.11679
+prompts 96024599   4810508   102890257
+prompts_rate 343195
+delays 11113304   4513220   15611298
+trues 84911295   297288   87278959
+delays_rate 52070
+singles 0 74420.2 121474 118115 74420.3 1510.73 1510.73 485.22 485.227
+singles 1 74139.7 128758 124131 74138.8 1368.59 1368.59 489.956 489.956
+singles 2 75058 120369 116976 75056.9 1322.33 1322.33 492.441 492.441
+singles 3 73191.5 114625 111318 73190.4 1241.47 1241.52 471.428 471.428
+singles 4 70616 122485 118201 70614.9 1190.68 1190.68 446.495 446.495
+singles 5 70993.4 114199 110390 70992.7 1167.83 1167.78 440.566 440.613
+singles 6 72116.4 121348 117347 72115.3 1133.09 1133.15 443.205 443.205
+singles 7 72150.9 122072 118371 72150.1 1081.54 1081.54 443.073 443.061
+singles 8 71225.8 117078 113124 71225.4 4613.93 4613.93 548.35 548.35
+singles 9 71018.3 110679 107007 71016.4 4674.47 4674.47 548.099 548.05
+singles 10 69535.2 115474 112075 69533.3 4572.2 4572.33 541.571 541.579
+singles 11 68876 115022 111590 68874.1 4543.59 4543.59 541.422 541.422
+singles 12 71278.4 118300 114662 71277.5 4850 4850 561.651 561.651
+singles 13 74132.8 122203 118419 74131.9 5182.68 5182.68 593.274 593.274
+singles 14 74324.1 123307 119399 74322.4 5316.75 5316.75 601.378 601.378
+singles 15 73482.6 122285 118623 73481.7 5267.77 5267.76 600.753 600.753
+singles 16 101995 173447 165965 101994 2319.7 2319.71 665.087 665.087
+singles 17 103678 175220 168463 103677 2245.11 2245.15 680.603 680.603
+singles 18 104018 173864 166107 104016 2159.56 2159.66 676.589 676.564
+singles 19 104655 170197 163264 104654 2133.31 2133.27 672.809 672.809
+singles 20 103695 157831 151639 103694 2118.43 2118.43 655.335 655.342
+singles 21 103454 163337 156441 103453 2043.27 2043.27 641.42 641.42
+singles 22 105775 159930 153097 105774 1982.36 1982.36 650.271 650.274
+singles 23 106061 176343 169344 106059 1914.54 1914.54 651.688 651.688
+singles 24 104824 172787 166072 104823 6462.88 6462.83 803.462 803.462
+singles 25 102594 176479 169661 102593 6400.49 6400.5 791.707 791.707
+singles 26 99825.9 166756 160457 99824.8 6174.96 6174.98 776.633 776.708
+singles 27 98722.7 167640 160555 98721.7 6213.16 6213.24 776.594 776.594
+singles 28 100453 168033 161714 100454 6447.86 6448.05 793.482 793.524
+singles 29 102292 168451 162236 102292 6784.73 6784.73 819.481 819.484
+singles 30 102579 167476 160188 102578 7061.32 7061.32 827.511 827.479
+singles 31 101717 163554 156478 101718 7074.51 7074.51 829.273 829.24
+singles 32 131542 235270 222755 131541 3204.73 3204.73 856.638 856.638
+singles 33 134084 214570 202897 134084 3394.31 3394.22 883.735 883.713
+singles 34 136990 230756 217069 136989 3550.18 3550.18 895.912 895.911
+singles 35 138963 220103 208804 138962 3617.69 3617.81 892.714 892.714
+singles 36 138564 213887 201412 138563 3517.71 3517.71 874.768 874.768
+singles 37 142063 226742 214037 142063 3399.26 3399.26 881.58 881.58
+singles 38 145133 247785 234596 145131 3203.13 3203.36 891.836 891.871
+singles 39 144230 242348 228686 144228 3011.81 3011.93 885.027 885.027
+singles 40 142261 236430 224020 142260 8032.24 8032.4 1093.99 1093.99
+singles 41 138993 218635 206055 138991 7777.33 7777.33 1073.87 1073.87
+singles 42 135052 213007 202135 135051 7548.4 7548.25 1050.11 1050.1
+singles 43 132424 218981 208749 132424 7526.32 7526.32 1038.3 1038.37
+singles 44 132165 213637 202697 132164 7540.51 7540.11 1044.49 1044.54
+singles 45 131486 225186 213132 131483 7807.21 7807.21 1048.17 1048.17
+singles 46 132196 219201 208008 132194 8157.33 8157.33 1067.67 1067.67
+singles 47 131047 217568 205765 131045 8333.91 8333.97 1064.56 1064.55
+singles 48 137916 226907 214133 137915 4360.9 4361.02 899.307 899.293
+singles 49 142600 213656 201384 142599 5045.32 5045.32 936.937 936.937
+singles 50 145807 244525 229792 145806 5572.74 5572.56 954.812 954.812
+singles 51 148778 240486 226504 148776 5947.18 5947.27 953.309 953.395
+singles 52 149946 237755 222485 149944 5810.43 5810.43 943.414 943.281
+singles 53 155142 264992 248673 155142 5605.75 5605.75 959.826 959.922
+singles 54 157912 260264 243451 157910 5071.21 5071.23 968.361 968.446
+singles 55 156614 264308 248446 156612 4479.66 4480.05 959.604 959.604
+singles 56 155063 255723 239369 155061 11819.9 11819.9 1185.3 1185.33
+singles 57 150920 228352 213524 150920 11132.6 11132.7 1164.78 1164.78
+singles 58 146074 238747 224844 146073 10440.4 10440.4 1130.72 1130.8
+singles 59 142001 231743 218830 142000 10213.6 10213.6 1112.3 1112.35
+singles 60 139524 228407 216834 139523 10106 10106 1100.32 1100.28
+singles 61 139179 218456 206635 139177 10296.7 10296.7 1107.41 1107.34
+singles 62 137923 236121 223461 137924 10807.7 10807.7 1107.58 1107.58
+singles 63 138402 218677 206977 138399 11315.9 11315.9 1124.7 1124.7
+end_of_header
+frame 28
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 291766272
+frame_start 1200
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 2.95379
+deadtime_correction 1.13602
+decay_correction 1.15262
+prompts 93689096   4436693   99858155
+prompts_rate 333080
+delays 10203013   4137192   14325409
+trues 83486083   299501   85532746
+delays_rate 47780
+singles 0 71800.7 117084 113965 71800.7 1479.69 1479.69 450.077 450.077
+singles 1 71523.6 124077 119737 71523 1340.76 1340.81 452.1 452.099
+singles 2 72428.3 116017 112859 72428.6 1299.11 1299.13 454.008 454.066
+singles 3 70522.4 110365 107281 70521.4 1223.78 1223.78 434.508 434.494
+singles 4 68100 118010 113995 68099.2 1176.89 1176.89 411.973 411.973
+singles 5 68565.7 110147 106565 68564.1 1159.69 1159.66 408.402 408.403
+singles 6 69591.2 116957 113205 69590.3 1122.66 1122.66 409.949 409.949
+singles 7 69659.3 117749 114285 69658.4 1059.51 1059.51 413.013 413.013
+singles 8 68748.3 112896 109182 68746.7 4592.22 4592.22 506.448 506.448
+singles 9 68521.5 106727 103282 68521.2 4646.51 4646.51 508.683 508.683
+singles 10 67092.1 111365 108170 67091.5 4542.93 4542.92 502.103 502.103
+singles 11 66466.9 110879 107662 66466.5 4512.4 4512.25 497.094 497.113
+singles 12 68781.3 114013 110618 68780.6 4811.98 4811.99 519.092 519.092
+singles 13 71543.4 117855 114318 71542.5 5141.21 5141.4 546.592 546.581
+singles 14 71762.2 118945 115282 71761.4 5277.49 5277.49 553.205 553.205
+singles 15 70925.1 117904 114482 70924.4 5224.49 5224.43 553.525 553.525
+singles 16 98186.5 166656 159704 98184.8 2279.38 2279.42 613.345 613.345
+singles 17 99774.6 168316 162059 99773.7 2215.83 2215.83 628.072 628.072
+singles 18 100096 167059 159817 100095 2136.38 2136.38 627.826 627.791
+singles 19 100575 163318 156927 100574 2114.18 2114.23 619.909 619.909
+singles 20 99742.2 151565 145842 99741.2 2105.19 2105.19 602.352 602.352
+singles 21 99559.7 156936 150559 99558.5 2036.83 2036.83 594.262 594.264
+singles 22 101778 153644 147305 101777 1979.93 1979.91 598.121 598.121
+singles 23 102089 169408 162943 102086 1904.56 1904.51 599.385 599.385
+singles 24 100921 166046 159816 100918 6462.91 6462.91 743.367 743.367
+singles 25 98817.8 169699 163366 98818.8 6407.33 6407.33 730.324 730.324
+singles 26 96063.1 160300 154444 96062.1 6169.83 6169.83 717.409 717.41
+singles 27 94982.5 161045 154447 94983 6190.91 6190.71 712.531 712.551
+singles 28 96671 161483 155630 96670.2 6413.7 6413.7 731.371 731.371
+singles 29 98493.6 161993 156228 98491.8 6757.44 6757.43 751.506 751.495
+singles 30 98828.6 161115 154330 98827.8 7024.11 7024.1 763.919 763.832
+singles 31 97884.5 157200 150636 97883.7 7035.66 7035.67 764.263 764.256
+singles 32 126269 225347 213819 126268 3115.7 3115.79 788.174 788.202
+singles 33 128715 205520 194771 128715 3311.46 3311.46 810.326 810.276
+singles 34 131389 220783 208153 131388 3467.85 3467.66 821.796 821.796
+singles 35 133184 210467 200122 133182 3549.67 3549.67 821.021 821.021
+singles 36 132867 204583 193118 132866 3475.88 3475.95 803.173 803.17
+singles 37 136182 216803 205151 136180 3355.16 3355.16 807.671 807.671
+singles 38 139217 237096 225003 139214 3164.01 3164.01 822.573 822.573
+singles 39 138283 231785 219238 138282 2967.99 2968.04 815.48 815.533
+singles 40 136441 226228 214847 136440 7966.5 7966.49 1006.51 1006.6
+singles 41 133325 209192 197634 133326 7716.53 7716.53 985.642 985.642
+singles 42 129497 203806 193843 129498 7454.11 7454.11 964.86 964.86
+singles 43 127027 209628 200249 127026 7425.84 7426.04 955.735 955.679
+singles 44 126795 204499 194460 126794 7409.26 7409.3 957.601 957.601
+singles 45 126251 215795 204681 126250 7674.42 7674.42 964.419 964.419
+singles 46 126948 210072 199768 126947 8010.56 8010.82 979.865 979.869
+singles 47 125832 208446 197562 125831 8188.68 8188.68 978.51 978.573
+singles 48 131201 215374 203800 131201 4101.86 4101.86 819.816 819.816
+singles 49 135606 202684 191607 135605 4749.01 4749.01 849.538 849.538
+singles 50 138609 231860 218545 138607 5268.77 5268.77 863.204 863.204
+singles 51 141236 227715 215147 141234 5634.9 5634.98 867.742 867.714
+singles 52 142174 224853 211082 142173 5550.3 5550.3 857.242 857.294
+singles 53 147075 250592 235897 147073 5372.19 5372.19 872.338 872.313
+singles 54 149701 246098 230988 149703 4873.28 4873.28 884.392 884.363
+singles 55 148405 250065 235784 148404 4308.93 4308.94 872.235 872.235
+singles 56 147159 242136 227368 147157 11211.6 11211.2 1079.63 1079.67
+singles 57 143290 216213 202818 143289 10556.9 10556.9 1059.11 1059.11
+singles 58 138719 226243 213661 138718 9891.57 9891.57 1030.91 1030.86
+singles 59 134838 219654 207988 134837 9602.01 9601.89 1010.76 1010.76
+singles 60 132664 216753 206322 132663 9479.43 9479.21 1001.2 1001.2
+singles 61 132467 207452 196758 132466 9658.92 9658.89 1012.43 1012.51
+singles 62 131321 224388 212887 131323 10169.2 10169.3 1010.17 1010.17
+singles 63 131709 207715 197108 131709 10659 10659 1028.8 1028.8
+end_of_header
+frame 29
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 302186496
+frame_start 1500
+frame_duration 300
+scale_factor 0.00333333
+minimum 0
+maximum 2.85651
+deadtime_correction 1.12818
+decay_correction 1.18959
+prompts 91590278   4130891   97477200
+prompts_rate 325140
+delays 9455422   3829998   13281138
+trues 82134856   300893   84196062
+delays_rate 44295
+singles 0 69502.2 113222 110284 69501.2 1448.22 1448.2 418.897 418.897
+singles 1 69134.7 119856 115766 69133.7 1314.16 1314.22 417.297 417.297
+singles 2 69999 112050 109103 69997.4 1275.32 1275.24 422.428 422.428
+singles 3 68128.6 106544 103660 68127.9 1205.03 1205.03 403.906 403.914
+singles 4 65827.9 114000 110200 65827.1 1163.87 1163.83 385.161 385.161
+singles 5 66303.2 106467 103100 66301.7 1146.26 1146.26 380.826 380.872
+singles 6 67329.7 113103 109559 67328.9 1103.11 1103.11 383.864 383.864
+singles 7 67394.9 113855 110598 67394 1046.23 1046.22 383.303 383.303
+singles 8 66548 109160 105662 66547.2 4559.35 4559.35 473.188 473.215
+singles 9 66369.7 103266 100025 66368.5 4606.99 4606.99 473.277 473.277
+singles 10 64982.2 107743 104743 64981.7 4495.11 4495.1 466.331 466.331
+singles 11 64343.7 107238 104202 64343.1 4463.95 4463.88 464.828 464.895
+singles 12 66555 110200 107012 66554.3 4763.96 4763.96 487.449 487.414
+singles 13 69286.9 114012 110673 69286.1 5091.19 5091.19 510.344 510.344
+singles 14 69510 115067 111618 69509.3 5221.3 5221.17 516.941 516.941
+singles 15 68631.6 114006 110795 68630.9 5164 5163.97 516.35 516.336
+singles 16 94792.2 160707 154190 94791.4 2228.73 2228.79 570.002 570.002
+singles 17 96354 162317 156492 96353 2179.21 2179.09 581.839 581.837
+singles 18 96602.6 160971 154215 96601.7 2107.08 2107.1 580.741 580.741
+singles 19 96916.5 157177 151228 96915.6 2087.51 2087.47 570.959 570.959
+singles 20 96186 145953 140644 96185.3 2090.11 2090.16 559.655 559.628
+singles 21 96043.6 151253 145292 96041.5 2020.02 2020.02 551.219 551.219
+singles 22 98306.6 148217 142307 98305.8 1965.32 1965.42 557.404 557.404
+singles 23 98560.3 163408 157374 98560.7 1886.92 1886.92 560.433 560.393
+singles 24 97491.4 160207 154405 97490.7 6442.87 6442.87 692.572 692.597
+singles 25 95519.9 163788 157867 95521 6364.53 6364.53 679.79 679.82
+singles 26 92908.9 154777 149297 92908.1 6121.51 6121.64 670.015 670.015
+singles 27 91836.7 155500 149303 91836 6133.26 6133.26 665.761 665.761
+singles 28 93420.1 155828 150359 93419.3 6365.24 6365.25 682.499 682.499
+singles 29 95220.2 156406 151027 95219.1 6689.97 6690.07 700.651 700.617
+singles 30 95557.1 155514 149159 95556.6 6959.81 6959.79 712.261 712.261
+singles 31 94606.4 151715 145555 94605.5 6966.04 6966.04 708.428 708.44
+singles 32 121607 216716 205990 121608 3039.41 3039.26 733.613 733.613
+singles 33 123852 197422 187462 123851 3229.55 3229.55 748.331 748.331
+singles 34 126458 212097 200365 126457 3407.97 3407.98 757.933 757.886
+singles 35 128042 201960 192418 128041 3490.02 3490.01 759.024 758.985
+singles 36 127741 196334 185695 127740 3422.84 3422.89 743.84 743.84
+singles 37 131018 208191 197421 131017 3312.8 3312.8 749.322 749.322
+singles 38 133940 227638 216468 133939 3117.86 3117.86 761.392 761.374
+singles 39 133116 222724 211099 133115 2930.26 2930.09 755.253 755.253
+singles 40 131495 217582 207045 131495 7879.04 7879.04 935.004 934.961
+singles 41 128457 201170 190445 128456 7620.1 7620.1 913.178 913.178
+singles 42 124818 196069 186839 124817 7364.25 7364.41 897.342 897.342
+singles 43 122423 201649 192959 122423 7313.29 7313.59 886.393 886.393
+singles 44 122194 196729 187396 122194 7277.81 7277.93 890.891 890.891
+singles 45 121844 207786 197444 121843 7528.02 7528.02 893.99 893.99
+singles 46 122431 202266 192692 122430 7862 7862 909.733 909.753
+singles 47 121374 200681 190535 121373 8053.56 8053.56 911.412 911.412
+singles 48 125580 205831 195194 125579 3898.01 3898.01 753.336 753.318
+singles 49 129812 193621 183502 129811 4514.57 4514.58 782.575 782.575
+singles 50 132487 221169 208974 132485 5015.14 5015.14 795.875 795.918
+singles 51 134806 216942 205476 134805 5403.49 5403.65 798.589 798.589
+singles 52 135623 214059 201483 135622 5340.6 5340.76 785.648 785.648
+singles 53 140319 238593 225205 140318 5186.08 5186.08 799.662 799.665
+singles 54 142854 234372 220575 142853 4710.61 4710.55 809.038 809.013
+singles 55 141573 238216 225200 141571 4166.86 4166.8 802.035 802.108
+singles 56 140556 230848 217339 140554 10739.8 10739.9 992.635 992.635
+singles 57 136913 206141 193872 136912 10111.1 10111.1 976.308 976.342
+singles 58 132640 215898 204359 132638 9439.79 9439.87 949.564 949.564
+singles 59 129005 209745 199060 129007 9148.62 9148.94 931.913 931.913
+singles 60 127011 207170 197612 127011 9003.68 9003.68 923.175 923.175
+singles 61 126913 198371 188582 126911 9168.86 9168.86 933.536 933.604
+singles 62 125771 214667 204097 125771 9657.95 9657.95 932.732 932.747
+singles 63 126182 198682 188965 126180 10130.1 10130.1 943.526 943.42
+end_of_header
+frame 30
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 312606720
+frame_start 1800
+frame_duration 600
+scale_factor 0.00166667
+minimum 0
+maximum 3.44619
+deadtime_correction 1.11926
+decay_correction 1.24713
+prompts 176870571   7468792   187847325
+prompts_rate 313180
+delays 16960390   6880459   23831817
+trues 159910181   588333   164015508
+delays_rate 39730
+singles 0 66285.3 107812 105146 66284 1391.82 1391.82 378.05 378.081
+singles 1 65994.4 114261 110485 65993.8 1269.33 1269.33 378.226 378.246
+singles 2 66706.8 106680 103997 66706.3 1227.66 1227.66 381.942 381.908
+singles 3 64813.8 101264 98643.4 64813.1 1164.11 1164.11 363.605 363.605
+singles 4 62675.5 108422 104926 62675.6 1127.59 1127.58 344.668 344.678
+singles 5 63224.2 101375 98276.7 63222.4 1108.44 1108.41 343.854 343.854
+singles 6 64171 107686 104433 64170.5 1067.71 1067.72 344.037 344.037
+singles 7 64226.6 108394 105416 64225.9 1006.54 1006.54 345.501 345.52
+singles 8 63459.6 104012 100782 63458.9 4451.54 4451.42 427.04 427.04
+singles 9 63299.4 98406.6 95415.4 63299.4 4504.67 4504.67 427.495 427.495
+singles 10 62004.4 102708 99951.3 62003.8 4395.34 4395.35 421.243 421.243
+singles 11 61378.5 102172 99379.2 61378 4364.69 4364.67 421.517 421.531
+singles 12 63417.7 104939 102008 63417.5 4641.65 4641.62 436.926 436.922
+singles 13 66084.1 108605 105551 66083.4 4980.27 4980.27 460.56 460.56
+singles 14 66269.1 109598 106446 66268.5 5100.49 5100.43 465.687 465.677
+singles 15 65482.6 108619 105685 65481.3 5047.02 5047 463.838 463.856
+singles 16 90217.4 152671 146727 90216.7 2158.4 2158.49 513.7 513.682
+singles 17 91661 154171 148882 91660.9 2114.4 2114.4 525.241 525.254
+singles 18 91806.2 152734 146590 91805.4 2049.05 2049.09 524.127 524.129
+singles 19 92004.1 148967 143600 92004 2036.43 2036.45 516.597 516.606
+singles 20 91278.4 138325 133548 91277.8 2041.1 2041.1 504.662 504.635
+singles 21 91277.1 143487 138085 91276.5 1976.33 1976.33 496.035 495.996
+singles 22 93412.3 140627 135281 93411.5 1916.31 1916.31 503.02 503.02
+singles 23 93702.9 155066 149606 93702.1 1838.63 1838.59 503.053 503.069
+singles 24 92732.7 152130 146872 92731.8 6326.04 6326.13 625.643 625.614
+singles 25 90974 155736 150335 90973.9 6261.38 6261.38 618.718 618.693
+singles 26 88451.1 147144 142163 88450.4 6015.35 6015.31 603.004 603.009
+singles 27 87417 147799 142125 87416.4 6013.99 6013.93 599.255 599.282
+singles 28 88869.2 148025 143050 88869.2 6223.47 6223.52 612.107 612.106
+singles 29 90673.4 148679 143802 90672.6 6554.83 6554.83 630.983 630.983
+singles 30 90987.2 147798 142008 90986.6 6820.41 6820.41 638.877 638.861
+singles 31 90021.9 144119 138508 90021.5 6828.33 6828.42 637.503 637.503
+singles 32 115425 205232 195533 115425 2925.73 2925.78 657.475 657.475
+singles 33 117437 186786 177802 117436 3115.57 3115.63 671.476 671.476
+singles 34 119787 200388 189811 119785 3283.96 3284.01 682.03 682.008
+singles 35 121151 190641 182123 121150 3385.49 3385.49 677.702 677.702
+singles 36 120882 185337 175768 120881 3323.63 3323.63 667.147 667.147
+singles 37 123976 196490 186858 123976 3222.44 3222.44 671.491 671.504
+singles 38 126839 214975 204987 126839 3029.89 3029.94 681.548 681.548
+singles 39 126018 210362 199941 126017 2843.12 2843.06 676.375 676.375
+singles 40 124647 205722 196269 124646 7716.2 7716.2 839.838 839.88
+singles 41 121868 190324 180695 121868 7468.29 7468.38 828.26 828.258
+singles 42 118486 185669 177362 118485 7191.69 7191.69 808.436 808.436
+singles 43 116229 190976 183173 116228 7129.81 7129.8 796.407 796.422
+singles 44 116066 186387 177977 116066 7084.34 7084.33 798.019 798.029
+singles 45 115841 197064 187685 115839 7316.49 7316.49 807.285 807.252
+singles 46 116377 191769 183134 116377 7646.1 7646.07 821.206 821.206
+singles 47 115243 190116 180942 115243 7826.18 7826.15 817.331 817.333
+singles 48 118230 193338 183885 118230 3648.19 3648.19 671.822 671.822
+singles 49 122104 181657 172723 122106 4211.68 4211.68 699.434 699.422
+singles 50 124452 207263 196440 124452 4706.69 4706.71 708.577 708.577
+singles 51 126435 203006 192901 126432 5082.25 5082.25 707.551 707.588
+singles 52 127114 200134 189031 127113 5043.22 5043.22 698.21 698.179
+singles 53 131482 222994 211227 131481 4915.55 4915.76 712.722 712.724
+singles 54 133953 219220 207043 133951 4484.38 4484.29 718.793 718.817
+singles 55 132752 222941 211467 132753 3972.69 3972.74 714.32 714.311
+singles 56 132027 216272 204311 132023 10143 10143.1 888.795 888.815
+singles 57 128647 193190 182285 128646 9541.16 9540.93 868.969 868.984
+singles 58 124660 202477 192201 124657 8893.27 8893.39 848.459 848.459
+singles 59 121348 196836 187344 121347 8577.3 8577.3 830.716 830.716
+singles 60 119545 194597 186154 119544 8420.81 8420.47 821.412 821.412
+singles 61 119714 186588 177887 119714 8591.75 8591.75 831.127 831.128
+singles 62 118553 201944 192485 118550 9044.1 9044.1 833.063 833.057
+singles 63 118935 186854 178221 118935 9515.19 9515.15 839.94 839.94
+end_of_header
+frame 31
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 323026944
+frame_start 2400
+frame_duration 600
+scale_factor 0.00166667
+minimum 0
+maximum 3.27582
+deadtime_correction 1.10729
+decay_correction 1.32842
+prompts 168235864   6528768   178767747
+prompts_rate 298045
+delays 14732763   5967060   20699115
+trues 153503101   561708   158068632
+delays_rate 34510
+singles 0 62151.7 101009 98654.1 62151.3 1313.05 1313 330.794 330.794
+singles 1 61862.3 107001 103611 61861.9 1200.67 1200.67 329.625 329.625
+singles 2 62501.9 99834.1 97477.4 62501.5 1163.34 1163.36 331.942 331.942
+singles 3 60699.9 94730.9 92426.5 60699.3 1107.28 1107.28 318.193 318.193
+singles 4 58742.2 101511 98371.2 58742.2 1076.98 1076.96 302.078 302.1
+singles 5 59295.2 94984.3 92208.8 59294.4 1057.51 1057.46 300.822 300.833
+singles 6 60164.1 100887 97972.1 60163.8 1010.77 1010.71 302.701 302.65
+singles 7 60247.7 101593 98941 60247.1 950.242 950.242 303.711 303.661
+singles 8 59558.2 97521 94617.3 59557.5 4279.48 4279.4 373.367 373.363
+singles 9 59437 92294.9 89616.8 59437.2 4329.53 4329.54 375.814 375.802
+singles 10 58224.8 96323.3 93863.9 58224.3 4224.85 4224.7 369.131 369.114
+singles 11 57565.3 95732.5 93234.9 57564.9 4185.83 4185.83 367.891 367.9
+singles 12 59449.3 98298.5 95682.2 59448.7 4462.98 4462.98 381.758 381.755
+singles 13 61970.4 101721 99001.4 61969.7 4771.06 4771.06 401.609 401.563
+singles 14 62182.6 102713 99892.9 62182.1 4904.99 4904.92 406.743 406.779
+singles 15 61407.3 101735 99130.7 61407.5 4853.39 4853.39 405.23 405.23
+singles 16 84418.4 142563 137306 84416.8 2054.43 2054.43 448.225 448.226
+singles 17 85730.1 143916 139264 85729.5 2019.83 2019.78 457.208 457.211
+singles 18 85881.2 142567 137133 85880.6 1958.45 1958.48 456.777 456.776
+singles 19 85910 138851 134150 85910.2 1950.32 1950.34 450.632 450.671
+singles 20 85286.2 128999 124815 85286.2 1968.28 1968.18 438.248 438.253
+singles 21 85367.1 133949 129191 85366.6 1903.52 1903.55 433.398 433.398
+singles 22 87416.2 131333 126631 87414.9 1845.81 1845.81 439.526 439.523
+singles 23 87731.7 144844 140058 87730.3 1764.99 1764.99 441.677 441.677
+singles 24 86858.8 142195 137585 86858.5 6129.72 6129.83 544.372 544.372
+singles 25 85271.7 145663 140907 85270.6 6056.63 6056.63 538.355 538.38
+singles 26 82887.4 137603 133211 82887.8 5811.8 5811.8 526.785 526.838
+singles 27 81882.4 138134 133105 81881.2 5794.37 5794.37 522.771 522.831
+singles 28 83179.3 138268 133897 83178.4 5997.61 5997.68 533.293 533.286
+singles 29 84886.8 138913 134644 84884.9 6307.97 6307.94 549.599 549.61
+singles 30 85178.2 138101 132981 85177.6 6572.07 6572.09 558.28 558.28
+singles 31 84266.1 134611 129659 84265.9 6580.51 6580.51 555.538 555.541
+singles 32 107656 190983 182467 107655 2758.56 2758.56 570.152 570.152
+singles 33 109550 173697 165852 109548 2954.53 2954.53 584.252 584.257
+singles 34 111660 186207 176948 111659 3130.38 3130.38 593.728 593.731
+singles 35 112772 176948 169583 112771 3226.29 3226.48 590.289 590.289
+singles 36 112585 172069 163738 112584 3190.25 3190.31 579.041 579.041
+singles 37 115523 182517 174159 115522 3085.63 3085.63 583.919 583.894
+singles 38 118293 199825 191164 118293 2903.82 2903.85 594.082 594.082
+singles 39 117535 195612 186527 117535 2721.09 2721.19 589.036 589.009
+singles 40 116377 191474 183268 116376 7441.94 7441.9 732.313 732.294
+singles 41 113791 177120 168723 113792 7198.34 7198.35 719.758 719.723
+singles 42 110643 172846 165621 110643 6921.64 6921.63 704.288 704.303
+singles 43 108520 177823 171046 108520 6838.2 6838.2 693.227 693.242
+singles 44 108324 173506 166156 108324 6765.47 6765.47 695.711 695.711
+singles 45 108228 183515 175305 108229 6990.95 6990.96 701.289 701.29
+singles 46 108716 178625 171071 108716 7307.7 7307.61 712.473 712.473
+singles 47 107586 176967 168938 107586 7490.45 7490.45 709.13 709.134
+singles 48 109345 178284 170168 109344 3355.08 3355.05 579.976 579.976
+singles 49 112894 167466 159846 112893 3879.29 3879.29 601.643 601.602
+singles 50 114923 190813 181532 114920 4342.39 4342.33 607.887 607.86
+singles 51 116556 186571 177990 116556 4715.95 4715.95 609.346 609.358
+singles 52 117135 183853 174348 117135 4708.72 4708.73 600.239 600.239
+singles 53 121082 204818 194776 121083 4595.6 4595.6 611.393 611.454
+singles 54 123460 201465 191064 123460 4198.93 4198.94 617.515 617.544
+singles 55 122323 205076 195290 122322 3714.49 3714.38 612.256 612.276
+singles 56 121831 199029 188769 121830 9436.36 9436.35 765.623 765.644
+singles 57 118754 177773 168392 118753 8883.67 8883.67 748.55 748.55
+singles 58 115095 186426 177597 115092 8246.66 8246.66 728.905 728.905
+singles 59 112108 181376 173233 112107 7921.47 7921.52 714.073 714.07
+singles 60 110545 179466 172263 110545 7763.53 7763.51 708.461 708.473
+singles 61 110759 172152 164720 110758 7916.18 7916.18 716.29 716.326
+singles 62 109731 186520 178372 109732 8356.33 8356.33 717.375 717.375
+singles 63 110092 172520 165124 110089 8796.34 8796.37 727.755 727.774
+end_of_header
+frame 32
+detector_panel -1
+event_type 4
+energy_window -1
+gate 0
+bed 0
+bed_offset 30.4846
+ending_bed_offset 30.4846
+vertical_bed_offset 0.850059
+data_file_pointer 0 333447168
+frame_start 3000
+frame_duration 600
+scale_factor 0.00166667
+minimum 0
+maximum 3.81919
+deadtime_correction 1.09659
+decay_correction 1.41501
+prompts 159550394   5751079   168837855
+prompts_rate 281490
+delays 12901469   5225609   18120565
+trues 146648925   525470   150717290
+delays_rate 30210
+singles 0 58445.5 94875.8 92789.9 58445.1 1233.86 1233.86 289.707 289.735
+singles 1 58097.8 100403 97347.2 58096.9 1129.85 1129.85 289.963 289.963
+singles 2 58646.6 93596.4 91521.4 58646.6 1097.16 1097.16 292.071 292.059
+singles 3 56928.6 88775.7 86742.4 56928.2 1047.69 1047.69 279.025 279.025
+singles 4 55057.2 95111.2 92280 55056.5 1018.97 1019.02 265.131 265.132
+singles 5 55627.3 89033.5 86547.4 55627.2 1005.77 1005.75 263.885 263.872
+singles 6 56427.9 94559.6 91949.9 56427.4 959.011 959.072 265.907 265.876
+singles 7 56549.7 95316 92956.4 56549.1 893.777 893.75 266.727 266.727
+singles 8 55945.1 91541 88925.9 55944.6 4092.14 4092.21 329.761 329.756
+singles 9 55910.6 86757.4 84357.2 55910.5 4127.37 4127.36 331.522 331.516
+singles 10 54804.9 90602.9 88396.9 54805.5 4032.16 4032.16 327.65 327.66
+singles 11 54180.8 90012.4 87767.5 54180.4 3993.66 3993.66 324.391 324.391
+singles 12 55949 92443.5 90094.6 55948.6 4256.23 4256.28 337.13 337.151
+singles 13 58390.1 95764.3 93321.4 58388.9 4552.38 4552.39 353.122 353.109
+singles 14 58556.2 96642.2 94106.8 58556.1 4674.32 4674.32 357.85 357.85
+singles 15 57796.1 95661 93332.6 57795.7 4624.87 4624.9 355.858 355.86
+singles 16 79259.2 133648 128946 79258.8 1939.63 1939.66 390.998 391.006
+singles 17 80353.5 134698 130602 80354.6 1912.48 1912.51 400.317 400.314
+singles 18 80418.5 133322 128497 80417.7 1863.42 1863.45 400.4 400.397
+singles 19 80385.6 129741 125606 80385.8 1863.78 1863.78 391.931 391.931
+singles 20 79758.8 120470 116806 79758.2 1880.26 1880.26 384.703 384.723
+singles 21 79854.4 125130 120931 79853.6 1826.48 1826.48 379.833 379.843
+singles 22 81837.5 122743 118614 81837.6 1766.4 1766.38 386.374 386.374
+singles 23 82209.8 135554 131343 82209.3 1686.46 1686.49 388.056 388.056
+singles 24 81475.8 133203 129135 81475.9 5884.29 5884.23 480.772 480.756
+singles 25 80141.6 136679 132450 80141.3 5809.52 5809.58 474.3 474.3
+singles 26 77956.1 129185 125285 77954.9 5564.82 5564.8 464.932 464.922
+singles 27 77012.2 129719 125213 77012.3 5542.84 5542.71 459.754 459.754
+singles 28 78255.9 129888 125992 78255.5 5730.31 5730.32 469.976 469.976
+singles 29 79942.3 130576 126794 79942.3 6029.75 6029.75 483.514 483.487
+singles 30 80222.6 129799 125216 80222.1 6285.17 6285.17 490.967 490.967
+singles 31 79227.1 126376 121943 79226.6 6300.57 6300.52 486.223 486.223
+singles 32 100948 178649 171122 100947 2597.92 2597.8 497.76 497.762
+singles 33 102458 162072 155169 102457 2785.51 2785.46 509.77 509.79
+singles 34 104246 173441 165298 104245 2961.6 2961.62 518.129 518.088
+singles 35 105192 164650 158247 105192 3070.33 3070.32 514.833 514.833
+singles 36 104892 159984 152687 104892 3033.93 3033.93 505.984 505.984
+singles 37 107644 169644 162392 107641 2939.59 2939.67 512.272 512.278
+singles 38 110301 185887 178354 110299 2767.06 2767.15 520.718 520.706
+singles 39 109773 182283 174341 109773 2594.24 2594.27 517.081 517.111
+singles 40 108924 178764 171591 108922 7126.08 7126.07 642.715 642.715
+singles 41 106698 165626 158224 106697 6891.5 6891.46 631.89 631.874
+singles 42 103888 161829 155478 103888 6615.47 6615.43 617.502 617.502
+singles 43 102006 166711 160752 102005 6518.83 6518.87 609.201 609.225
+singles 44 101928 162825 156303 101927 6441.34 6441.33 612.534 612.55
+singles 45 101890 172351 165021 101889 6653.39 6653.49 613.707 613.771
+singles 46 102248 167557 160870 102248 6945.58 6945.71 622.403 622.405
+singles 47 101101 165887 158759 101099 7121.62 7121.62 622.249 622.216
+singles 48 101888 165729 158640 101888 3101.81 3101.76 502.376 502.376
+singles 49 104931 155245 148662 104930 3586.52 3586.43 521.375 521.375
+singles 50 106619 176552 168496 106619 4021.05 4021.05 529.193 529.201
+singles 51 107971 172404 165014 107970 4385.59 4385.59 527.626 527.604
+singles 52 108372 169706 161483 108372 4392.71 4392.67 521.233 521.233
+singles 53 112056 189076 180431 112056 4301.26 4301.26 531.799 531.798
+singles 54 114332 186134 177168 114331 3936.3 3936.35 538.6 538.584
+singles 55 113496 189980 181514 113496 3491.63 3491.63 533.7 533.7
+singles 56 113227 184553 175619 113227 8819.99 8819.82 669.57 669.57
+singles 57 110582 165040 156861 110581 8303.06 8303.06 653.979 654.003
+singles 58 107231 173274 165544 107230 7694.96 7694.94 636.241 636.248
+singles 59 104602 168784 161665 104602 7374.06 7374.12 626.223 626.223
+singles 60 103251 167262 160985 103250 7205.8 7205.55 619.613 619.611
+singles 61 103585 160570 154066 103586 7345.91 7345.81 625.697 625.694
+singles 62 102501 173911 166757 102503 7756.08 7756.03 625.539 625.539
+singles 63 102753 160691 154240 102754 8178.79 8178.77 632.184 632.133
+end_of_header
