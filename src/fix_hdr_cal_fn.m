@@ -1,4 +1,35 @@
+function fix_hdr_cal_fn(filepath, parameter, value, varargin)
+% Usage
+% fix_hdr_cal_fn('~/data/F*.hdr', 'calibration_factor', '6.7e6',
+% 'recursive')
+
+recursive = false;
+if nargin > 3 && strcmpi(varargin{1}, 'recursive')
+    recursive = true;
+end
+
+return
+
+
+
+
+
 %function fix_hdr_cal_fn%(DPET_calibration, F120_calibration)
+% Mandatory arguments: 
+%   % file or path (operate on single file vs whole directory)
+%   % parameter to change (e.g, 'calibration_factor'), notify user if not
+%       found in filed
+%   % value of the parameter (e.g., '6.74419e6'), output a successfull
+%   change
+%       'file.hdr: value of calibration_factor changed from 1 to 6.74419e6'
+% Optional arguments:
+%   -r recursive (only valid for path arguments)
+%   file name filter specifier (e.g., D*.hdr vs F*.hdr for DPET vs Focus)
+%   Maybe just put in the filename, because that's how unix commands work,
+%   e.g., 'ls *.hdr' shows the header files. 
+
+
+
 
 DPET_calibration = '6.74419e6';
 F120_calibration = '7.00806e6';
@@ -12,6 +43,7 @@ F120_calibration = '7.00806e6';
 maindir = uigetdir;
 paths = strread(genpath(maindir), '%s', 'delimiter', ':');
 
+return
 %loop over the paths list
 for i=1:length(paths)
     %in current directory, get file list, 
