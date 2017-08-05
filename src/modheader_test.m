@@ -8,7 +8,6 @@ modheader('../data/F*.hdr', 'calibration_factor', '7.00806e6', ...
 % Example 2: Recursively modify all headers beginning with D
 % by changing the 'calibration_factor' field to '6.74419e6',
 % Saving backup files with appended extension .backup
-
 modheader('../data/D*.hdr', 'calibration_factor', '6.74419e6', ...
     'recursive', true, 'backupextension', 'backup')
 
