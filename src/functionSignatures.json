@@ -1,0 +1,9 @@
+{
+"modheader":
+{
+  "inputs":
+    [   
+    {"name":"inputfilepath", "kind":"required", "type":"filepath=*"}
+    ]
+}
+}
