@@ -1,22 +1,29 @@
 function modheader(inputfilepath, parameter, value, varargin)
-%Modify PET header metadata.
+%modheader: Modify PET header metadata
 %
 %Usage: modheader(inputfilepath, parameter, value)
 %
-%Changes the parameter `parameter` to the value `value` in all the 
+%Changes the parameter to the given value in all the
 %files (either given explicitly, matching whildcards, or in a
-%directory) given by `inputfilepath`.
+%directory) given by inputfilepath.
+%
+%Mandatory arguments:
+%    inputfilepath: The file name, directory, or search pattern
+%        of the files to modify, given as a string.
+%    parameter: The parameter name to change, given as a string.
+%    value: The new value of the `parameter`, given as a string.
+%
 %Optional arguments:
-%    `recursive`: Search directories within `inputfilepath`. Valid
-%        options are true or false.
-%    Default: false
-%        `verbose`: Display files being processed. Valid options are
-%        true or false.
-%    Default: false
-%    `backupextension`: Backup original files by copying and
-%        appending this extension. Empty value `[]` does not create
-%        backups. 
-%        Default: []
+%    recursive: Search directories within inputfilepath. 
+%        Options: true / false
+%        Default: false
+%    verbose: Display files being processed. 
+%        Options: true / false
+%        Default: false
+%    backupextension: Backup original files by copying
+%        and appending this extension. 
+%        Options: Any string, e.g., '.backup'
+%        Default: Do not create backups.
 
 % Sensible Defaults
 recursive = false;
