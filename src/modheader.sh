@@ -67,24 +67,40 @@ esac
 done
 
 # Do the modifications
+if [ $RECURSIVE == true ]; then
+    echo "Recursive True"
+    MATCHINGFILES=$(find $INPUTFILEPATH -type f -print0)
+else
+    echo "Recursive False"
+    MATCHINGFILES=$(find $INPUTFILEPATH -maxdepth 1 -type f -print0)
+fi
 
-exit 0
+echo $MATCHINGFILES
+echo ""
 
+for file in $MATCHINGFILES; do
+    echo $file
+done
 
-
-
-# Perform in-place conversion, save original as .backup
-sed -i .backup "s/^calibration_units [^\s]*/calibration_units 1/" test.hdr
-
-# Use find to search for header files, recursively
-# then use xargs to process them
-
-find . -name "F*.hdr" -print0 | xargs -0 sed -i .backup "s/^calibration_units [^\s]*/calibration_units 1/"
-
-# To not do recursively, specify maxdepth
-find DirsRoot/* -maxdepth 0 -type f #This does not show hidden files
-# Or:
-find DirsRoot/ -maxdepth 1 -type f #This does show hidden files
+# exit 0
+# 
+# 
+# if [ $BACKUPEXTENSION ]; then
+# 
+# 
+# 
+# # Perform in-place conversion, save original as .backup
+# sed -i .backup "s/^calibration_units [^\s]*/calibration_units 1/" test.hdr
+# 
+# # Use find to search for header files, recursively
+# # then use xargs to process them
+# 
+# find . -name "F*.hdr" -print0 | xargs -0 sed -i .backup "s/^calibration_units [^\s]*/calibration_units 1/"
+# 
+# # To not do recursively, specify maxdepth
+# find DirsRoot/* -maxdepth 0 -type f #This does not show hidden files
+# # Or:
+# find DirsRoot/ -maxdepth 1 -type f #This does show hidden files
 
 
 
