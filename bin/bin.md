@@ -8,4 +8,4 @@ The package MATLAB package `NIfTI_20140122` was downloaded from the [MATLAB File
 
 ## niftilib
 
-The `niftilib` package was downloaded from [Sourceforge](https://sourceforge.net/projects/niftilib/), and is linked to from the [NIfTI website at the NIH](https://nifti.nimh.nih.gov).
+The `niftilib` package was downloaded from [SourceForge](https://sourceforge.net/projects/niftilib/), and is linked to from the [NIfTI website at the NIH](https://nifti.nimh.nih.gov). See also the main [niftilib website](http://niftilib.sourceforge.net). Note that the MATLAB library is different than the C library. The MATLAB library can be also be [downloaded from SourceForge](https://sourceforge.net/projects/niftilib/files/niftimatlib/).
