@@ -6,3 +6,6 @@ This directory contains external scripts or compiled programs neccessary for the
 
 The package MATLAB package `NIfTI_20140122` was downloaded from the [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image). 
 
+## niftilib
+
+The `niftilib` package was downloaded from [Sourceforge](https://sourceforge.net/projects/niftilib/), and is linked to from the [NIfTI website at the NIH](https://nifti.nimh.nih.gov).
