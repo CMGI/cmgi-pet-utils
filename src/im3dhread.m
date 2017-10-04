@@ -1,51 +1,45 @@
-% This will read an im3db file
-clear; close all; clc
+function image = im3dhread(filename)
+%im3dhread: Read image data and metadata within im3dh files.
+%
+%Usage: image = im3dhread(filename)
+%
+%Mandatory arguments:
+%    filename: The file name to open, given as a string.
 
-filename = '../data/FOX01 studies/45005/Dynamic/FDG_MMU45005_P20170920-112454_SC-002_5min_frames_60min_NAC_CMGI-20170926T174702Z-001/FDG_MMU45005_P20170920-112454_SC-002_5min_frames_60min_NAC_CMGI/reco_300x300x288_F000.im3dh';
+% Start with empty struct.
+image = struct;
 
+% Open the file.
 fid = fopen(filename);
 
+% Read the information in the header,
+% located in the first 8192 bytes of the file.
 header = fread(fid, 1024, 'char*1', 0, 'l');
-header_string = string(char(header'));
-char(header')
-offset = 8192;
-% Remember: 10 is line return
-% 32 is space
-    
-% BBEdit Grep search pattern \S*: *.*
+header = string(char(header'));
 
-matches = regexp(header_string,'\S*:\s*[ \w:/$|.*+?-]*','match');
+% Match the parameters using regular expressions.
+matches = regexp(header,'\S*:\s*[ \w:/$|.*+?-]*','match');
 
-matches'
-
-data = struct;
-
-for match=matches
-    match
+% Separate out each field and value, place into image struct.
+for match = matches
     splitmatch = regexp(match, ':\s*', 'split');
     field = splitmatch(1);
     value = strjoin(splitmatch(2:end),':');
-    %field = regexp(match,'(\S*):','match');
-    field
-    value
-    data.(char(field)) = char(value);
-   
+    image.(char(field)) = char(value);
 end
 
-
-
+% Read in the actual image data starting after the header.
+offset = 8192;
 fseek(fid, offset, 'bof');
 
-n1 = str2num(data.NX);
-n2 = str2num(data.NY);
-n3 = str2num(data.NZ);
+% Get the image dimensions.
+NX = str2num(image.NX);
+NY = str2num(image.NY);
+NZ = str2num(image.NZ);
 
-X = fread(fid, [n1*n2*n3], 'float', 0, 'l');
+% Read (as a vector) the image data (32 bit float, little-endian).
+image.data = fread(fid, NX*NY*NZ, 'float', 0, 'l');
+image.data = reshape(image.data, [NX, NY, NZ]);
 
-data.data = reshape(X, [n1, n2, n3]);
-
-figure;imagesc(data.data(:,:,100));colormap gray;axis image
-
+% Close the file.
 fclose(fid);
-
-
