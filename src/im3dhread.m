@@ -33,9 +33,9 @@ offset = 8192;
 fseek(fid, offset, 'bof');
 
 % Get the image dimensions.
-NX = str2num(image.NX);
-NY = str2num(image.NY);
-NZ = str2num(image.NZ);
+NX = str2double(image.NX);
+NY = str2double(image.NY);
+NZ = str2double(image.NZ);
 
 % Read (as a vector) the image data (32 bit float, little-endian).
 image.data = fread(fid, NX*NY*NZ, 'float', 0, 'l');
