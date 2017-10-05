@@ -75,6 +75,8 @@ for path_index = 1:length(basepath)
             end
             % Read given image file
             image = im3dhread(current_file_full_path);
+            
+            %%% This works, but does not yield correct metadata
             % Make and save NIfTI
             nii = make_nii(image.data, ...
                 [str2double(image.VOXX), ...
@@ -85,6 +87,10 @@ for path_index = 1:length(basepath)
             nii_filename = fullfile(current_file.folder, ...
                     strcat(filebase, '.nii'));
             save_nii(nii, nii_filename)
+            %%% END
+            
+            
+            
         end
     end
 end
